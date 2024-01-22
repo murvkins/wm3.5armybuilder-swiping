@@ -3,13 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "e1b140ac079fb47f72959a5ba5390574",
-"assets/AssetManifest.bin.json": "ed717db9f67f863828947c2ee2a062ec",
-"assets/AssetManifest.json": "cd5022777047ac5d93788cb90a110e05",
+const RESOURCES = {"assets/AssetManifest.bin": "9b74015e2a03e2fa7c7b8cba14278868",
+"assets/AssetManifest.bin.json": "d86333e58401f7ca1960f07bab241383",
+"assets/AssetManifest.json": "d2673c37885d13e95fd5be42c2441764",
 "assets/assets/Battle_Engine_Icon.png": "bdbbe6dd24bce9d52b6f23f8b5134a77",
 "assets/assets/Solo_Icon.png": "eef6802575230f0c6e3ebbd550ad588d",
 "assets/assets/Structure_Icon.png": "4dc7424eca305ee132fcb19ef7b7f17f",
-"assets/assets/Unit_icon.png": "6835ee49db460dd91f2852739fd2ff1e",
 "assets/assets/Warbeast_Icon.png": "79151eb5b1c7866dcea3cdc7f1d4503b",
 "assets/assets/Warcaster_Icon.png": "7963f0d6718138255c5861c447f55e7f",
 "assets/assets/Warjack_Icon.png": "1107a95fc69cb28a2be4da3d7dde55b2",
@@ -33,8 +32,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "e1b140ac079fb47f72959a5ba5390574
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "25f8694f1ba44b3095eb3b69161df2f7",
-"/": "25f8694f1ba44b3095eb3b69161df2f7",
+"index.html": "fa910745b8485f5e594b4604967eb4bd",
+"/": "fa910745b8485f5e594b4604967eb4bd",
 "main.dart.js": "8c4ae6b57cf826e48e2d6d4439291fc2",
 "manifest.json": "87b25b2a403ceac8aa4c9ab5d8801049",
 "version.json": "aed377c0d3a7337f6fae5501aefa647b"};
