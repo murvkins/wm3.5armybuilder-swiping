@@ -9,6 +9,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "9b74015e2a03e2fa7c7b8cba14278868
 "assets/assets/Battle_Engine_Icon.png": "bdbbe6dd24bce9d52b6f23f8b5134a77",
 "assets/assets/Solo_Icon.png": "eef6802575230f0c6e3ebbd550ad588d",
 "assets/assets/Structure_Icon.png": "4dc7424eca305ee132fcb19ef7b7f17f",
+"assets/assets/Unit_Icon.png": "6835ee49db460dd91f2852739fd2ff1e",
 "assets/assets/Warbeast_Icon.png": "79151eb5b1c7866dcea3cdc7f1d4503b",
 "assets/assets/Warcaster_Icon.png": "7963f0d6718138255c5861c447f55e7f",
 "assets/assets/Warjack_Icon.png": "1107a95fc69cb28a2be4da3d7dde55b2",
@@ -32,9 +33,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "9b74015e2a03e2fa7c7b8cba14278868
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "fa910745b8485f5e594b4604967eb4bd",
-"/": "fa910745b8485f5e594b4604967eb4bd",
-"main.dart.js": "8c4ae6b57cf826e48e2d6d4439291fc2",
+"index.html": "cbfdb79627439c6c858257a77db0cd2b",
+"/": "cbfdb79627439c6c858257a77db0cd2b",
+"main.dart.js": "fca2a8738960831dcd85946a757e8c6b",
 "manifest.json": "87b25b2a403ceac8aa4c9ab5d8801049",
 "version.json": "aed377c0d3a7337f6fae5501aefa647b"};
 // The application shell files that are downloaded before a service worker can
