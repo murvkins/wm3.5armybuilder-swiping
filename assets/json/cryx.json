@@ -126,7 +126,7 @@
                             "description": "Models in the spellcaster's battlegroup currently in its Control Range gain +2 SPD and Pathfinder for one turn."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 },
                 {
                     "name": "Vociferon",
@@ -191,7 +191,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 1
+                    "displayorder": 1
                 }
             ]
         },
@@ -337,7 +337,7 @@
                             "description": "Warp the spellcaster anywhere completely within 3\" of its current location. Vanish can be cast only once per activation."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -501,7 +501,7 @@
                             "description": "Instead of suffering a normal damage roll, a non-incorporeal model hit by White Squall is thrown d6\" directly away from the spell's point of origin and suffers a POW 12 damage roll. The model thrown does not deviate. Collateral damage from this throw is POW 12."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -667,7 +667,7 @@
                             "description": "Models hit by this attack become knocked down."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -683,49 +683,6 @@
             ],
             "fieldallowance": "C",
             "models": [
-                {
-                    "name": "Deathwalker",
-                    "title": "Cryx Solo",
-                    "modeltype": [
-                        "Solo",
-                        "Warrior",
-                        "Companion"
-                    ],
-                    "keywords": [
-                        "Soulless",
-                        "Spectre",
-                        "Undead"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Breath Taker",
-                            "description": "Living enemy models suffer -2 DEF and -2 to their melee attack accuracy and damage rolls while within 5\" of this model."
-                        },
-                        {
-                            "name": "Companion [Goreshade The Bastard]",
-                            "description": "This model is included in any army that includes Goreshade The Bastard. If Goreshade The Bastard is destroyed or removed from play, remove this model from play. This model is part of Goreshade The Bastard's battlegroup."
-                        },
-                        {
-                            "name": "Dark Restoration",
-                            "description": "If Goreshade the Bastard is disabled while in this model's CMD range, this model is destroyed, and 1 damage point is removed from Goreshade."
-                        }
-                    ],
-                    "stats": {
-                        "base": "30mm",
-                        "spd": "6",
-                        "str": "3",
-                        "aat": "0",
-                        "mat": "4",
-                        "rat": "3",
-                        "def": "14",
-                        "arm": "14",
-                        "arc": "0",
-                        "cmd": "5",
-                        "ctrl": "0",
-                        "hp": "1"
-                    },
-                    "displayOrderIndex": 1
-                },
                 {
                     "name": "Goreshade 1",
                     "title": "Cryx Warcaster",
@@ -830,7 +787,50 @@
                             "description": "Remove a friendly trooper model in the spellcaster's Control Range from play and replace it with target warjack in the spellcaster's battle group that is in its Control Range. The warjack cannot activate this turn after being placed by soul gate."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
+                },
+                {
+                    "name": "Deathwalker",
+                    "title": "Cryx Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior",
+                        "Companion"
+                    ],
+                    "keywords": [
+                        "Soulless",
+                        "Spectre",
+                        "Undead"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Breath Taker",
+                            "description": "Living enemy models suffer -2 DEF and -2 to their melee attack accuracy and damage rolls while within 5\" of this model."
+                        },
+                        {
+                            "name": "Companion [Goreshade The Bastard]",
+                            "description": "This model is included in any army that includes Goreshade The Bastard. If Goreshade The Bastard is destroyed or removed from play, remove this model from play. This model is part of Goreshade The Bastard's battlegroup."
+                        },
+                        {
+                            "name": "Dark Restoration",
+                            "description": "If Goreshade the Bastard is disabled while in this model's CMD range, this model is destroyed, and 1 damage point is removed from Goreshade."
+                        }
+                    ],
+                    "stats": {
+                        "base": "30mm",
+                        "spd": "6",
+                        "str": "3",
+                        "aat": "0",
+                        "mat": "4",
+                        "rat": "3",
+                        "def": "14",
+                        "arm": "14",
+                        "arc": "0",
+                        "cmd": "5",
+                        "ctrl": "0",
+                        "hp": "1"
+                    },
+                    "displayorder": 1
                 }
             ]
         },
@@ -961,7 +961,7 @@
                             "description": "Target friendly Faction Model/Unit gains Stealth. Models are not affected while out of formation."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -1097,7 +1097,7 @@
                             "description": "When this spell hits an enemy model with 1 or more focus, fury or essence points on it, that model loses 1 focus, fury or essence point and the spellcaster gains 1 focus point. Spellcasters without the Focus Manipulation special rule cannot gain focus as a result of Siphon Bolt\n"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -1136,7 +1136,7 @@
                     },
                     "execution": {
                         "name": "Elite Cadre [Thrall] [Shield Guard]",
-                        "description": "Friendly Thrall models gain  Shield Guard."
+                        "description": "Friendly Thrall models gain Shield Guard."
                     },
                     "stats": {
                         "base": "40mm",
@@ -1233,7 +1233,7 @@
                             "description": "Warp the spellcaster anywhere completely within 6\" of its current location, then its activation ends."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -1272,11 +1272,11 @@
                         },
                         {
                             "name": "Monster in the Machine",
-                            "description": ""
+                            "description": "Karchev & Deathjack is both a living model and a construct model but is neither a warjack nor a warrior model. Karchev & Deathjack has a damage grid and suffers damage like a warjack. Karchev & Deathjack can make slam, trample, throw, and grab power attacks without spending focus but cannot make throw or Grab power attacks while his Open fist is crippled. Effects modifying the amount of damage to or the manner in which damage is applied to a warjack also apply to them. Karchev & Deathjack cannot spend focus points to remove damage."
                         },
                         {
                             "name": "Split Loyalties [Cryx] [Khador]",
-                            "description": "When included in a Cryx army, [#tags2] is a Cryx model and not a [#tag3] model. When included in a [#tag3] army,  Khador is a [#tag3] model and not a Cryx model."
+                            "description": "When included in a Cryx army, Karchev 2, Deathjack 2 is a Cryx model and not a Khador model. When included in a Khador army, Karchev 2, Deathjack 2 is a Khador model and not a Cryx model."
                         }
                     ],
                     "feat": {
@@ -1444,7 +1444,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -1486,7 +1486,7 @@
                         "description": "Return up to 8 destroyed small or medium-based Grunts that were part of a friendly Faction unit to play, placing them completely within 3\" of Asphyxious. Returned models gain Undead and Ghostly, become Solos, and cannot be attacked or damaged for one turn. Returned models must charge during their activations and leave play at the end of this turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. It cannot be targeted by free strikes.)"
                     },
                     "execution": {
-                        "name": "Call To Sacrifice [Thrall]",
+                        "name": "Call to Sacrifice [Thrall]",
                         "description": "If this model is disabled by an enemy attack, you can choose a non-disabled friendly Thrall model within 5\" of this model to be destroyed. If another model is destroyed as a result of Call to Sacrifice, remove 1 damage point from this model."
                     },
                     "stats": {
@@ -1578,7 +1578,7 @@
                             "description": "Warp the spellcaster anywhere completely within 6\" of its current location, then its activation ends."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -1727,7 +1727,7 @@
                             "description": "Target warjack in the spellcaster's battlegroup gains Berserk for one turn. While affected by Ravager, a model cannot make Chain Attacks. (When a model with Berserk destroys one or more models with a melee attack during its Combat Action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range.)."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -1860,7 +1860,7 @@
                             "description": "Warjacks in the spellcaster's battlegroup that are currently in its Control Range can charge or make power attacks without spending focus and gain boosted melee attack rolls against living models. When an affected model targets a living model with a charge or slam power attack, it gains +2\" movement. Terminal Velocity lasts for one turn."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -1906,7 +1906,7 @@
                     },
                     "execution": {
                         "name": "Elite Cadre [Jack Marshal] [Empower]",
-                        "description": "Friendly Jack Marshal models gain  Empower."
+                        "description": "Friendly Jack Marshal models gain Empower."
                     },
                     "stats": {
                         "base": "40mm",
@@ -2003,7 +2003,7 @@
                             "description": "Warp target model completely within 2\" of its current location. When Telekinesis targets an enemy model, it is an offensive spell and requires a magic attack roll. A model can be warped by telekinesis only once per turn."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -2021,75 +2021,6 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Deryliss",
-                    "title": "Cryx Solo",
-                    "modeltype": [
-                        "Solo",
-                        "Warrior",
-                        "Companion"
-                    ],
-                    "keywords": [
-                        "Undead"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Attached [Mortenebra 1]",
-                            "description": "This model is attached to Mortenebra 1. Each Leader can have only one model/unit attached to it."
-                        },
-                        {
-                            "name": "Companion [Master Necrotech Mortenebra]",
-                            "description": "This model is included in any army that includes Master Necrotech Mortenebra. If Master Necrotech Mortenebra is destroyed or removed from play, remove this model from play. This model is part of Master Necrotech Mortenebra's battlegroup."
-                        },
-                        {
-                            "name": "Repair [d3+1] (★Action)",
-                            "description": "RNG 1\". Target friendly Faction construct model. If the model is in range, remove d3+1 damage point from it."
-                        }
-                    ],
-                    "stats": {
-                        "base": "30mm",
-                        "spd": "6",
-                        "str": "6",
-                        "aat": "7",
-                        "mat": "5",
-                        "rat": "3",
-                        "def": "14",
-                        "arm": "14",
-                        "cmd": "6",
-                        "hp": "5"
-                    },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Doom Spiral (★Attack)",
-                                "description": "Doom Spiral is a RNG 8 POW 12 magic attack. When Doom Spiral damages a warjack that is part of a battlegroup, it's controller suffers d3 damage points."
-                            },
-                            {
-                                "name": "Empower (★Action)",
-                                "description": "RNG CMD. Target friendly Faction warjack. If the target warjack is in the range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point."
-                            },
-                            {
-                                "name": "Tune Up (★Action)",
-                                "description": "RNG B2B. Target friendly Faction warjack. If the warjack is in range, all attack accuracy and damage rolls resulting from its next basic attack this turn are boosted."
-                            }
-                        ]
-                    },
-                    "weapons": [
-                        {
-                            "name": "Mechano-claw",
-                            "type": "melee",
-                            "fieldoffire": "none",
-                            "rng": "1",
-                            "pow": "4",
-                            "count": "1"
-                        }
-                    ],
-                    "displayOrderIndex": 1
-                },
-                {
                     "name": "Mortenebra 1",
                     "title": "Cryx Warcaster",
                     "modeltype": [
@@ -2102,7 +2033,7 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Heart Of Darkness",
+                            "name": "Heart of Darkness",
                             "description": "This model can be included in an Infernals army. If it is, it becomes an Infernal model and not a [#tag1] model. If included in an Infernals army, any non-partisan, non-character [#tag1] warjack can also be included in this model's battlegroup and they gain Accumulator [Soulless].  Additionally, you may include 2 non-partisan, non-character [#tag1] units and 3 non-partisan, non-Archon, non-character [#tag1] Solos as well."
                         },
                         {
@@ -2219,7 +2150,76 @@
                             "description": "The AOE remains in play for ne round. While in this AOE, enemy models cannot cast or channel spells."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
+                },
+                {
+                    "name": "Deryliss",
+                    "title": "Cryx Solo",
+                    "modeltype": [
+                        "Solo",
+                        "Warrior",
+                        "Companion"
+                    ],
+                    "keywords": [
+                        "Undead"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Attached [Mortenebra 1]",
+                            "description": "This model is attached to Mortenebra 1. Each Leader can have only one model/unit attached to it."
+                        },
+                        {
+                            "name": "Companion [Master Necrotech Mortenebra]",
+                            "description": "This model is included in any army that includes Master Necrotech Mortenebra. If Master Necrotech Mortenebra is destroyed or removed from play, remove this model from play. This model is part of Master Necrotech Mortenebra's battlegroup."
+                        },
+                        {
+                            "name": "Repair [d3+1] (★Action)",
+                            "description": "RNG 1\". Target friendly Faction construct model. If the model is in range, remove d3+1 damage point from it."
+                        }
+                    ],
+                    "stats": {
+                        "base": "30mm",
+                        "spd": "6",
+                        "str": "6",
+                        "aat": "7",
+                        "mat": "5",
+                        "rat": "3",
+                        "def": "14",
+                        "arm": "14",
+                        "cmd": "6",
+                        "hp": "5"
+                    },
+                    "specialability": {
+                        "topability": {
+                            "name": "Magic Ability",
+                            "description": ""
+                        },
+                        "subabilities": [
+                            {
+                                "name": "Doom Spiral (★Attack)",
+                                "description": "Doom Spiral is a RNG 8 POW 12 magic attack. When Doom Spiral damages a warjack that is part of a battlegroup, it's controller suffers d3 damage points."
+                            },
+                            {
+                                "name": "Empower (★Action)",
+                                "description": "RNG CMD. Target friendly Faction warjack. If the target warjack is in the range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point."
+                            },
+                            {
+                                "name": "Tune Up (★Action)",
+                                "description": "RNG B2B. Target friendly Faction warjack. If the warjack is in range, all attack accuracy and damage rolls resulting from its next basic attack this turn are boosted."
+                            }
+                        ]
+                    },
+                    "weapons": [
+                        {
+                            "name": "Mechano-claw",
+                            "type": "melee",
+                            "fieldoffire": "none",
+                            "rng": "1",
+                            "pow": "4",
+                            "count": "1"
+                        }
+                    ],
+                    "displayorder": 1
                 }
             ]
         },
@@ -2380,7 +2380,7 @@
                             "description": "Remove target friendly warrior model from play. Pirate Queen Skarre gains d6 additional focus points at the start of her next activation. Pirate Queen Skarre can gain the benefit of Ritual Sacrifice only once per round."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -2590,7 +2590,7 @@
                             "description": "Target friendly Faction model/unit gains +2 to melee attack damage rolls. Affected models gain Critical Fire on their melee attacks."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -2770,7 +2770,7 @@
                             "description": "When a living model is directly hit and destroyed by Soul Strike, after resolving the attack you can choose one model within 4\" of the destroyed model. That model suffers a damage roll with a POW equal to the ARM of the destroyed model. This additional damage roll is not considered to have been caused by an attack."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -2932,7 +2932,7 @@
                             "description": "Warp the spellcaster anywhere completely within 6\" of its current location, then its activation ends."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -2948,57 +2948,6 @@
             ],
             "fieldallowance": "C",
             "models": [
-                {
-                    "name": "Egregore 1",
-                    "title": "Cryx Solo",
-                    "modeltype": [
-                        "Solo"
-                    ],
-                    "keywords": [
-                        "Construct",
-                        "Pathfinder",
-                        "Stealth"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Black Mantle",
-                            "description": "While B2B with this model, friendly Faction models gain Stealth."
-                        },
-                        {
-                            "name": "Circular Vision",
-                            "description": "Models never gain a back strike bonus against this model."
-                        },
-                        {
-                            "name": "Companion [Witch Coven Of Garlghast]",
-                            "description": "This model is included in any army that includes Witch Coven Of Garlghast. If Witch Coven Of Garlghast is destroyed or removed from play, remove this model from play. This model is part of Witch Coven Of Garlghast's battlegroup."
-                        },
-                        {
-                            "name": "Steady",
-                            "description": "This model cannot become knocked down."
-                        },
-                        {
-                            "name": "Sympathetic Link",
-                            "description": "When this model would suffer damage, it can spend 1 focus point to reduce the damage by 5. Assign the remaining damage to one or more Witch Coven of Garlghast models, divided as you choose. Coven models cannot spend focus to reduce this damage. A Witch cannot be assigned more damage points then she has unmarked damage boxes. This model does not suffer that damage."
-                        }
-                    ],
-                    "execution": {
-                        "name": "Blade Shield",
-                        "description": "This model gains +2 DEF vs ranged attack accuracy rolls."
-                    },
-                    "stats": {
-                        "base": "30mm",
-                        "spd": "6",
-                        "str": "1",
-                        "aat": "*",
-                        "mat": "1",
-                        "rat": "1",
-                        "def": "13",
-                        "arm": "17",
-                        "arc": "*",
-                        "ctrl": "*"
-                    },
-                    "displayOrderIndex": 1
-                },
                 {
                     "name": "Hellena 1,Morgaen 1,Selene 1",
                     "title": "Cryx Warcasters",
@@ -3130,7 +3079,58 @@
                             "description": "Place a 4” AOE cloud effect anywhere completely within the spellcaster’s control range. This AOE does not block friendly Faction models’ LOS while in the AOE friendly Faction models gain Pathfinder and can move through obstructions and other models if they have enough movement to move completely past them.\n"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
+                },
+                {
+                    "name": "Egregore 1",
+                    "title": "Cryx Solo",
+                    "modeltype": [
+                        "Solo"
+                    ],
+                    "keywords": [
+                        "Construct",
+                        "Pathfinder",
+                        "Stealth"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Black Mantle",
+                            "description": "While B2B with this model, friendly Faction models gain Stealth."
+                        },
+                        {
+                            "name": "Circular Vision",
+                            "description": "Models never gain a back strike bonus against this model."
+                        },
+                        {
+                            "name": "Companion [Witch Coven Of Garlghast]",
+                            "description": "This model is included in any army that includes Witch Coven Of Garlghast. If Witch Coven Of Garlghast is destroyed or removed from play, remove this model from play. This model is part of Witch Coven Of Garlghast's battlegroup."
+                        },
+                        {
+                            "name": "Steady",
+                            "description": "This model cannot become knocked down."
+                        },
+                        {
+                            "name": "Sympathetic Link",
+                            "description": "When this model would suffer damage, it can spend 1 focus point to reduce the damage by 5. Assign the remaining damage to one or more Witch Coven of Garlghast models, divided as you choose. Coven models cannot spend focus to reduce this damage. A Witch cannot be assigned more damage points then she has unmarked damage boxes. This model does not suffer that damage."
+                        }
+                    ],
+                    "execution": {
+                        "name": "Blade Shield",
+                        "description": "This model gains +2 DEF vs ranged attack accuracy rolls."
+                    },
+                    "stats": {
+                        "base": "30mm",
+                        "spd": "6",
+                        "str": "1",
+                        "aat": "*",
+                        "mat": "1",
+                        "rat": "1",
+                        "def": "13",
+                        "arm": "17",
+                        "arc": "*",
+                        "ctrl": "*"
+                    },
+                    "displayorder": 1
                 }
             ]
         },
@@ -3266,7 +3266,7 @@
                             "description": "Venom causes corrosion damage. Models hit suffer the Continuous Corrosion effect."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -3421,7 +3421,7 @@
                             "description": "Venom causes corrosion damage. Models hit suffer the Continuous Corrosion effect."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -3490,8 +3490,8 @@
                             "count": "1",
                             "ability": [
                                 {
-                                    "name": "Dark Banishment",
-                                    "description": "When this model hits an enemy model with this weapon during its activation, after the attack is resolved you can warp the enemy model anywhere completely within [#tag1] of its currently location. A model can be warped by Dark Banishment only once per turn."
+                                    "name": "Dark Banishment [5\"]",
+                                    "description": "When this model hits an enemy model with this weapon during its activation, after the attack is resolved you can warp the enemy model anywhere completely within 5\" of its currently location. A model can be warped by Dark Banishment only once per turn."
                                 },
                                 {
                                     "name": "Shadow Fire",
@@ -3565,7 +3565,7 @@
                             "description": "Venom causes corrosion damage. Models hit suffer the Continuous Corrosion effect."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -3734,7 +3734,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -3870,7 +3870,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -4028,7 +4028,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -4075,11 +4075,11 @@
                         },
                         {
                             "name": "Soul Furnance",
-                            "description": "This model may spend up to one soul token once per turn to remove D6 damage points."
+                            "description": "This model may spend up to one soul token once per turn to remove d6 damage points."
                         },
                         {
-                            "name": "Soul Taker",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within [#tag1] of itself and [#tag2]. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [2”] [Unlimited Tokens]",
+                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2” of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
                         }
                     ],
                     "stats": {
@@ -4203,7 +4203,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -4311,7 +4311,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -4428,7 +4428,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -4571,7 +4571,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -4717,7 +4717,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -4855,7 +4855,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -4978,7 +4978,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -5106,7 +5106,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -5275,7 +5275,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -5314,7 +5314,7 @@
                     "characterabilities": [
                         {
                             "name": "Body Snatcher [Melee] [3]",
-                            "description": "A model with this rule can collect corpse tokens from any models that it destroyed within its Melee range, then removes the model destroyed from play. It can carry up to 3 tokens at a time."
+                            "description": "A model with this rule can collect corpse tokens from any models that it destroyed within its Melee range, then removes the model destroyed from play. It can carry up to3 tokens at a time."
                         },
                         {
                             "name": "Bulldoze",
@@ -5509,7 +5509,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -5641,7 +5641,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -5785,7 +5785,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -5931,7 +5931,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -6049,7 +6049,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -6184,7 +6184,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -6295,7 +6295,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -6421,7 +6421,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -6577,7 +6577,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -6830,7 +6830,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -6959,7 +6959,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -7104,7 +7104,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -7245,7 +7245,7 @@
                             ]
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -7319,7 +7319,7 @@
                             }
                         ]
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -7434,7 +7434,7 @@
                             "description": "Warjacks in the spellcaster's battlegroup beginning their activations in its Control Range gain +2' movement when advancing as part of their Normal Movement. The spellcaster gains +2 ARM while one or more warjacks in its battlegroup are within 3' of it."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -7534,7 +7534,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -7622,7 +7622,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -7706,7 +7706,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -7745,7 +7745,7 @@
                         },
                         {
                             "name": "Elite Cadre [Bloat Thralls] [Field Artillery]",
-                            "description": "Friendly Bloat Thralls models gain  Field Artillery."
+                            "description": "Friendly Bloat Thralls models gain Field Artillery."
                         },
                         {
                             "name": "Field Artillery",
@@ -7811,7 +7811,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -7843,8 +7843,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Call To Sacrifice",
-                            "description": "If this model is disabled by an enemy attack, you can choose a non-disabled friendly [#tag1] model within 5\" of this model to be destroyed. If another model is destroyed as a result of Call to Sacrifice, remove 1 damage point from this model."
+                            "name": "Call to Sacrifice [Revenant]",
+                            "description": "If this model is disabled by an enemy attack, you can choose a non-disabled friendly Revenant model within 5\" of this model to be destroyed. If another model is destroyed as a result of Call to Sacrifice, remove 1 damage point from this model."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -7922,7 +7922,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8028,7 +8028,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 },
                 {
                     "name": "Darragh Wrathe (Unmounted)",
@@ -8108,7 +8108,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 1
+                    "displayorder": 1
                 }
             ]
         },
@@ -8146,8 +8146,8 @@
                             "description": "When it charges a living model, this model gains +2” movement."
                         },
                         {
-                            "name": "Elite Cadre [Bloodgorgers]",
-                            "description": "Friendly Bloodgorgers models gain [#tag2]."
+                            "name": "Elite Cadre [Bloodgorgers] [Berserk]",
+                            "description": "Friendly Bloodgorgers models gain Berserk."
                         },
                         {
                             "name": "Overtake",
@@ -8192,7 +8192,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8285,7 +8285,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8377,7 +8377,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8431,7 +8431,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8527,7 +8527,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8593,7 +8593,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8636,8 +8636,8 @@
                             "description": "Once per turn at any time during its activation, you may spend one token from this model’s weapon, if you do, this model gains +3 DEF for one round."
                         },
                         {
-                            "name": "Elite Cadre [Wraiths, Widow Makers]",
-                            "description": "Friendly Wraiths, Widow Makers models gain [#tag2]."
+                            "name": "Elite Cadre [Wraiths, Widow Makers] [Hunter]",
+                            "description": "Friendly Wraiths, Widow Makers models gain Hunter."
                         },
                         {
                             "name": "Marksman",
@@ -8683,7 +8683,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8774,7 +8774,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8810,8 +8810,8 @@
                             "description": "This model can be included in a Talion Charter army as if it were a Talion Charter model."
                         },
                         {
-                            "name": "No Sleeping On The Job",
-                            "description": "This model and friendly [#tag1] models in it's CMD range cannot become knocked down."
+                            "name": "No Sleeping On The Job [Satyxis]",
+                            "description": "This model and friendly Satyxis models in it's CMD range cannot become knocked down."
                         },
                         {
                             "name": "Relentless Charge",
@@ -8873,7 +8873,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8933,7 +8933,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -8966,8 +8966,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Elite Cadre [Satyxis Gunslingers]",
-                            "description": "Friendly Satyxis Gunslingers models gain [#tag2]."
+                            "name": "Elite Cadre [Satyxis Gunslingers] [Run & Gun]",
+                            "description": "Friendly Satyxis Gunslingers models gain Run & Gun."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -9051,7 +9051,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -9113,7 +9113,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -9216,7 +9216,7 @@
                             "description": "When target warjack in this model’s battlegroup destroys a living enemy model with an attack, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models. Additionally, when checking to see if the affected warjack is in it's controller’s control range, double the range."
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -9294,7 +9294,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -9310,9 +9310,9 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "mincost": "7",
-                "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "12"
+                "maxcost": "12",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -9370,7 +9370,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -9385,10 +9385,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 4 Grunts",
                 "mincost": "10",
-                "maxcost": "16"
+                "maxcost": "16",
+                "maxunit": "Leader and 4 Grunts",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -9481,7 +9481,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -9496,10 +9496,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "12",
+                "minunit": "Leader and 5 Grunts",
                 "mincost": "7",
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts"
+                "maxcost": "12"
             },
             "models": [
                 {
@@ -9548,7 +9548,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -9563,10 +9563,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "9"
+                "maxcost": "9",
+                "mincost": "6",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -9621,7 +9621,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -9638,10 +9638,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxunit": "Blackbane and 9 Grunts",
-                "minunit": "Blackbane and 5 Grunts",
+                "maxcost": "16",
                 "mincost": "10",
-                "maxcost": "16"
+                "minunit": "Blackbane and 5 Grunts",
+                "maxunit": "Blackbane and 9 Grunts"
             },
             "models": [
                 {
@@ -9667,7 +9667,7 @@
                         },
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Granted [Murderous]",
@@ -9709,7 +9709,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 },
                 {
                     "name": "Grunt",
@@ -9731,7 +9731,7 @@
                         },
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -9765,7 +9765,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 1
+                    "displayorder": 1
                 }
             ]
         },
@@ -9855,7 +9855,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -9873,9 +9873,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader and 2 Grunts",
-                "maxcost": "14",
                 "mincost": "8",
-                "maxunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "14"
             },
             "models": [
                 {
@@ -9929,7 +9929,7 @@
                             "count": "2"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -9945,9 +9945,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
                 "mincost": "6",
-                "maxcost": "9",
-                "maxunit": "Leader and 9 Grunts"
+                "maxcost": "9"
             },
             "models": [
                 {
@@ -9998,7 +9998,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -10013,10 +10013,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 5 Grunts",
+                "maxcost": "9",
                 "mincost": "6",
-                "maxcost": "9"
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -10059,7 +10059,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -10075,8 +10075,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Necrosurgeon & 3 Stitch Thralls",
-                "maxunit": "-",
                 "maxcost": "-",
+                "maxunit": "-",
                 "mincost": "3"
             },
             "models": [
@@ -10129,7 +10129,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 },
                 {
                     "name": "Stitch Thrall",
@@ -10159,7 +10159,7 @@
                         "cmd": "7",
                         "hp": "1"
                     },
-                    "displayOrderIndex": 1
+                    "displayorder": 1
                 }
             ]
         },
@@ -10177,72 +10177,11 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxcost": "-",
-                "minunit": "Gunner and 2 Grunts",
+                "maxunit": "-",
                 "mincost": "4",
-                "maxunit": "-"
+                "minunit": "Gunner and 2 Grunts"
             },
             "models": [
-                {
-                    "name": "Grunts",
-                    "title": "Cryx Unit",
-                    "modeltype": [
-                        "Unit",
-                        "Warrior",
-                        "Grunt"
-                    ],
-                    "keywords": [
-                        "Privateer",
-                        "Revenant",
-                        "Undead"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Blood-Bound",
-                            "description": "When this model destroys a living enemy model with an attack, after the attack is resolved you can return one destroyed model in its unit to play. Place the returned model completely within 3” of this model. The returned model cannot activate the turn it returns to play. The destroyed enemy model is removed from play and does not provide a soul or corpse token."
-                        },
-                        {
-                            "name": "Hoist the Colours",
-                            "description": "This model can be included in a Talion Charter army as if it were a Talion Charter model."
-                        }
-                    ],
-                    "stats": {
-                        "base": "50mm",
-                        "spd": "3",
-                        "str": "6",
-                        "mat": "5",
-                        "rat": "5",
-                        "def": "13",
-                        "arm": "12",
-                        "cmd": "5",
-                        "hp": "1"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Pistol",
-                            "type": "ranged",
-                            "fieldoffire": "None",
-                            "rng": "8",
-                            "rof": "1",
-                            "pow": "10",
-                            "count": "1",
-                            "damagetype": [
-                                "Arcane"
-                            ]
-                        },
-                        {
-                            "name": "Cutlass",
-                            "type": "Melee",
-                            "fieldoffire": "None",
-                            "rng": "1",
-                            "pow": "3",
-                            "count": "1",
-                            "damagetype": [
-                                "Arcane"
-                            ]
-                        }
-                    ],
-                    "displayOrderIndex": 1
-                },
                 {
                     "name": "Gunner",
                     "title": "Cryx Unit",
@@ -10326,7 +10265,68 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
+                },
+                {
+                    "name": "Grunts",
+                    "title": "Cryx Unit",
+                    "modeltype": [
+                        "Unit",
+                        "Warrior",
+                        "Grunt"
+                    ],
+                    "keywords": [
+                        "Privateer",
+                        "Revenant",
+                        "Undead"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Blood-Bound",
+                            "description": "When this model destroys a living enemy model with an attack, after the attack is resolved you can return one destroyed model in its unit to play. Place the returned model completely within 3” of this model. The returned model cannot activate the turn it returns to play. The destroyed enemy model is removed from play and does not provide a soul or corpse token."
+                        },
+                        {
+                            "name": "Hoist the Colours",
+                            "description": "This model can be included in a Talion Charter army as if it were a Talion Charter model."
+                        }
+                    ],
+                    "stats": {
+                        "base": "50mm",
+                        "spd": "3",
+                        "str": "6",
+                        "mat": "5",
+                        "rat": "5",
+                        "def": "13",
+                        "arm": "12",
+                        "cmd": "5",
+                        "hp": "1"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Pistol",
+                            "type": "ranged",
+                            "fieldoffire": "None",
+                            "rng": "8",
+                            "rof": "1",
+                            "pow": "10",
+                            "count": "1",
+                            "damagetype": [
+                                "Arcane"
+                            ]
+                        },
+                        {
+                            "name": "Cutlass",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "3",
+                            "count": "1",
+                            "damagetype": [
+                                "Arcane"
+                            ]
+                        }
+                    ],
+                    "displayorder": 1
                 }
             ]
         },
@@ -10343,10 +10343,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "12",
-                "mincost": "7",
-                "minunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -10369,7 +10369,7 @@
                         },
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -10415,7 +10415,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -10432,10 +10432,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "10",
                 "mincost": "6",
-                "maxunit": "Leader and 9 Grunts"
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -10455,7 +10455,7 @@
                     "characterabilities": [
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -10520,7 +10520,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -10624,7 +10624,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -10641,9 +10641,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "7",
                 "minunit": "Leader and 5 Grunts",
                 "maxcost": "12",
-                "mincost": "7",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -10658,7 +10658,7 @@
                     "characterabilities": [
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -10716,7 +10716,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -10734,9 +10734,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "Leader and 5 Grunts",
-                "mincost": "7",
+                "minunit": "Leader and 2 Grunts",
                 "maxcost": "12",
-                "minunit": "Leader and 2 Grunts"
+                "mincost": "7"
             },
             "models": [
                 {
@@ -10755,7 +10755,7 @@
                     "characterabilities": [
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -10828,7 +10828,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -10845,12 +10845,65 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "-",
                 "minunit": "Leader and 2 Grunts",
                 "maxunit": "-",
-                "mincost": "5",
-                "maxcost": "-"
+                "mincost": "5"
             },
             "models": [
+                {
+                    "name": "Leader",
+                    "title": "Cryx Unit",
+                    "modeltype": [
+                        "Unit",
+                        "Warrior"
+                    ],
+                    "keywords": [
+                        "Ogrun",
+                        "Privateer",
+                        "Tough"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Curse [Faction Warjack]",
+                            "description": "This model can use Curse once per activation at any time. Choose an enemy model/unit in this model's CMD range. Friendly Faction Warjack models gain +2 to attack accuracy rolls against the chosen model/unit. Curse lasts for one turn."
+                        },
+                        {
+                            "name": "Dismantle",
+                            "description": "This model gains an additional die on damage rolls against construct models."
+                        },
+                        {
+                            "name": "Hoist the Colours",
+                            "description": "This model can be included in a Talion Charter army as if it were a Talion Charter model."
+                        },
+                        {
+                            "name": "Repair [d3+1] (★Action)",
+                            "description": "RNG 1\". Target friendly Faction construct model. If the model is in range, remove d3+1 damage point from it."
+                        }
+                    ],
+                    "stats": {
+                        "base": "40mm",
+                        "spd": "6",
+                        "str": "9",
+                        "mat": "6",
+                        "rat": "4",
+                        "def": "13",
+                        "arm": "15",
+                        "cmd": "7",
+                        "hp": "8"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Tool",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "3",
+                            "count": "1"
+                        }
+                    ],
+                    "displayorder": 0
+                },
                 {
                     "name": "Grunt",
                     "title": "Cryx Unit",
@@ -10908,60 +10961,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 1
-                },
-                {
-                    "name": "Leader",
-                    "title": "Cryx Unit",
-                    "modeltype": [
-                        "Unit",
-                        "Warrior"
-                    ],
-                    "keywords": [
-                        "Ogrun",
-                        "Privateer",
-                        "Tough"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Curse [Faction Warjack]",
-                            "description": "This model can use Curse once per activation at any time. Choose an enemy model/unit in this model's CMD range. Friendly Faction Warjack models gain +2 to attack accuracy rolls against the chosen model/unit. Curse lasts for one turn."
-                        },
-                        {
-                            "name": "Dismantle",
-                            "description": "This model gains an additional die on damage rolls against construct models."
-                        },
-                        {
-                            "name": "Hoist the Colours",
-                            "description": "This model can be included in a Talion Charter army as if it were a Talion Charter model."
-                        },
-                        {
-                            "name": "Repair [d3+1] (★Action)",
-                            "description": "RNG 1\". Target friendly Faction construct model. If the model is in range, remove d3+1 damage point from it."
-                        }
-                    ],
-                    "stats": {
-                        "base": "40mm",
-                        "spd": "6",
-                        "str": "9",
-                        "mat": "6",
-                        "rat": "4",
-                        "def": "13",
-                        "arm": "15",
-                        "cmd": "7",
-                        "hp": "8"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Tool",
-                            "type": "Melee",
-                            "fieldoffire": "None",
-                            "rng": "1",
-                            "pow": "3",
-                            "count": "1"
-                        }
-                    ],
-                    "displayOrderIndex": 0
+                    "displayorder": 1
                 }
             ]
         },
@@ -10978,10 +10978,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
                 "maxcost": "14",
-                "maxunit": "Leader and 5 Grunts",
-                "mincost": "8"
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "8",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -11077,7 +11077,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -11094,9 +11094,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "4",
                 "maxcost": "-",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "4",
                 "maxunit": "-"
             },
             "models": [
@@ -11180,7 +11180,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -11197,10 +11197,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
+                "maxcost": "11",
                 "mincost": "6",
-                "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "11"
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -11220,7 +11220,7 @@
                     "characterabilities": [
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -11257,7 +11257,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -11272,10 +11272,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 4 Grunts",
+                "maxcost": "15",
                 "mincost": "9",
-                "maxcost": "15"
+                "maxunit": "Leader and 4 Grunts",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -11371,13 +11371,12 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
         {
             "name": "The Withershadow Combine",
-            "points": "8",
             "category": "Units",
             "primaryfaction": [
                 "Cryx"
@@ -11386,93 +11385,13 @@
                 "Cryx"
             ],
             "fieldallowance": "C",
+            "unitpoints": {
+                "maxunit": "-",
+                "mincost": "8",
+                "maxcost": "-",
+                "minunit": "Maelovus, Admonia and Tremulus"
+            },
             "models": [
-                {
-                    "name": "Admonia",
-                    "title": "Cryx Unit",
-                    "modeltype": [
-                        "Unit",
-                        "Warrior",
-                        "Grunt"
-                    ],
-                    "keywords": [
-                        "Spectre",
-                        "Stealth",
-                        "Undead"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Arcane Vortex",
-                            "description": "This model can immediately negate any spell that targets it or a model within 3\" of it by spending 1 focus point. The negated spell does not take effect, but its COST remains spent."
-                        },
-                        {
-                            "name": "Black Arts",
-                            "description": "A friendly Cryx warcaster with one or more models in this unit in his control area can upkeep one spell without spending a focus point."
-                        },
-                        {
-                            "name": "Dark Industries",
-                            "description": "When a model in this unit disables or destroys an enemy warjack during its activation while the warjack is in melee range of all three models in this unit, it may be replaced with a friendly autonomous Cryx warjack. The enemy warjack is removed from play. If the enemy warjack was a light warjack, it may be replaced with any non-character bonejack. If the enemy warjack was a heavy warjack, it may be replaced with a Reaper or Slayer. The warjack may activate normally this turn."
-                        },
-                        {
-                            "name": "Dismantle",
-                            "description": "This model gains an additional die on damage rolls against construct models."
-                        },
-                        {
-                            "name": "Soul Reserve",
-                            "description": "This model begins the game with a soul token."
-                        },
-                        {
-                            "name": "Soul Taker [2\"] [3]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and  3. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
-                        }
-                    ],
-                    "stats": {
-                        "base": "30mm",
-                        "spd": "5",
-                        "str": "7",
-                        "aat": "7",
-                        "mat": "7",
-                        "rat": "4",
-                        "def": "13",
-                        "arm": "15",
-                        "cmd": "7",
-                        "hp": "5"
-                    },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Dark Fire (★Attack)",
-                                "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
-                            },
-                            {
-                                "name": "Sigil of Power (★Action)",
-                                "description": "RNG CMD. Target friendly model/unit. If the model/unit is in range, its weapons gain Damage Type: Arcane. Sigil of Power lasts for one turn."
-                            },
-                            {
-                                "name": "Unbinding (★Action)",
-                                "description": "Enemy upkeep spells within 5” of Admonia expire. A spellcaster suffers d3 damage points for each spell he controlled that expired as a result of Unbinding."
-                            }
-                        ]
-                    },
-                    "weapons": [
-                        {
-                            "name": "Lich Claws",
-                            "type": "Melee",
-                            "fieldoffire": "None",
-                            "rng": "1",
-                            "pow": "5",
-                            "count": "2",
-                            "damagetype": [
-                                "Arcane"
-                            ]
-                        }
-                    ],
-                    "displayOrderIndex": 1
-                },
                 {
                     "name": "Maelovus",
                     "title": "Cryx Unit",
@@ -11559,7 +11478,93 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
+                },
+                {
+                    "name": "Admonia",
+                    "title": "Cryx Unit",
+                    "modeltype": [
+                        "Unit",
+                        "Warrior",
+                        "Grunt"
+                    ],
+                    "keywords": [
+                        "Spectre",
+                        "Stealth",
+                        "Undead"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Arcane Vortex",
+                            "description": "This model can immediately negate any spell that targets it or a model within 3\" of it by spending 1 focus point. The negated spell does not take effect, but its COST remains spent."
+                        },
+                        {
+                            "name": "Black Arts",
+                            "description": "A friendly Cryx warcaster with one or more models in this unit in his control area can upkeep one spell without spending a focus point."
+                        },
+                        {
+                            "name": "Dark Industries",
+                            "description": "When a model in this unit disables or destroys an enemy warjack during its activation while the warjack is in melee range of all three models in this unit, it may be replaced with a friendly autonomous Cryx warjack. The enemy warjack is removed from play. If the enemy warjack was a light warjack, it may be replaced with any non-character bonejack. If the enemy warjack was a heavy warjack, it may be replaced with a Reaper or Slayer. The warjack may activate normally this turn."
+                        },
+                        {
+                            "name": "Dismantle",
+                            "description": "This model gains an additional die on damage rolls against construct models."
+                        },
+                        {
+                            "name": "Soul Reserve",
+                            "description": "This model begins the game with a soul token."
+                        },
+                        {
+                            "name": "Soul Taker [2\"] [3]",
+                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and  3. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                        }
+                    ],
+                    "stats": {
+                        "base": "30mm",
+                        "spd": "5",
+                        "str": "7",
+                        "aat": "7",
+                        "mat": "7",
+                        "rat": "4",
+                        "def": "13",
+                        "arm": "15",
+                        "cmd": "7",
+                        "hp": "5"
+                    },
+                    "specialability": {
+                        "topability": {
+                            "name": "Magic Ability",
+                            "description": ""
+                        },
+                        "subabilities": [
+                            {
+                                "name": "Dark Fire (★Attack)",
+                                "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                            },
+                            {
+                                "name": "Sigil of Power (★Action)",
+                                "description": "RNG CMD. Target friendly model/unit. If the model/unit is in range, its weapons gain Damage Type: Arcane. Sigil of Power lasts for one turn."
+                            },
+                            {
+                                "name": "Unbinding (★Action)",
+                                "description": "Enemy upkeep spells within 5” of Admonia expire. A spellcaster suffers d3 damage points for each spell he controlled that expired as a result of Unbinding."
+                            }
+                        ]
+                    },
+                    "weapons": [
+                        {
+                            "name": "Lich Claws",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "1",
+                            "pow": "5",
+                            "count": "2",
+                            "damagetype": [
+                                "Arcane"
+                            ]
+                        }
+                    ],
+                    "displayorder": 1
                 },
                 {
                     "name": "Tremulus",
@@ -11645,7 +11650,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 2
+                    "displayorder": 2
                 }
             ]
         },
@@ -11734,7 +11739,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -11766,7 +11771,7 @@
                     "characterabilities": [
                         {
                             "name": "Command Attachment [Bane Warriors]",
-                            "description": "This attachment can be added to a Bane Warrior unit."
+                            "description": "This attachment can be added to a Bane Warriors unit."
                         },
                         {
                             "name": "Dark Shroud",
@@ -11813,7 +11818,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 },
                 {
                     "name": "Standard Bearer",
@@ -11870,7 +11875,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 1
+                    "displayorder": 1
                 }
             ]
         },
@@ -11901,7 +11906,7 @@
                         },
                         {
                             "name": "Weapon Attachment [Mechanithralls]",
-                            "description": "This attachment can be added to a Mechanithrall unit."
+                            "description": "This attachment can be added to a Mechanithralls unit."
                         }
                     ],
                     "stats": {
@@ -11931,7 +11936,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -12023,7 +12028,7 @@
                             "count": "2"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -12062,7 +12067,7 @@
                         },
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -12118,7 +12123,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -12158,7 +12163,7 @@
                         },
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Granted [Side Step]",
@@ -12236,7 +12241,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -12341,7 +12346,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -12380,7 +12385,7 @@
                         },
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -12464,7 +12469,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -12504,7 +12509,7 @@
                         },
                         {
                             "name": "Gang",
-                            "description": "When making a melee attack targeting an enemy model in the melee range of another friendly Faction warrior model, this model gains +2 to melee accuracy and melee damage rolls."
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
                         },
                         {
                             "name": "Hoist the Colours",
@@ -12557,7 +12562,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -12592,7 +12597,7 @@
                         },
                         {
                             "name": "Command Attachment [Mechanithralls, Carrion Thralls, Bile Thralls]",
-                            "description": "This attachment can be added to a Mechanithrall, Carrion Thrall, Bile Thrall unit."
+                            "description": "This attachment can be added to a Mechanithralls, Carrion Thralls, Bile Thralls unit."
                         },
                         {
                             "name": "Invigorate",
@@ -12656,7 +12661,7 @@
                             ]
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -12735,7 +12740,7 @@
                             "count": "2"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -12813,7 +12818,7 @@
                             "count": "1"
                         }
                     ],
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         },
@@ -12862,7 +12867,7 @@
                         "arm": "16",
                         "hp": "5"
                     },
-                    "displayOrderIndex": 0
+                    "displayorder": 0
                 }
             ]
         }
