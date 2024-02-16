@@ -161,7 +161,7 @@
                     },
                     "execution": {
                         "name": "Furious Lashing",
-                        "description": "This model's melee weapons gain Chain Strike. (This weapon becomes RNG 4 during this model's activation.)"
+                        "description": "This model’s melee weapons gain Chain Strike. (This weapon becomes RNG 4 during this model's activation.)"
                     },
                     "stats": {
                         "base": "30mm",
@@ -300,7 +300,7 @@
                     },
                     "execution": {
                         "name": "Leadership [Paingiver Bloodrunners]",
-                        "description": "While in this model's CMD range, Friendly Faction Paingiver Bloodrunner's melee weapons gain Eye-Thief. (When a living or undead model is damaged by an attack with this weapon, it suffers Blind for one round.)"
+                        "description": "While in this model's CMD range, Friendly Faction Paingiver Bloodrunner’s melee weapons gain Eye-Thief. (When a living or undead model is damaged by an attack with this weapon, it suffers Blind for one round.)"
                     },
                     "stats": {
                         "base": "30mm",
@@ -2573,7 +2573,7 @@
                     },
                     "execution": {
                         "name": "Leadership [Ancestral Guardian]",
-                        "description": "While in this model's CMD range, Friendly Faction Ancestral Guardian's gain Weight of Stone. (When a model is damaged by this weapon it suffers –3 SPD and DEF for one round.)"
+                        "description": "While in this model's CMD range, Friendly Faction Ancestral Guardian’s gain Weight of Stone. (When a model is damaged by this weapon it suffers –3 SPD and DEF for one round.)"
                     },
                     "stats": {
                         "base": "40mm",
@@ -2769,7 +2769,7 @@
                         },
                         {
                             "name": "Hunting Pack",
-                            "description": "This model gains a +1 cumulative bonus to melee accuracy and damage rolls for each other friendly Aradus warbeast with the target of this model's melee attack in its melee range. This cumulative bonus cannot exceed +3."
+                            "description": "This model gains a +1 cumulative bonus to melee accuracy and damage rolls for each other friendly Aradus warbeast with the target of this model’s melee attack in its melee range. This cumulative bonus cannot exceed +3."
                         },
                         {
                             "name": "Partisan [Skorne]",
@@ -2895,7 +2895,7 @@
                             "ability": [
                                 {
                                     "name": "Poison",
-                                    "description": "Gain an additional die on this weapon's damage rolls against living models."
+                                    "description": "Gain an additional die on this weapon’s damage rolls against living models."
                                 }
                             ]
                         },
@@ -3059,7 +3059,7 @@
                     "characterabilities": [
                         {
                             "name": "Extended Control Range",
-                            "description": "When checking to see if this model is in its controller's control range, double the range."
+                            "description": "When checking to see if this model is in its controller’s control range, double the range."
                         },
                         {
                             "name": "Steady",
@@ -3132,7 +3132,7 @@
                     "characterabilities": [
                         {
                             "name": "Leadership [Basilisk Krea]",
-                            "description": "Friendly Basilisk Krea models in this model's CMD range gain +1 Fury."
+                            "description": "Friendly Basilisk Krea models in this model’s CMD range gain +1 Fury."
                         }
                     ],
                     "stats": {
@@ -3345,7 +3345,7 @@
                                 },
                                 {
                                     "name": "Hard Head",
-                                    "description": "This model can add this weapon's POW to its head-butt and slam power attack damage rolls."
+                                    "description": "This model can add this weapon’s POW to its head-butt and slam power attack damage rolls."
                                 }
                             ]
                         },
@@ -3414,7 +3414,7 @@
                     "characterabilities": [
                         {
                             "name": "Bond [Xekaar]",
-                            "description": "If this model begins the game in Xekaar's battlegroup, it is bonded to him. This model is not considered to be bonded while under your opponent's control. While this model is bonded to Xekaar and in his control range, it gains boosted ranged accuracy rolls."
+                            "description": "If this model begins the game in Xekaar’s battlegroup, it is bonded to him. This model is not considered to be bonded while under your opponent’s control. While this model is bonded to Xekaar and in his control range, it gains boosted ranged accuracy rolls."
                         },
                         {
                             "name": "Dig In (★Action)",
@@ -3716,7 +3716,7 @@
                             "ability": [
                                 {
                                     "name": "Critical Brutal Damage",
-                                    "description": "On a critical hit, gain an additional die on this weapon's damage rolls against the target directly hit."
+                                    "description": "On a critical hit, gain an additional die on this weapon’s damage rolls against the target directly hit."
                                 }
                             ]
                         }
@@ -3972,7 +3972,7 @@
                         },
                         {
                             "name": "Bond [Mordikaar]",
-                            "description": "If this model begins the game inMordikaar's battlegroup, it is bonded to him. This model is not considered to be bonded while under your opponent's control. While this model is bonded to Mordikaar and in his control range, once per round when a living enemy warrior model is boxed while within 5” of this model, remove the boxed model from play and replace it with a Void Spirit model."
+                            "description": "If this model begins the game inMordikaar’s battlegroup, it is bonded to him. This model is not considered to be bonded while under your opponent’s control. While this model is bonded to Mordikaar and in his control range, once per round when a living enemy warrior model is boxed while within 5” of this model, remove the boxed model from play and replace it with a Void Spirit model."
                         },
                         {
                             "name": "Dark Shroud",
@@ -4002,7 +4002,7 @@
                             "ability": [
                                 {
                                     "name": "Critical Brutal Damage",
-                                    "description": "On a critical hit, gain an additional die on this weapon's damage rolls against the target directly hit."
+                                    "description": "On a critical hit, gain an additional die on this weapon’s damage rolls against the target directly hit."
                                 }
                             ]
                         },
@@ -4186,7 +4186,7 @@
                     "characterabilities": [
                         {
                             "name": "Bond [Makeda]",
-                            "description": "If this model begins the game in Makeda's battlegroup, it is bonded to her. This model is not considered to be bonded while under your opponent's control. While this model is bonded to Makeda and in her control range, this model gains Side Step. (When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2” after the attack is resolved.)"
+                            "description": "If this model begins the game in Makeda’s battlegroup, it is bonded to her. This model is not considered to be bonded while under your opponent’s control. While this model is bonded to Makeda and in her control range, this model gains Side Step. (When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2” after the attack is resolved.)"
                         },
                         {
                             "name": "Future Sight",
@@ -4278,11 +4278,11 @@
                         },
                         {
                             "name": "Drag Below",
-                            "description": "During this model's activation, when this model boxes an enemy warrior model, this model can use Drag Below to remove the boxed model from play. Immediately after resolving this attack, this model can make a full advance and then perform a Burrow."
+                            "description": "During this model’s activation, when this model boxes an enemy warrior model, this model can use Drag Below to remove the boxed model from play. Immediately after resolving this attack, this model can make a full advance and then perform a Burrow."
                         },
                         {
                             "name": "Extended Control Range",
-                            "description": "When checking to see if this model is in its controller's control range, double the range."
+                            "description": "When checking to see if this model is in its controller’s control range, double the range."
                         },
                         {
                             "name": "Steady",
@@ -4502,7 +4502,7 @@
                         },
                         {
                             "name": "Bond [Naaresh]",
-                            "description": "If this model begins the game in Naaresh's battlegroup, it is bonded to him. This model is not considered to be bonded while under your opponent's control. While this model is bonded to Naaresh and in his control range, this model gains an additional die on melee accuracy rolls against models in Naaresh's control range."
+                            "description": "If this model begins the game in Naaresh’s battlegroup, it is bonded to him. This model is not considered to be bonded while under your opponent’s control. While this model is bonded to Naaresh and in his control range, this model gains an additional die on melee accuracy rolls against models in Naaresh’s control range."
                         },
                         {
                             "name": "Gun Platform",
@@ -4615,7 +4615,7 @@
                     "characterabilities": [
                         {
                             "name": "Bond [Xerxis]",
-                            "description": "If this model begins the game in Xerxis's battlegroup, it is bonded to him. This model is not considered to be bonded while under your opponent's control. While this model is bonded to Xerxis and in his control range, this model gains Overtake."
+                            "description": "If this model begins the game in Xerxis’s battlegroup, it is bonded to him. This model is not considered to be bonded while under your opponent’s control. While this model is bonded to Xerxis and in his control range, this model gains Overtake."
                         },
                         {
                             "name": "Immovable Object",
@@ -4681,7 +4681,7 @@
                             "ability": [
                                 {
                                     "name": "Hard Head",
-                                    "description": "This model can add this weapon's POW to its head-butt and slam power attack damage rolls."
+                                    "description": "This model can add this weapon’s POW to its head-butt and slam power attack damage rolls."
                                 }
                             ]
                         }
@@ -4772,7 +4772,7 @@
                             "ability": [
                                 {
                                     "name": "Hard Head",
-                                    "description": "This model can add this weapon's POW to its head-butt and slam power attack damage rolls."
+                                    "description": "This model can add this weapon’s POW to its head-butt and slam power attack damage rolls."
                                 }
                             ]
                         },
@@ -4875,7 +4875,7 @@
                             "ability": [
                                 {
                                     "name": "Hard Head",
-                                    "description": "This model can add this weapon's POW to its head-butt and slam power attack damage rolls."
+                                    "description": "This model can add this weapon’s POW to its head-butt and slam power attack damage rolls."
                                 }
                             ]
                         },
@@ -4994,7 +4994,7 @@
                             "ability": [
                                 {
                                     "name": "Hard Head",
-                                    "description": "This model can add this weapon's POW to its head-butt and slam power attack damage rolls."
+                                    "description": "This model can add this weapon’s POW to its head-butt and slam power attack damage rolls."
                                 }
                             ]
                         }
@@ -5125,7 +5125,7 @@
                     "characterabilities": [
                         {
                             "name": "Defensive Strike",
-                            "description": "Once per turn, when an enemy model advances into and ends its movement in this model's melee range, this model can immediately make one basic melee attack against it."
+                            "description": "Once per turn, when an enemy model advances into and ends its movement in this model’s melee range, this model can immediately make one basic melee attack against it."
                         },
                         {
                             "name": "Resonance [Immortals]",
@@ -5167,7 +5167,7 @@
                             },
                             {
                                 "name": "Spirit Driven",
-                                "description": "At the beginning of this model's activation, it can spend one soul token to gain +2” movement when advancing as part of its Normal Movement this activation."
+                                "description": "At the beginning of this model’s activation, it can spend one soul token to gain +2” movement when advancing as part of its Normal Movement this activation."
                             },
                             {
                                 "name": "Strength of Death",
@@ -5193,126 +5193,11 @@
             ]
         },
         {
-            "name": "Aptimus Marketh",
-            "points": "4",
-            "category": "Solos",
-            "primaryfaction": [
-                "Skorne"
-            ],
-            "factions": [
-                "Skorne"
-            ],
-            "fieldallowance": "C",
-            "models": [
-                {
-                    "name": "Aptimus Marketh",
-                    "title": "Marketh 1",
-                    "modeltype": [
-                        "Solo"
-                    ],
-                    "keywords": [
-                        "Dual Attack",
-                        "Extoller",
-                        "Gunfighter"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Attached",
-                            "description": "Before the start of the game, attach this model to a friendly Faction leader for the rest of the game. Each Leader can have only one model/unit attached to it."
-                        },
-                        {
-                            "name": "Ghost Shield",
-                            "description": "This model gains +1 ARM for each soul token currently on it."
-                        },
-                        {
-                            "name": "Soul Protector [CMD][3 tokens]",
-                            "description": "A model with this rule can collect soul tokens from friendly models that are destroyed within it's CMD range, and this model can carry up to 3 tokens at any time. This model can spend soul tokens for the following:"
-                        },
-                        {
-                            "name": "Soul Tap",
-                            "description": "If this model is in its warlock's control range during your Control Phase, the warlock can spend soul tokens on this model to upkeep one spell for each token spent."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
-                        }
-                    ],
-                    "stats": {
-                        "base": "30mm",
-                        "spd": "6",
-                        "str": "5",
-                        "aat": "7",
-                        "mat": "6",
-                        "rat": "5",
-                        "def": "13",
-                        "arm": "13",
-                        "cmd": "8",
-                        "hp": "5"
-                    },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Guidance (★Action)",
-                                "description": "RNG CMD. Target friendly model. If the model is in range, it gains Eyeless Sight and it's weapons gain Damage Type: Arcane for one turn."
-                            },
-                            {
-                                "name": "Harmonious Exaltation (★Action)",
-                                "description": "RNG CMD. Target this model's leader. If it is in range, once this turn when the warlock casts a spell, reduce the COST of the spell by 1."
-                            },
-                            {
-                                "name": "Spell Slave (★Action) (★Attack)",
-                                "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
-                            }
-                        ]
-                    },
-                    "weapons": [
-                        {
-                            "name": "Spirit Eye",
-                            "type": "ranged",
-                            "fieldoffire": "None",
-                            "rng": "8",
-                            "rof": "1",
-                            "pow": "5",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Annihilation Gaze",
-                                    "description": "When a living or undead model is hit by this attack, add half its current DEF to the damage roll."
-                                },
-                                {
-                                    "name": "Ghost Shot",
-                                    "description": "This model ignores LOS, Concealment, and cover when making attacks with this weapon."
-                                }
-                            ],
-                            "damagetype": [
-                                "Arcane"
-                            ]
-                        },
-                        {
-                            "name": "Gravitas",
-                            "type": "Melee",
-                            "fieldoffire": "None",
-                            "rng": "2",
-                            "pow": "6",
-                            "count": "1",
-                            "damagetype": [
-                                "Arcane"
-                            ]
-                        }
-                    ],
-                    "displayorder": 0
-                }
-            ]
-        },
-        {
             "name": "Bellighul, Master of Pain",
             "points": "4",
             "category": "Solos",
             "primaryfaction": [
+                "Mercenaries",
                 "Skorne"
             ],
             "factions": [
@@ -5320,6 +5205,7 @@
                 "Cryx",
                 "Infernals",
                 "Khymera",
+                "Mercenaries",
                 "Skorne",
                 "Thornfall Alliance"
             ],
@@ -5327,7 +5213,7 @@
             "models": [
                 {
                     "name": "Bellighul",
-                    "title": "Skorne Solo",
+                    "title": "Mercenary Skorne Solo Lesser Warlock",
                     "modeltype": [
                         "Solo"
                     ],
@@ -5423,7 +5309,7 @@
                     "characterabilities": [
                         {
                             "name": "Leadership [Construct]",
-                            "description": "While in this model's command range, friendly Construct warrior models gain Tough."
+                            "description": "While in this model’s command range, friendly Construct warrior models gain Tough."
                         }
                     ],
                     "stats": {
@@ -5609,7 +5495,7 @@
                         },
                         {
                             "name": "Spirit-Driven",
-                            "description": "At the beginning of this model's activation, it can spend one soul token to gain +2” movement when advancing as part of its Normal Movement this activation."
+                            "description": "At the beginning of this model’s activation, it can spend one soul token to gain +2” movement when advancing as part of its Normal Movement this activation."
                         },
                         {
                             "name": "Steady",
@@ -5698,7 +5584,7 @@
                         },
                         {
                             "name": "Telemetry",
-                            "description": "Other friendly models gain +2 to magic accuracy rolls against enemy models in this model's command range."
+                            "description": "Other friendly models gain +2 to magic accuracy rolls against enemy models in this model’s command range."
                         }
                     ],
                     "stats": {
@@ -5789,7 +5675,7 @@
                         },
                         {
                             "name": "Understudy",
-                            "description": "While a friendly Faction leader is in this model's command range, this model can use the leader's current MAT in place of its own."
+                            "description": "While a friendly Faction leader is in this model’s command range, this model can use the leader’s current MAT in place of its own."
                         }
                     ],
                     "stats": {
@@ -6010,8 +5896,8 @@
                             "description": "RNG 3”. Target friendly non-leader Mercenary Warrior model/unit. If the model/unit is in range, it gains +2 STR. Models are not affected while out of formation. Pain Driver lasts for one turn."
                         },
                         {
-                            "name": "Scutter (★Action)",
-                            "description": "RNG 3\". Target friendly Ogrun. If the model is in range, it gains Reposition [3\"]."
+                            "name": "Scutter [non-Leader warrior model/unit] (★Action)",
+                            "description": "RNG 3\". Target friendly non-Leader warrior model/unit. If the non-Leader warrior model/unit is in range, it gains Reposition [3\"]."
                         },
                         {
                             "name": "Temper Flesh (★Action)",
@@ -6087,7 +5973,7 @@
                         },
                         {
                             "name": "Leadership [Praetorian Ferox]",
-                            "description": "While in this model's command range, friendly Praetorian Ferox models gain Dodge."
+                            "description": "While in this model’s command range, friendly Praetorian Ferox models gain Dodge."
                         },
                         {
                             "name": "Pounce",
@@ -6182,7 +6068,7 @@
                         },
                         {
                             "name": "Leadership [Praetorian Ferox]",
-                            "description": "While in this model's command range, friendly Praetorian Ferox models gain Dodge."
+                            "description": "While in this model’s command range, friendly Praetorian Ferox models gain Dodge."
                         },
                         {
                             "name": "Set Defense",
@@ -6495,10 +6381,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "13",
-                "maxunit": "Leader and 5 Grunts",
                 "minunit": "Leader and 3 Grunts",
-                "mincost": "8"
+                "mincost": "8",
+                "maxcost": "13",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -6614,9 +6500,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "8",
-                "minunit": "Leader and 3 Grunts",
                 "maxunit": "Leader and 5 Grunts",
-                "maxcost": "13"
+                "maxcost": "13",
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -6638,7 +6524,7 @@
                         },
                         {
                             "name": "Order: Shield Wall",
-                            "description": "Until the start of their next activation, each affected model's shield grants an additional +2 ARM while B2B with another affected model in its unit. When receiving this order a model can forfeit its Combat Action to gain +3” movement as part of its Normal Movement this turn. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall. "
+                            "description": "Until the start of their next activation, each affected model’s shield grants an additional +2 ARM while B2B with another affected model in its unit. When receiving this order a model can forfeit its Combat Action to gain +3” movement as part of its Normal Movement this turn. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall. "
                         },
                         {
                             "name": "Set Defense",
@@ -6720,10 +6606,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "8",
-                "maxcost": "13",
                 "maxunit": "Leader and 5 Grunts",
-                "minunit": "Leader and 3 Grunts"
+                "mincost": "8",
+                "minunit": "Leader and 3 Grunts",
+                "maxcost": "13"
             },
             "models": [
                 {
@@ -6830,8 +6716,8 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "mincost": "6",
                 "maxcost": "11",
+                "mincost": "6",
                 "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 5 Grunts"
             },
@@ -7088,10 +6974,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "12",
                 "mincost": "7",
-                "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "12"
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -7150,10 +7036,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "5",
                 "maxunit": "Leader and 5 Grunts",
                 "mincost": "3",
-                "minunit": "Leader and 3 Grunts",
-                "maxcost": "5"
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -7221,10 +7107,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
                 "maxunit": "-",
-                "minunit": "Leader and 5 Grunts",
-                "mincost": "5"
+                "mincost": "5",
+                "maxcost": "-",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7295,10 +7181,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 5 Grunts",
                 "mincost": "10",
+                "minunit": "Leader and 3 Grunts",
                 "maxcost": "16",
-                "minunit": "Leader and 3 Grunts"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7414,10 +7300,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "10",
-                "mincost": "6"
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "6",
+                "maxcost": "10"
             },
             "models": [
                 {
@@ -7432,7 +7318,7 @@
                     "characterabilities": [
                         {
                             "name": "Order: Shield Wall",
-                            "description": "Until the start of their next activation, each affected model's shield grants an additional +2 ARM while B2B with another affected model in its unit. When receiving this order a model can forfeit its Combat Action to gain +3” movement as part of its Normal Movement this turn. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall. "
+                            "description": "Until the start of their next activation, each affected model’s shield grants an additional +2 ARM while B2B with another affected model in its unit. When receiving this order a model can forfeit its Combat Action to gain +3” movement as part of its Normal Movement this turn. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall. "
                         },
                         {
                             "name": "Set Defense",
@@ -7476,7 +7362,7 @@
             ]
         },
         {
-            "name": "Praetorian Keitarii",
+            "name": "Praetorian Keltarii",
             "category": "Units",
             "primaryfaction": [
                 "Skorne"
@@ -7485,6 +7371,12 @@
                 "Skorne"
             ],
             "fieldallowance": "U",
+            "unitpoints": {
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "11",
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6"
+            },
             "models": [
                 {
                     "name": "Praetorian Keltarii",
@@ -7554,10 +7446,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
+                "maxcost": "11",
                 "minunit": "Leader and 5 Grunts",
                 "mincost": "6",
-                "maxunit": "Leader and 9 Grunts",
-                "maxcost": "11"
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -7609,7 +7501,6 @@
         },
         {
             "name": "Tyrant Commander and Standard Bearer",
-            "points": "5",
             "category": "Units",
             "primaryfaction": [
                 "Skorne"
@@ -7618,6 +7509,12 @@
                 "Skorne"
             ],
             "fieldallowance": "2",
+            "unitpoints": {
+                "maxcost": "-",
+                "mincost": "5",
+                "maxunit": "-",
+                "minunit": "Leader and Standard"
+            },
             "models": [
                 {
                     "name": "Tyrant Commander",
@@ -7663,7 +7560,7 @@
                             },
                             {
                                 "name": "Reveille",
-                                "description": "Knocked down friendly Faction models in this model's command range immediately stand up. Models that became knocked down this turn are not affected by Reveille."
+                                "description": "Knocked down friendly Faction models in this model’s command range immediately stand up. Models that became knocked down this turn are not affected by Reveille."
                             }
                         ]
                     },
@@ -7742,9 +7639,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "3",
+                "minunit": "Gunner and 2 Grunts",
                 "maxcost": "-",
-                "maxunit": "-",
-                "minunit": "Gunner and 2 Grunts"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -7869,10 +7766,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "5",
-                "maxunit": "-",
                 "maxcost": "-",
-                "minunit": "Gunner and 1 Grunt"
+                "minunit": "Gunner and 1 Grunt",
+                "mincost": "5",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -7944,7 +7841,7 @@
                     "characterabilities": [
                         {
                             "name": "Fast Reload",
-                            "description": "While within 1” of this unit's gunner, the gunner gains +1 ROF."
+                            "description": "While within 1” of this unit’s gunner, the gunner gains +1 ROF."
                         }
                     ],
                     "stats": {
@@ -7983,10 +7880,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
-                "mincost": "8",
                 "maxcost": "13",
-                "maxunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 3 Grunts",
+                "maxunit": "Leader and 5 Grunts",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -8055,8 +7952,8 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxcost": "11",
                 "minunit": "Leader and 5 Grunts",
+                "maxcost": "11",
                 "mincost": "6",
                 "maxunit": "Leader and 9 Grunts"
             },
@@ -8136,6 +8033,123 @@
             ]
         },
         {
+            "name": "Aptimus Marketh",
+            "points": "4",
+            "category": "Attachments",
+            "primaryfaction": [
+                "Skorne"
+            ],
+            "factions": [
+                "Skorne"
+            ],
+            "fieldallowance": "C",
+            "attachlimit": "1",
+            "models": [
+                {
+                    "name": "Aptimus Marketh",
+                    "title": "Skorne Solo",
+                    "modeltype": [
+                        "Solo"
+                    ],
+                    "keywords": [
+                        "Dual Attack",
+                        "Extoller",
+                        "Gunfighter"
+                    ],
+                    "characterabilities": [
+                        {
+                            "name": "Attached",
+                            "description": "Before the start of the game, attach this model to a friendly Faction leader for the rest of the game. Each Leader can have only one model/unit attached to it."
+                        },
+                        {
+                            "name": "Ghost Shield",
+                            "description": "This model gains +1 ARM for each soul token currently on it."
+                        },
+                        {
+                            "name": "Soul Protector [CMD][3 tokens]",
+                            "description": "A model with this rule can collect soul tokens from friendly models that are destroyed within it's CMD range, and this model can carry up to 3 tokens at any time. This model can spend soul tokens for the following:"
+                        },
+                        {
+                            "name": "Soul Tap",
+                            "description": "If this model is in its warlock’s control range during your Control Phase, the warlock can spend soul tokens on this model to upkeep one spell for each token spent."
+                        },
+                        {
+                            "name": "Strength of Death",
+                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                        }
+                    ],
+                    "stats": {
+                        "base": "30mm",
+                        "spd": "6",
+                        "str": "5",
+                        "aat": "7",
+                        "mat": "6",
+                        "rat": "5",
+                        "def": "13",
+                        "arm": "13",
+                        "cmd": "8",
+                        "hp": "5"
+                    },
+                    "specialability": {
+                        "topability": {
+                            "name": "Magic Ability",
+                            "description": ""
+                        },
+                        "subabilities": [
+                            {
+                                "name": "Guidance (★Action)",
+                                "description": "RNG CMD. Target friendly model. If the model is in range, it gains Eyeless Sight and it's weapons gain Damage Type: Arcane for one turn."
+                            },
+                            {
+                                "name": "Harmonious Exaltation (★Action)",
+                                "description": "RNG CMD. Target this model’s leader. If it is in range, once this turn when the warlock casts a spell, reduce the COST of the spell by 1."
+                            },
+                            {
+                                "name": "Spell Slave (★Action) (★Attack)",
+                                "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
+                            }
+                        ]
+                    },
+                    "weapons": [
+                        {
+                            "name": "Spirit Eye",
+                            "type": "ranged",
+                            "fieldoffire": "None",
+                            "rng": "8",
+                            "rof": "1",
+                            "pow": "5",
+                            "count": "1",
+                            "ability": [
+                                {
+                                    "name": "Annihilation Gaze",
+                                    "description": "When a living or undead model is hit by this attack, add half its current DEF to the damage roll."
+                                },
+                                {
+                                    "name": "Ghost Shot",
+                                    "description": "This model ignores LOS, Concealment, and cover when making attacks with this weapon."
+                                }
+                            ],
+                            "damagetype": [
+                                "Arcane"
+                            ]
+                        },
+                        {
+                            "name": "Gravitas",
+                            "type": "Melee",
+                            "fieldoffire": "None",
+                            "rng": "2",
+                            "pow": "6",
+                            "count": "1",
+                            "damagetype": [
+                                "Arcane"
+                            ]
+                        }
+                    ],
+                    "displayorder": 0
+                }
+            ]
+        },
+        {
             "name": "Extoller Advocate",
             "points": "2",
             "category": "Attachments",
@@ -8193,7 +8207,7 @@
                         "subabilities": [
                             {
                                 "name": "Death Boon",
-                                "description": "When a model in this model's unit makes an accuracy or damage roll during its activation, this model can spend one soul token to cause that model to reroll that roll. A roll can be rerolled only once as a result of Death Boon."
+                                "description": "When a model in this model’s unit makes an accuracy or damage roll during its activation, this model can spend one soul token to cause that model to reroll that roll. A roll can be rerolled only once as a result of Death Boon."
                             },
                             {
                                 "name": "Grave Mist",
@@ -8273,7 +8287,7 @@
                         },
                         {
                             "name": "Iron Zeal",
-                            "description": "This model can use Iron Zeal once per game at any time during its unit's activation. Models in this unit gain +3 ARM and cannot become stationary or knocked down. Models are not affected while out of formation. Iron Zeal lasts for one round."
+                            "description": "This model can use Iron Zeal once per game at any time during its unit’s activation. Models in this unit gain +3 ARM and cannot become stationary or knocked down. Models are not affected while out of formation. Iron Zeal lasts for one round."
                         },
                         {
                             "name": "Set Defense",
@@ -8395,8 +8409,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Command Attachment [Preatorian Swordsmen]",
-                            "description": "This attachment can be added to a Preatorian Swordsmen unit."
+                            "name": "Command Attachment [Praetorian Swordsmen]",
+                            "description": "This attachment can be added to a Praetorian Swordsmen unit."
                         },
                         {
                             "name": "Penetrating Strike",
@@ -8511,8 +8525,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Command Attachment [Cataphract Unit]",
-                            "description": "This attachment can be added to a Cataphract Unit unit."
+                            "name": "Command Attachment [Cataphract Arcuarii, Cataphract Cetrati, Cataphract Incindiarii]",
+                            "description": "This attachment can be added to a Cataphract Arcuarii, Cataphract Cetrati, Cataphract Incindiarii unit."
                         },
                         {
                             "name": "Granted [Sacred Ward]",
@@ -8520,7 +8534,7 @@
                         },
                         {
                             "name": "Order: Kill",
-                            "description": "While within this model's command range, friendly warrior models gain +2 to accuracy and damage rolls against enemy models against enemy models within this model's command range."
+                            "description": "While within this model’s command range, friendly warrior models gain +2 to accuracy and damage rolls against enemy models against enemy models within this model’s command range."
                         },
                         {
                             "name": "Set Defense",
@@ -8617,7 +8631,7 @@
                         },
                         {
                             "name": "Extended Fire",
-                            "description": "This model can use Extended Fire once per game at any time during its unit's activation. This activation, the ranged weapons of models in this unit gain Snipe. (An attack with a weapon with Snipe gains +4 RNG.)"
+                            "description": "This model can use Extended Fire once per game at any time during its unit’s activation. This activation, the ranged weapons of models in this unit gain Snipe. (An attack with a weapon with Snipe gains +4 RNG.)"
                         },
                         {
                             "name": "Granted [Trained Fire]",
@@ -8743,7 +8757,7 @@
                         },
                         {
                             "name": "Venator Platform",
-                            "description": " This model isn't a Venator, however its Independent attacks are."
+                            "description": " This model isn’t a Venator, however its Independent attacks are."
                         }
                     ],
                     "stats": {
@@ -8860,7 +8874,7 @@
                     "characterabilities": [
                         {
                             "name": "Defensive Strike",
-                            "description": "Once per turn, when an enemy model advances into and ends its movement in this model's melee range, this model can immediately make one basic melee attack against it."
+                            "description": "Once per turn, when an enemy model advances into and ends its movement in this model’s melee range, this model can immediately make one basic melee attack against it."
                         },
                         {
                             "name": "Direct Spirits",
@@ -8876,7 +8890,7 @@
                         },
                         {
                             "name": "Vault of the Faithful",
-                            "description": "During your Maintenance Phase, you can remove up to three soul tokens from this model to return one destroyed small- or medium-based friendly Faction Grunt to play for each token removed. Grunts return with one unmarked damage box. Place the returned Grunts completely within this model's command range, in formation and completely within 3” of another model in its unit. Grunts must forfeit either their normal movement or Combat Action the turn they are returned to play."
+                            "description": "During your Maintenance Phase, you can remove up to three soul tokens from this model to return one destroyed small- or medium-based friendly Faction Grunt to play for each token removed. Grunts return with one unmarked damage box. Place the returned Grunts completely within this model’s command range, in formation and completely within 3” of another model in its unit. Grunts must forfeit either their normal movement or Combat Action the turn they are returned to play."
                         }
                     ],
                     "stats": {
