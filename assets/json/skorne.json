@@ -1768,7 +1768,7 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Makeda  2",
+                    "name": "Makeda 2",
                     "title": "Skorne Warlock",
                     "modeltype": [
                         "Warlock",
@@ -2727,6 +2727,18 @@
                             "count": "1"
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Death Shriek",
+                            "cost": "2",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "-",
+                            "off": "NO",
+                            "description": "Enemy models currently within 2\" of the spellcaster suffer an unboostable POW 8 damage roll."
+                        }
+                    ],
                     "spiral": [
                         "3",
                         "1",
@@ -2805,6 +2817,18 @@
                                     "description": "On a critical hit, a living model hit has its base DEF reduced to 5 and cannot run, charge, or make slam or trample power attacks for one round."
                                 }
                             ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Scuttler",
+                            "cost": "1",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "*",
+                            "off": "NO",
+                            "description": "The Spellcaster or target friendly Faction lesser warbeast immediately gains Dig In. (A model with Dig In gains cover, gains Resistance: Blast, and does not block LOS. The model remains dug in until it moves, is placed, or is engaged.)"
                         }
                     ],
                     "spiral": [
@@ -2909,6 +2933,18 @@
                             "presetabilities": [
                                 "Open Fist"
                             ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Acidic Touch",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "The spellcaster gains Resistance: Corrosion and its melee weapons gain the Continuous Effect: Corrosion. Acidic Touch lasts for one round."
                         }
                     ],
                     "spiral": [
@@ -3020,6 +3056,18 @@
                             ]
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Swarm",
+                            "cost": "2",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "The spellcaster gains concealment. Living enemy models suffer -2 to attack rolls while within 2” of the spellcaster. Swarm lasts for one round."
+                        }
+                    ],
                     "spiral": [
                         "5",
                         "2",
@@ -3091,6 +3139,18 @@
                                     "description": "On a critical hit against a model with an equal or smaller base, the model hit can be thrown d6\" directly away from this model. The model thrown does not deviate. The POW of collateral damage is equal to the POW of this weapon."
                                 }
                             ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Lightning Strike",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "TURN",
+                            "off": "NO",
+                            "description": "The spellcaster gains Sprint. Lightning Strike lasts for one turn. (At the end of an activation in which it destroyed or removed from play one or more enemy models with a melee attack, a model with Sprint can immediately make a full advance, then its activation ends.)"
                         }
                     ],
                     "spiral": [
@@ -3179,6 +3239,18 @@
                             ]
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Lurker",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "TURN",
+                            "off": "NO",
+                            "description": "The spellcaster gains Pathfinder and Bushwhack. Lurker lasts for one turn. (During its activation, a model with Bushwhack can make its Combat Action before its Normal Movement. If it does, it must make a full advance as it's Normal Movement that activation.)"
+                        }
+                    ],
                     "spiral": [
                         "5",
                         "2",
@@ -3259,6 +3331,18 @@
                             "rng": "1",
                             "pow": "4",
                             "count": "1"
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Force Aura",
+                            "cost": "2",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "While within 3” of the spellcaster, friendly Faction models gain +2 DEF and ARM against ranged attacks. Force Aura lasts for one round."
                         }
                     ],
                     "spiral": [
@@ -3369,6 +3453,18 @@
                             "presetabilities": [
                                 "Open Fist"
                             ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Indomitable",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "The spellcaster gains Unyielding. Indomitable lasts for one round. (A model with Unyielding gains +2 ARM against melee damage rolls.)"
                         }
                     ],
                     "spiral": [
@@ -3485,6 +3581,18 @@
                             ]
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Counterblast",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "When an enemy model advances and ends its movement in the spellcaster’s command range, the spellcaster can make one basic melee or ranged attack targeting that model, then Counterblast expires. Counterblast lasts for one round."
+                        }
+                    ],
                     "spiral": [
                         "5",
                         "3",
@@ -3565,6 +3673,18 @@
                             "rng": "2",
                             "pow": "5",
                             "count": "1"
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Safeguard",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "The spellcaster cannot become knocked down, made stationary, is not moved by pushes or slams and does not suffer collateral damage."
                         }
                     ],
                     "spiral": [
@@ -3652,6 +3772,18 @@
                             ]
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Far Strike",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "TURN",
+                            "off": "NO",
+                            "description": "The spellcaster’s Ranged weapons gain Snipe. Far Strike lasts for one turn. (An attack with a weapon with Snipe gains +4 RNG.)"
+                        }
+                    ],
                     "spiral": [
                         "5",
                         "2",
@@ -3719,6 +3851,18 @@
                                     "description": "On a critical hit, gain an additional die on this weapon’s damage rolls against the target directly hit."
                                 }
                             ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Prescience",
+                            "cost": "1",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "TURN",
+                            "off": "NO",
+                            "description": "Target friendly Faction model gains Future Sight. Prescience lasts for one turn."
                         }
                     ],
                     "spiral": [
@@ -3808,6 +3952,18 @@
                             "damagetype": [
                                 "Arcane"
                             ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Spirit Blade",
+                            "cost": "2",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "-",
+                            "off": "YES",
+                            "description": "Enemy upkeep spells and animi on target model/unit expire."
                         }
                     ],
                     "spiral": [
@@ -3926,6 +4082,18 @@
                             }
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Sandstorm",
+                            "cost": "2",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "When a friendly model is targeted by a ranged attack while within 5” of this model the attack suffers -3 RNG. Sandstorm lasts for one round."
+                        }
+                    ],
                     "spiral": [
                         "8",
                         "6",
@@ -4016,6 +4184,18 @@
                             "presetabilities": [
                                 "Open Fist"
                             ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Arcane Suppression",
+                            "cost": "2",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "While within 10” of the spellcaster, when an enemy model casts a spell increase the COST of the spell by 1. Additionally, while within 10” of the spellcaster, enemy models must pay double to upkeep spells. Arcane Suppression lasts for one round."
                         }
                     ],
                     "spiral": [
@@ -4147,6 +4327,18 @@
                             ]
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Counterblast",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "When an enemy model advances and ends its movement in the spellcaster’s command range, the spellcaster can make one basic melee or ranged attack targeting that model, then Counterblast expires. Counterblast lasts for one round."
+                        }
+                    ],
                     "spiral": [
                         "8",
                         "5",
@@ -4231,6 +4423,18 @@
                             ]
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Fate Walker",
+                            "cost": "1 ",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "*",
+                            "off": "NO",
+                            "description": "The spellcaster gains Reposition [5”] this activation. (At the end of an activation in which it did not run or fail a charge, a model with Reposition [5”] can advance up to 5”, then it's activation ends.)"
+                        }
+                    ],
                     "spiral": [
                         "6",
                         "3",
@@ -4313,6 +4517,18 @@
                             "count": "1"
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Spiny Growth",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "The spellcaster gains +2 ARM. If a non-warrior model hits the spellcaster with a melee attack, the attacking model suffers d3 damage points immediately after the attack is resolved unless the spellcaster was destroyed or removed from play by the attack. Spiny Growth lasts for one round."
+                        }
+                    ],
                     "spiral": [
                         "3",
                         "2",
@@ -4374,6 +4590,18 @@
                             "count": "1"
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Ravening Hunger",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "TURN",
+                            "off": "NO",
+                            "description": "The spellcaster gains an additional die on melee damage rolls against living models and Snacking. Ravening Hunger lasts for one turn."
+                        }
+                    ],
                     "displayorder": 0
                 }
             ]
@@ -4383,9 +4611,11 @@
             "points": "11",
             "category": "Warjacks/Warbeasts/Horrors",
             "primaryfaction": [
+                "Mercenaries",
                 "Skorne"
             ],
             "factions": [
+                "Mercenaries",
                 "Skorne"
             ],
             "fieldallowance": "U",
@@ -4405,10 +4635,6 @@
                         "Power Attack: Trample"
                     ],
                     "characterabilities": [
-                        {
-                            "name": "Mercenary",
-                            "description": "This model will work for [#tag1]."
-                        },
                         {
                             "name": "Partisan [Skorne]",
                             "description": "When included in a Skorne army, this model is a Skorne model instead of a Mercenary model."
@@ -4458,6 +4684,18 @@
                             "presetabilities": [
                                 "Open Fist"
                             ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Spiny Growth",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "The spellcaster gains +2 ARM. If a non-warrior model hits the spellcaster with a melee attack, the attacking model suffers d3 damage points immediately after the attack is resolved unless the spellcaster was destroyed or removed from play by the attack. Spiny Growth lasts for one round."
                         }
                     ],
                     "spiral": [
@@ -4574,6 +4812,18 @@
                             "count": "1"
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Rush",
+                            "cost": "2",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "TURN",
+                            "off": "NO",
+                            "description": "Target friendly Faction warbeasts gains +2” movement when advancing as part of its Normal Movement and gains Pathfinder. Rush lasts for one turn."
+                        }
+                    ],
                     "spiral": [
                         "3",
                         "1",
@@ -4686,6 +4936,18 @@
                             ]
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Irresistible Force",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "TURN",
+                            "off": "NO",
+                            "description": "The spellcaster gains Bulldoze. Irresistible Force lasts for one turn."
+                        }
+                    ],
                     "spiral": [
                         "6",
                         "3",
@@ -4789,6 +5051,18 @@
                                     "description": "Models hit by this attack lose their initial attacks and cannot make power attacks or special attacks for one round."
                                 }
                             ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Far Strike",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "TURN",
+                            "off": "NO",
+                            "description": "The spellcaster’s Ranged weapons gain Snipe. Far Strike lasts for one turn. (An attack with a weapon with Snipe gains +4 RNG.)"
                         }
                     ],
                     "spiral": [
@@ -4897,6 +5171,18 @@
                             ]
                         }
                     ],
+                    "animi": [
+                        {
+                            "name": "Rush",
+                            "cost": "2",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "TURN",
+                            "off": "NO",
+                            "description": "Target friendly Faction warbeasts gains +2” movement when advancing as part of its Normal Movement and gains Pathfinder. Rush lasts for one turn."
+                        }
+                    ],
                     "spiral": [
                         "6",
                         "3",
@@ -4997,6 +5283,18 @@
                                     "description": "This model can add this weapon’s POW to its head-butt and slam power attack damage rolls."
                                 }
                             ]
+                        }
+                    ],
+                    "animi": [
+                        {
+                            "name": "Ornery",
+                            "cost": "1",
+                            "rng": "SELF",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "RND",
+                            "off": "NO",
+                            "description": "The spellcaster gains Retaliatory Strike. Ornery lasts for one round and expires after the spellcaster makes a Retaliatory Strike attack."
                         }
                     ],
                     "spiral": [
@@ -6251,12 +6549,8 @@
                             "description": "RNG CMD. Target friendly Faction model gains +2 RAT when making its next AOE ranged attack this turn. If the attack does not directly hit, you can reroll the direction and/or distance of its deviation. Each roll can be rerolled only once as a result of Artillerist."
                         },
                         {
-                            "name": "Desperate Pace (★Action)",
-                            "description": "RNG CMD. Target friendly [#tag1] unit. If the unit is in range, [#tag1] models in that unit gain +2\" movement during their Normal Movement this turn."
-                        },
-                        {
-                            "name": "Ready Ammo [Venator]",
-                            "description": "RNG CMD. Target friendly Venator unit, while  in formation, the ranged weapons of models in that unit become ROF 2."
+                            "name": "Desperate Pace [Faction Weapon Crew] (★Action)",
+                            "description": "RNG CMD. Target friendly Faction Weapon Crew unit. If the unit is in range, Faction Weapon Crew models in that unit gain +2\" movement during their Normal Movement this turn."
                         },
                         {
                             "name": "Veteran Leader [Venator]",
@@ -6383,8 +6677,8 @@
             "unitpoints": {
                 "minunit": "Leader and 3 Grunts",
                 "mincost": "8",
-                "maxcost": "13",
-                "maxunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "13"
             },
             "models": [
                 {
@@ -6500,9 +6794,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "8",
-                "maxunit": "Leader and 5 Grunts",
+                "minunit": "Leader and 3 Grunts",
                 "maxcost": "13",
-                "minunit": "Leader and 3 Grunts"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -6716,9 +7010,9 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "11",
-                "mincost": "6",
                 "maxunit": "Leader and 9 Grunts",
+                "mincost": "6",
+                "maxcost": "11",
                 "minunit": "Leader and 5 Grunts"
             },
             "models": [
@@ -6974,10 +7268,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "12",
-                "mincost": "7",
+                "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts"
+                "mincost": "7",
+                "maxcost": "12"
             },
             "models": [
                 {
@@ -7036,10 +7330,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "5",
-                "maxunit": "Leader and 5 Grunts",
+                "minunit": "Leader and 3 Grunts",
                 "mincost": "3",
-                "minunit": "Leader and 3 Grunts"
+                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "5"
             },
             "models": [
                 {
@@ -7107,10 +7401,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "-",
-                "mincost": "5",
                 "maxcost": "-",
-                "minunit": "Leader and 5 Grunts"
+                "mincost": "5"
             },
             "models": [
                 {
@@ -7181,10 +7475,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "10",
                 "minunit": "Leader and 3 Grunts",
-                "maxcost": "16",
-                "maxunit": "Leader and 5 Grunts"
+                "mincost": "10",
+                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "16"
             },
             "models": [
                 {
@@ -7300,10 +7594,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts",
+                "maxcost": "10",
                 "mincost": "6",
-                "maxcost": "10"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -7372,9 +7666,9 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "maxcost": "11",
                 "maxunit": "Leader and 9 Grunts",
+                "maxcost": "11",
+                "minunit": "Leader and 5 Grunts",
                 "mincost": "6"
             },
             "models": [
@@ -7446,10 +7740,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxcost": "11",
-                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
                 "mincost": "6",
-                "maxunit": "Leader and 9 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "11"
             },
             "models": [
                 {
@@ -7510,10 +7804,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "minunit": "Leader and Standard",
                 "maxcost": "-",
                 "mincost": "5",
-                "maxunit": "-",
-                "minunit": "Leader and Standard"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -7638,8 +7932,8 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "3",
                 "minunit": "Gunner and 2 Grunts",
+                "mincost": "3",
                 "maxcost": "-",
                 "maxunit": "-"
             },
@@ -7766,9 +8060,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "5",
                 "maxcost": "-",
                 "minunit": "Gunner and 1 Grunt",
-                "mincost": "5",
                 "maxunit": "-"
             },
             "models": [
@@ -7880,10 +8174,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
+                "mincost": "8",
                 "maxcost": "13",
                 "minunit": "Leader and 3 Grunts",
-                "maxunit": "Leader and 5 Grunts",
-                "mincost": "8"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7952,9 +8246,9 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
                 "maxcost": "11",
                 "mincost": "6",
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
