@@ -306,7 +306,7 @@
                         "base": "30mm",
                         "spd": "7",
                         "str": "6",
-                        "aat": "5",
+                        "aat": "6",
                         "mat": "8",
                         "rat": "4",
                         "def": "16",
@@ -752,7 +752,7 @@
                         "base": "30mm",
                         "spd": "7",
                         "str": "6",
-                        "aat": "5",
+                        "aat": "6",
                         "mat": "8",
                         "rat": "4",
                         "def": "16",
@@ -1615,7 +1615,7 @@
                             "ability": [
                                 {
                                     "name": "Annihilation Gaze",
-                                    "description": "When a living or undead model is hit by this attack, add half its current DEF to the damage roll."
+                                    "description": "When a living or undead model is hit by this attack, add half its current STR to the damage roll."
                                 }
                             ],
                             "damagetype": [
@@ -5527,7 +5527,7 @@
                         },
                         {
                             "name": "Condition (★Action)",
-                            "description": "RNG 6”. Target friendly warbeast. If the warbeast is in range, you can place 1 fury point on it or remove 1 fury point from it."
+                            "description": "RNG 3”. Target friendly warbeast. If the warbeast is in range, you can place 1 fury point on it or remove 1 fury point from it."
                         },
                         {
                             "name": "Enrage (★Action)",
@@ -5731,7 +5731,7 @@
                             "ability": [
                                 {
                                     "name": "Annihilation Gaze",
-                                    "description": "When a living or undead model is hit by this attack, add half its current DEF to the damage roll."
+                                    "description": "When a living or undead model is hit by this attack, add half its current STR to the damage roll."
                                 },
                                 {
                                     "name": "Ghost Shot",
@@ -5909,7 +5909,7 @@
                             "ability": [
                                 {
                                     "name": "Annihilation Gaze",
-                                    "description": "When a living or undead model is hit by this attack, add half its current DEF to the damage roll."
+                                    "description": "When a living or undead model is hit by this attack, add half its current STR to the damage roll."
                                 },
                                 {
                                     "name": "Ghost Shot",
@@ -6111,6 +6111,13 @@
                     "modeltype": [
                         "Solo",
                         "Warrior"
+                    ],
+                    "keywords": [
+                        "Advance Deploy",
+                        "Ambush",
+                        "Pathfinder",
+                        "Stealth",
+                        "Vaulter"
                     ],
                     "characterabilities": [
                         {
@@ -6676,9 +6683,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader and 3 Grunts",
-                "mincost": "8",
+                "maxcost": "13",
                 "maxunit": "Leader and 5 Grunts",
-                "maxcost": "13"
+                "mincost": "8"
             },
             "models": [
                 {
@@ -6794,9 +6801,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "8",
-                "minunit": "Leader and 3 Grunts",
                 "maxcost": "13",
-                "maxunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 5 Grunts",
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -6901,8 +6908,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "Leader and 5 Grunts",
-                "mincost": "8",
                 "minunit": "Leader and 3 Grunts",
+                "mincost": "8",
                 "maxcost": "13"
             },
             "models": [
@@ -7010,10 +7017,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "mincost": "6",
+                "minunit": "Leader and 5 Grunts",
                 "maxcost": "11",
-                "minunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -7075,10 +7082,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxunit": "-",
                 "mincost": "8",
-                "maxcost": "-",
-                "minunit": "Valgesh, Cidar and J'Deth"
+                "maxunit": "-",
+                "minunit": "Valgesh, Cidar and J'Deth",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -7153,6 +7160,13 @@
                         "Unit",
                         "Warrior"
                     ],
+                    "keywords": [
+                        "House Karzul",
+                        "Pathfinder",
+                        "Praetorian",
+                        "Unstoppable",
+                        "Vaulter"
+                    ],
                     "characterabilities": [
                         {
                             "name": "Flank [Praetorian]",
@@ -7209,6 +7223,13 @@
                     "modeltype": [
                         "Unit",
                         "Warrior"
+                    ],
+                    "keywords": [
+                        "House Govaax",
+                        "Pathfinder",
+                        "Praetorian",
+                        "Unstoppable",
+                        "Vaulter"
                     ],
                     "characterabilities": [
                         {
@@ -7275,8 +7296,8 @@
             "unitpoints": {
                 "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 5 Grunts",
-                "mincost": "7",
-                "maxcost": "12"
+                "maxcost": "12",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -7336,9 +7357,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader and 3 Grunts",
+                "maxcost": "5",
                 "mincost": "3",
-                "maxunit": "Leader and 5 Grunts",
-                "maxcost": "5"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7355,7 +7376,7 @@
                         },
                         {
                             "name": "Condition (★Action)",
-                            "description": "RNG 6”. Target friendly warbeast. If the warbeast is in range, you can place 1 fury point on it or remove 1 fury point from it."
+                            "description": "RNG 3”. Target friendly warbeast. If the warbeast is in range, you can place 1 fury point on it or remove 1 fury point from it."
                         },
                         {
                             "name": "Enrage (★Action)",
@@ -7406,10 +7427,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
                 "maxunit": "-",
-                "maxcost": "-",
-                "mincost": "5"
+                "mincost": "5",
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -7480,9 +7501,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
                 "mincost": "10",
                 "maxunit": "Leader and 5 Grunts",
+                "minunit": "Leader and 3 Grunts",
                 "maxcost": "16"
             },
             "models": [
@@ -7599,10 +7620,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxcost": "10",
                 "mincost": "6",
-                "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts"
+                "maxcost": "10",
+                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7672,9 +7693,9 @@
             "fieldallowance": "U",
             "unitpoints": {
                 "maxunit": "Leader and 9 Grunts",
+                "mincost": "6",
                 "maxcost": "11",
-                "minunit": "Leader and 5 Grunts",
-                "mincost": "6"
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7682,6 +7703,10 @@
                     "title": "Skorne Unit",
                     "modeltype": [
                         "Unit"
+                    ],
+                    "keywords": [
+                        "Combined Melee Attack",
+                        "Unstoppable"
                     ],
                     "characterabilities": [
                         {
@@ -7745,10 +7770,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "mincost": "6",
+                "maxcost": "11",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "11"
+                "mincost": "6",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -7809,10 +7834,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and Standard",
                 "maxcost": "-",
-                "mincost": "5",
-                "maxunit": "-"
+                "maxunit": "-",
+                "minunit": "Leader and Standard",
+                "mincost": "5"
             },
             "models": [
                 {
@@ -7937,10 +7962,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Gunner and 2 Grunts",
+                "maxunit": "-",
                 "mincost": "3",
                 "maxcost": "-",
-                "maxunit": "-"
+                "minunit": "Gunner and 2 Grunts"
             },
             "models": [
                 {
@@ -7950,6 +7975,7 @@
                         "Unit"
                     ],
                     "keywords": [
+                        "Advance Deploy",
                         "Officer"
                     ],
                     "characterabilities": [
@@ -8023,6 +8049,9 @@
                     "modeltype": [
                         "Grunt"
                     ],
+                    "keywords": [
+                        "Advance Deploy"
+                    ],
                     "characterabilities": [
                         {
                             "name": "Targeting (★Action)",
@@ -8065,9 +8094,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "5",
-                "maxcost": "-",
                 "minunit": "Gunner and 1 Grunt",
+                "maxcost": "-",
+                "mincost": "5",
                 "maxunit": "-"
             },
             "models": [
@@ -8076,6 +8105,9 @@
                     "title": "Skorne Venator Unit",
                     "modeltype": [
                         "Unit"
+                    ],
+                    "keywords": [
+                        "Advance Deploy"
                     ],
                     "characterabilities": [
                         {
@@ -8137,6 +8169,9 @@
                         "Warrior",
                         "Grunt"
                     ],
+                    "keywords": [
+                        "Advance Deploy"
+                    ],
                     "characterabilities": [
                         {
                             "name": "Fast Reload",
@@ -8179,15 +8214,15 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "mincost": "8",
-                "maxcost": "13",
                 "minunit": "Leader and 3 Grunts",
+                "maxcost": "13",
+                "mincost": "8",
                 "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
                     "name": "Venator Reivers",
-                    "title": "Skorne Unit",
+                    "title": "Skorne Venator Unit",
                     "modeltype": [
                         "Unit"
                     ],
@@ -8251,10 +8286,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
+                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "11",
                 "mincost": "6",
-                "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts"
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -8264,8 +8299,7 @@
                         "Unit"
                     ],
                     "keywords": [
-                        "Advance Deploy",
-                        "Venator"
+                        "Advance Deploy"
                     ],
                     "characterabilities": [
                         {
@@ -8421,7 +8455,7 @@
                             "ability": [
                                 {
                                     "name": "Annihilation Gaze",
-                                    "description": "When a living or undead model is hit by this attack, add half its current DEF to the damage roll."
+                                    "description": "When a living or undead model is hit by this attack, add half its current STR to the damage roll."
                                 },
                                 {
                                     "name": "Ghost Shot",
@@ -8530,7 +8564,7 @@
                             "ability": [
                                 {
                                     "name": "Annihilation Gaze",
-                                    "description": "When a living or undead model is hit by this attack, add half its current DEF to the damage roll."
+                                    "description": "When a living or undead model is hit by this attack, add half its current STR to the damage roll."
                                 },
                                 {
                                     "name": "Ghost Shot",
@@ -8637,6 +8671,10 @@
                     "modeltype": [
                         "Attachment"
                     ],
+                    "keywords": [
+                        "Combined Melee Attack",
+                        "Standard"
+                    ],
                     "characterabilities": [
                         {
                             "name": "Granted [Inspiration]",
@@ -8706,6 +8744,9 @@
                     "modeltype": [
                         "Attachment"
                     ],
+                    "keywords": [
+                        "Officer"
+                    ],
                     "characterabilities": [
                         {
                             "name": "Command Attachment [Praetorian Swordsmen]",
@@ -8762,6 +8803,9 @@
                     "title": "Skorne Command Attachment",
                     "modeltype": [
                         "Attachment"
+                    ],
+                    "keywords": [
+                        "Standard"
                     ],
                     "characterabilities": [
                         {
@@ -8911,7 +8955,7 @@
             "models": [
                 {
                     "name": "Venator Reiver Officer",
-                    "title": "Skorne Command Attachment",
+                    "title": "Skorne Venator Command Attachment",
                     "modeltype": [
                         "Attachment"
                     ],
@@ -9041,6 +9085,12 @@
                     "modeltype": [
                         "Battle Engine"
                     ],
+                    "keywords": [
+                        "Cavalry",
+                        "Dual Attack",
+                        "Power Attack: Trample",
+                        "Unstoppable"
+                    ],
                     "characterabilities": [
                         {
                             "name": "Beast",
@@ -9069,6 +9119,26 @@
                         "arm": "20",
                         "cmd": "10",
                         "hp": "35"
+                    },
+                    "specialability": {
+                        "topability": {
+                            "name": "Rage Fueled",
+                            "description": "When this model is damaged by an enemy attack, it gains one rage token. This model can have up to three rage tokens at any time. This model gains +1 to its melee accuracy and melee damage rolls for each rage token on it. This model can spend rage tokens for the following:"
+                        },
+                        "subabilities": [
+                            {
+                                "name": "Brutality",
+                                "description": "During its Combat Action, this model can spend rage tokens to make additional melee attacks. It can make one additional attack for each token spent."
+                            },
+                            {
+                                "name": "Cantankerous",
+                                "description": "During its Combat Action, this model can spend a rage token to boost its melee accuracy or melee damage rolls."
+                            },
+                            {
+                                "name": "Painmonger",
+                                "description": "When this model suffers damage from an attack, it gains one blood token. For each blood token on this model, it gains +1 ARM and +1 to its melee attack damage rolls. This model can have up to five blood tokens at any time. Remove 1 blood token from this model at the start of your Control Phase if it wasn't damaged by and attack during the last round."
+                            }
+                        ]
                     },
                     "weapons": [
                         {
