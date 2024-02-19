@@ -7075,6 +7075,12 @@
                 "Skorne"
             ],
             "fieldallowance": "C",
+            "unitpoints": {
+                "maxunit": "Valgesh, Cidar and J'Deth",
+                "mincost": "8",
+                "maxcost": "-",
+                "minunit": "-"
+            },
             "models": [
                 {
                     "name": "Valgesh",
