@@ -7075,10 +7075,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxunit": "Valgesh, Cidar and J'Deth",
+                "maxunit": "-",
                 "mincost": "8",
                 "maxcost": "-",
-                "minunit": "-"
+                "minunit": "Valgesh, Cidar and J'Deth"
             },
             "models": [
                 {
