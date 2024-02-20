@@ -4747,8 +4747,8 @@
                             "description": "This model can make ranged attacks even while in melee and can target models outside of the melee."
                         },
                         {
-                            "name": "Rage-Fueled",
-                            "description": "While damaged this model gains +1 FURY."
+                            "name": "Lasting Fit",
+                            "description": "While damaged, this model gains +1 FURY."
                         },
                         {
                             "name": "Side Step",
@@ -6682,10 +6682,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "8",
                 "minunit": "Leader and 3 Grunts",
-                "maxcost": "13",
                 "maxunit": "Leader and 5 Grunts",
-                "mincost": "8"
+                "maxcost": "13"
             },
             "models": [
                 {
@@ -6800,10 +6800,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "8",
+                "minunit": "Leader and 3 Grunts",
                 "maxcost": "13",
                 "maxunit": "Leader and 5 Grunts",
-                "minunit": "Leader and 3 Grunts"
+                "mincost": "8"
             },
             "models": [
                 {
@@ -6907,10 +6907,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "13",
                 "minunit": "Leader and 3 Grunts",
                 "mincost": "8",
-                "maxcost": "13"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7018,8 +7018,8 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "11",
                 "maxunit": "Leader and 9 Grunts",
+                "maxcost": "11",
                 "mincost": "6"
             },
             "models": [
@@ -7083,9 +7083,9 @@
             "fieldallowance": "C",
             "unitpoints": {
                 "mincost": "8",
-                "maxunit": "-",
+                "maxcost": "-",
                 "minunit": "Valgesh, Cidar and J'Deth",
-                "maxcost": "-"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -7294,10 +7294,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "7",
                 "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "12",
-                "mincost": "7"
+                "maxcost": "12"
             },
             "models": [
                 {
@@ -7356,10 +7356,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
-                "maxcost": "5",
                 "mincost": "3",
-                "maxunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 5 Grunts",
+                "minunit": "Leader and 3 Grunts",
+                "maxcost": "5"
             },
             "models": [
                 {
@@ -7427,10 +7427,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
-                "mincost": "5",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "-"
+                "maxcost": "-",
+                "maxunit": "-",
+                "mincost": "5"
             },
             "models": [
                 {
@@ -7501,10 +7501,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "10",
-                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "16",
                 "minunit": "Leader and 3 Grunts",
-                "maxcost": "16"
+                "maxunit": "Leader and 5 Grunts",
+                "mincost": "10"
             },
             "models": [
                 {
@@ -7620,10 +7620,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "mincost": "6",
-                "maxcost": "10",
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts"
+                "maxcost": "10",
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -7693,9 +7693,9 @@
             "fieldallowance": "U",
             "unitpoints": {
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "6",
                 "maxcost": "11",
-                "minunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -7770,10 +7770,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxcost": "11",
                 "minunit": "Leader and 5 Grunts",
                 "mincost": "6",
-                "maxunit": "Leader and 9 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "11"
             },
             "models": [
                 {
@@ -7834,10 +7834,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "5",
                 "maxcost": "-",
-                "maxunit": "-",
                 "minunit": "Leader and Standard",
-                "mincost": "5"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -7962,10 +7962,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
+                "minunit": "Gunner and 2 Grunts",
                 "mincost": "3",
-                "maxcost": "-",
-                "minunit": "Gunner and 2 Grunts"
+                "maxunit": "-",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -8095,8 +8095,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Gunner and 1 Grunt",
-                "maxcost": "-",
                 "mincost": "5",
+                "maxcost": "-",
                 "maxunit": "-"
             },
             "models": [
@@ -8214,10 +8214,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
-                "maxcost": "13",
+                "maxunit": "Leader and 5 Grunts",
                 "mincost": "8",
-                "maxunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 3 Grunts",
+                "maxcost": "13"
             },
             "models": [
                 {
@@ -8877,7 +8877,7 @@
                         },
                         {
                             "name": "Order: Kill",
-                            "description": "While within this model’s command range, friendly warrior models gain +2 to accuracy and damage rolls against enemy models against enemy models within this model’s command range."
+                            "description": "While within this model’s command range, friendly warrior models gain +2 to accuracy and damage rolls against enemy models within this model’s command range."
                         },
                         {
                             "name": "Set Defense",
@@ -9069,7 +9069,7 @@
         },
         {
             "name": "Siege Animantarax",
-            "points": "14",
+            "points": "17",
             "category": "Battle Engines",
             "primaryfaction": [
                 "Skorne"
@@ -9103,10 +9103,6 @@
                         {
                             "name": "Reposition [3\"]",
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
-                        },
-                        {
-                            "name": "Venator Platform",
-                            "description": " This model isn’t a Venator, however its Independent attacks are."
                         }
                     ],
                     "stats": {
@@ -9135,8 +9131,8 @@
                                 "description": "During its Combat Action, this model can spend a rage token to boost its melee accuracy or melee damage rolls."
                             },
                             {
-                                "name": "Painmonger",
-                                "description": "When this model suffers damage from an attack, it gains one blood token. For each blood token on this model, it gains +1 ARM and +1 to its melee attack damage rolls. This model can have up to five blood tokens at any time. Remove 1 blood token from this model at the start of your Control Phase if it wasn't damaged by and attack during the last round."
+                                "name": "Pain Inhibitions",
+                                "description": "At any time during its activation, this model can spend rage tokens to remove d3+1 damage for each token spent."
                             }
                         ]
                     },
