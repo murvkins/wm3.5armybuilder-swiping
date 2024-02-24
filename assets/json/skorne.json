@@ -2108,6 +2108,10 @@
                             "description": "During your Control Phase, this model can upkeep one spell without spending focus, fury or essence."
                         },
                         {
+                            "name": "Inspiring Figure",
+                            "description": "When this model hits an enemy model with a charge attack, friendly Skorne warrior models/ units currently within CMD gain +2 to attack rolls this turn."
+                        },
+                        {
                             "name": "Overtake",
                             "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, after the attack is resolved it can immediately advance up to 1\"."
                         }
@@ -2136,13 +2140,21 @@
                     },
                     "specialability": {
                         "topability": {
-                            "name": "Battle Plan",
-                            "description": "This model can use one of the following plans at any time during its activation. A friendly Faction model/unit can be affected by only one plan each turn."
+                            "name": "Battle Marshal",
+                            "description": "This model can use two of the following plans at any time during its activation. A friendly Faction model/unit can be affected by only one plan each turn."
                         },
                         "subabilities": [
                             {
+                                "name": "Fight in the Shade",
+                                "description": "RNG 5”. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains +2 ARM against ranged attacks. Fight in the Shade lasts for one round."
+                            },
+                            {
                                 "name": "March",
                                 "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains Pathfinder for one Turn."
+                            },
+                            {
+                                "name": "Operations Command",
+                                "description": ""
                             },
                             {
                                 "name": "Push to the Limit",
@@ -2164,8 +2176,8 @@
                             "count": "2",
                             "ability": [
                                 {
-                                    "name": "Combo Smite (★Attack)",
-                                    "description": "The model hit is slammed d6\" directly away from this model. If the model hit has a larger base than the attacking model, it is moved only half the distance rolled. When resolving damage for this attack, the model hit suffers a damage roll with POW equal to the STR of this model plus twice the POW of this weapon. The POW of collateral damage is equal to the STR of this model."
+                                    "name": "Chain Attack: Staggering Smite",
+                                    "description": "If this model hits the same model with both its initial attacks, after resolving the attacks it can immediately make a COMBO SMITE (★Attack) against that model.\n(COMBO SMITE (★Attack) - The model hit is slammed d6\" directly away from this model. If the model hit has a larger base than the attacking model, it is moved only half the distance rolled. When resolving damage for this attack, the model hit suffers a damage roll with POW equal to the STR of this model plus twice the POW of this weapon. The POW of collateral damage is equal to the STR of this model.)"
                                 }
                             ],
                             "damagetype": [
@@ -6682,10 +6694,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "13",
                 "mincost": "8",
                 "minunit": "Leader and 3 Grunts",
-                "maxunit": "Leader and 5 Grunts",
-                "maxcost": "13"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -6800,10 +6812,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
                 "maxcost": "13",
+                "mincost": "8",
                 "maxunit": "Leader and 5 Grunts",
-                "mincost": "8"
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -6907,10 +6919,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "13",
+                "maxunit": "Leader and 5 Grunts",
                 "minunit": "Leader and 3 Grunts",
                 "mincost": "8",
-                "maxunit": "Leader and 5 Grunts"
+                "maxcost": "13"
             },
             "models": [
                 {
@@ -7017,10 +7029,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6",
                 "maxcost": "11",
-                "mincost": "6"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -7082,10 +7094,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "mincost": "8",
-                "maxcost": "-",
                 "minunit": "Valgesh, Cidar and J'Deth",
-                "maxunit": "-"
+                "maxcost": "-",
+                "maxunit": "-",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -7294,10 +7306,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "7",
-                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "12",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "12"
+                "mincost": "7",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -7356,10 +7368,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "3",
-                "maxunit": "Leader and 5 Grunts",
                 "minunit": "Leader and 3 Grunts",
-                "maxcost": "5"
+                "maxcost": "5",
+                "maxunit": "Leader and 5 Grunts",
+                "mincost": "3"
             },
             "models": [
                 {
@@ -7428,8 +7440,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "-",
                 "maxunit": "-",
+                "maxcost": "-",
                 "mincost": "5"
             },
             "models": [
@@ -7467,7 +7479,7 @@
                     ],
                     "stats": {
                         "base": "30mm",
-                        "spd": "4",
+                        "spd": "6",
                         "str": "5",
                         "mat": "7",
                         "rat": "4",
@@ -7501,10 +7513,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "10",
                 "maxcost": "16",
                 "minunit": "Leader and 3 Grunts",
-                "maxunit": "Leader and 5 Grunts",
-                "mincost": "10"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7620,9 +7632,9 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
                 "maxcost": "10",
-                "minunit": "Leader and 5 Grunts",
                 "mincost": "6"
             },
             "models": [
@@ -7692,10 +7704,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "maxcost": "11",
                 "minunit": "Leader and 5 Grunts",
-                "mincost": "6"
+                "maxcost": "11",
+                "mincost": "6",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -7771,9 +7783,9 @@
             "fieldallowance": "U",
             "unitpoints": {
                 "minunit": "Leader and 5 Grunts",
-                "mincost": "6",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "11"
+                "maxcost": "11",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -7962,10 +7974,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Gunner and 2 Grunts",
-                "mincost": "3",
                 "maxunit": "-",
-                "maxcost": "-"
+                "mincost": "3",
+                "maxcost": "-",
+                "minunit": "Gunner and 2 Grunts"
             },
             "models": [
                 {
@@ -8096,8 +8108,8 @@
             "unitpoints": {
                 "minunit": "Gunner and 1 Grunt",
                 "mincost": "5",
-                "maxcost": "-",
-                "maxunit": "-"
+                "maxunit": "-",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -8214,9 +8226,9 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxunit": "Leader and 5 Grunts",
                 "mincost": "8",
                 "minunit": "Leader and 3 Grunts",
+                "maxunit": "Leader and 5 Grunts",
                 "maxcost": "13"
             },
             "models": [
@@ -8286,10 +8298,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "maxcost": "11",
                 "mincost": "6",
-                "minunit": "Leader and 5 Grunts"
+                "maxcost": "11",
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
