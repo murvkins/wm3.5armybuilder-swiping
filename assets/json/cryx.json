@@ -1905,8 +1905,8 @@
                         "description": "While in Scaverous' control range, friendly Faction models gain boosted magic attack accuracy rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell while in Scaverous' control range, increase the COST by 1. Black Gate lasts for one round."
                     },
                     "execution": {
-                        "name": "Elite Cadre [Jack Marshal] [Empower]",
-                        "description": "Friendly Jack Marshal models gain Empower."
+                        "name": "Elite Cadre",
+                        "description": "Friendly [#tag1] models gain [#tag2]."
                     },
                     "stats": {
                         "base": "40mm",
@@ -1983,14 +1983,14 @@
                             "description": "Target warrior model/unit without resistance: Cold suffers -2 DEF and cannot run or make power attacks or special attacks."
                         },
                         {
-                            "name": "Soul Harvester [CTRL] [5 Tokens]",
-                            "cost": "",
-                            "rng": "",
-                            "aoe": "",
-                            "pow": "",
-                            "dur": "",
+                            "name": "Soul Harvester",
+                            "cost": "2",
+                            "rng": "6",
+                            "aoe": "-",
+                            "pow": "-",
+                            "dur": "UP",
                             "off": "NO",
-                            "description": ""
+                            "description": "When target friendly Faction model/unit destroys a living enemy model with a melee attack, the spellcaster gains the destroyed model's soul token regardless of the proximity of other models."
                         },
                         {
                             "name": "Telekinesis",
@@ -2033,8 +2033,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Heart of Darkness",
-                            "description": "This model can be included in an Infernals army. If it is, it becomes an Infernal model and not a [#tag1] model. If included in an Infernals army, any non-partisan, non-character [#tag1] warjack can also be included in this model's battlegroup and they gain Accumulator [Soulless].  Additionally, you may include 2 non-partisan, non-character [#tag1] units and 3 non-partisan, non-Archon, non-character [#tag1] Solos as well."
+                            "name": "Heart of Darkness [Cryx]",
+                            "description": "This model can be included in an Infernals army. If it is, it becomes an Infernal model and not a Cryx model. If included in an Infernals army, any non-partisan, non-character Cryx warjack can also be included in this model's battlegroup and they gain Accumulator [Soulless].  Additionally, you may include 2 non-partisan, non-character Cryx units and 3 non-partisan, non-Archon, non-character Cryx Solos as well."
                         },
                         {
                             "name": "Interface",
@@ -3542,7 +3542,7 @@
                             "pow": "12",
                             "dur": "-",
                             "off": "YES",
-                            "description": "If this attack misses. Nothing happens. If it hits, before making the damage roll, push models within 3\" of the model hit 3\" directly toward it in the order you choose. Then center a 3\" AOE on the model hit. Models hit suffer a POW 12 damage roll. Models boxed by Hellmouth are removed from play."
+                            "description": "If this attack misses, nothing happens. If it hits, before making the damage roll, push models within 3\" of the model hit 3\" directly toward it in the order you choose. Then center a 3\" AOE on the model hit. Models hit suffer a POW 12 damage roll. Models boxed by Hellmouth are removed from play."
                         },
                         {
                             "name": "Shadow Step",
@@ -3623,7 +3623,7 @@
                         },
                         {
                             "name": "Surface [3\"]",
-                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 3\" of the burrow marker and remove the marker from the table. Additionally, it must forfeit its Normal Movement during its activation the turn it is placed into play."
+                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 3\" of the burrow marker and remove the marker from the table."
                         }
                     ],
                     "stats": {
@@ -4066,7 +4066,7 @@
                             "description": "This warjack cannot be disrupted."
                         },
                         {
-                            "name": "Necrovent",
+                            "name": "Necrovent (★Attack)",
                             "description": "Center a 5” AOE cloud effect on Deathjack. Models in the AOE are hit and suffer a boostable POW 12 Corrosion Damage roll. The AOE is a Necrotic Ash hazard that remains in play for one round. Models entering or ending their activations in the AOE suffer a point of corrosion damage, unless they have Resistance: Corrosion."
                         },
                         {
@@ -4902,7 +4902,7 @@
                         },
                         {
                             "name": "Surface [5\"]",
-                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 5\" of the burrow marker and remove the marker from the table. Additionally, it must forfeit its Normal Movement during its activation the turn it is placed into play."
+                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 5\" of the burrow marker and remove the marker from the table."
                         }
                     ],
                     "stats": {
@@ -7565,6 +7565,10 @@
                     ],
                     "characterabilities": [
                         {
+                            "name": "Beckon",
+                            "description": "Remove one friendly Bane Thrall or Bane Knight unit in Tartarus’ command range and warp the models in the unit completely within 4” of Tartarus. There must be room for the models’ bases in the new location. Affected models cannot be targeted by free strikes during this movement. After being beckoned, affected models cannot move this turn."
+                        },
+                        {
                             "name": "Curse [Bane]",
                             "description": "This model can use Curse once per activation at any time. Choose an enemy model/unit in this model's CMD range. Friendly Bane models gain +2 to attack accuracy rolls against the chosen model/unit. Curse lasts for one turn."
                         },
@@ -9309,10 +9313,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "mincost": "7",
-                "minunit": "Leader and 5 Grunts",
-                "maxcost": "12",
-                "maxunit": "Leader and 9 Grunts"
+                "maxcost": "13",
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "8",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -9330,6 +9334,10 @@
                         {
                             "name": "Ghostly",
                             "description": "This model can advance through terrain and obstacles without penalty and can advance through obstructions if it has enough movement to move completely past them. It cannot be targeted by free strikes."
+                        },
+                        {
+                            "name": "Order: Shield Wall",
+                            "description": "Until the start of their next activation, each affected model’s shield grants an additional +2 ARM while B2B with another affected model in its unit. When receiving this order a model can forfeit its Combat Action to gain +3” movement as part of its Normal Movement this turn. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall. "
                         }
                     ],
                     "stats": {
@@ -9351,11 +9359,8 @@
                             "rng": "2",
                             "pow": "5",
                             "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Man Catcher",
-                                    "description": "A warrior model hit by this attack suffers -2 DEF and cannot advance while within the model's melee range."
-                                }
+                            "presetabilities": [
+                                "Weapon Master"
                             ]
                         },
                         {
@@ -9386,9 +9391,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "10",
+                "minunit": "Leader and 2 Grunts",
                 "maxcost": "16",
-                "maxunit": "Leader and 4 Grunts",
-                "minunit": "Leader and 2 Grunts"
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
@@ -9496,10 +9501,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "mincost": "7",
+                "maxcost": "13",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "12"
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -9512,6 +9517,7 @@
                     ],
                     "keywords": [
                         "Bane",
+                        "Stealth",
                         "Undead"
                     ],
                     "characterabilities": [
@@ -9563,10 +9569,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "maxcost": "9",
                 "mincost": "6",
-                "maxunit": "Leader and 9 Grunts"
+                "maxcost": "9",
+                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -9638,10 +9644,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxcost": "16",
                 "mincost": "10",
                 "minunit": "Blackbane and 5 Grunts",
-                "maxunit": "Blackbane and 9 Grunts"
+                "maxunit": "Blackbane and 9 Grunts",
+                "maxcost": "16"
             },
             "models": [
                 {
@@ -9782,10 +9788,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "14",
                 "minunit": "Leader and 2 Grunts",
                 "mincost": "8",
-                "maxunit": "Leader and 5 Grunts",
-                "maxcost": "14"
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -9872,10 +9878,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
+                "maxcost": "14",
                 "mincost": "8",
-                "maxunit": "Leader and 5 Grunts",
-                "maxcost": "14"
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -9944,10 +9950,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "6",
-                "maxcost": "9"
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "9",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -10013,9 +10019,9 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "maxcost": "9",
                 "mincost": "6",
+                "maxcost": "9",
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -10074,9 +10080,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Necrosurgeon & 3 Stitch Thralls",
-                "maxcost": "-",
                 "maxunit": "-",
+                "maxcost": "-",
+                "minunit": "Necrosurgeon & 3 Stitch Thralls",
                 "mincost": "3"
             },
             "models": [
@@ -10176,10 +10182,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
-                "maxunit": "-",
+                "minunit": "Gunner and 2 Grunts",
                 "mincost": "4",
-                "minunit": "Gunner and 2 Grunts"
+                "maxcost": "-",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -10343,10 +10349,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "12",
-                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "7"
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "7",
+                "maxcost": "12"
             },
             "models": [
                 {
@@ -10432,10 +10438,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 5 Grunts",
                 "maxcost": "10",
-                "mincost": "6",
-                "minunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -10537,10 +10543,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
-                "mincost": "6",
                 "maxcost": "-",
-                "maxunit": "-"
+                "maxunit": "-",
+                "mincost": "6",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -10641,9 +10647,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "12",
                 "mincost": "7",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "12",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -10734,9 +10740,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxunit": "Leader and 5 Grunts",
-                "minunit": "Leader and 2 Grunts",
                 "maxcost": "12",
-                "mincost": "7"
+                "mincost": "7",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -10846,8 +10852,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxcost": "-",
-                "minunit": "Leader and 2 Grunts",
                 "maxunit": "-",
+                "minunit": "Leader and 2 Grunts",
                 "mincost": "5"
             },
             "models": [
@@ -10978,9 +10984,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "14",
-                "minunit": "Leader and 2 Grunts",
                 "mincost": "8",
+                "minunit": "Leader and 2 Grunts",
+                "maxcost": "14",
                 "maxunit": "Leader and 5 Grunts"
             },
             "models": [
@@ -11094,10 +11100,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "4",
+                "maxunit": "-",
                 "maxcost": "-",
-                "minunit": "Leader and 2 Grunts",
-                "maxunit": "-"
+                "mincost": "4",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -11197,10 +11203,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxcost": "11",
-                "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6",
+                "maxcost": "11"
             },
             "models": [
                 {
@@ -11272,9 +11278,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "15",
                 "mincost": "9",
                 "maxunit": "Leader and 4 Grunts",
+                "maxcost": "15",
                 "minunit": "Leader and 2 Grunts"
             },
             "models": [
@@ -11387,9 +11393,9 @@
             "fieldallowance": "C",
             "unitpoints": {
                 "maxunit": "-",
-                "mincost": "8",
+                "minunit": "Maelovus, Admonia and Tremulus",
                 "maxcost": "-",
-                "minunit": "Maelovus, Admonia and Tremulus"
+                "mincost": "8"
             },
             "models": [
                 {
@@ -11656,7 +11662,7 @@
         },
         {
             "name": "Bane Knight Officer",
-            "points": "4",
+            "points": "5",
             "category": "Attachments",
             "primaryfaction": [
                 "Cryx"
@@ -11691,10 +11697,6 @@
                         {
                             "name": "Granted [Set Defense]",
                             "description": "While this model is in play, models in its unit gain Set Defense."
-                        },
-                        {
-                            "name": "Order: Shield Wall",
-                            "description": "Until the start of their next activation, each affected model’s shield grants an additional +2 ARM while B2B with another affected model in its unit. When receiving this order a model can forfeit its Combat Action to gain +3” movement as part of its Normal Movement this turn. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall. "
                         },
                         {
                             "name": "Serpent's Coil",
@@ -11766,6 +11768,7 @@
                     "keywords": [
                         "Bane",
                         "Officer",
+                        "Stealth",
                         "Undead"
                     ],
                     "characterabilities": [

@@ -2154,7 +2154,7 @@
                             },
                             {
                                 "name": "Operations Command",
-                                "description": ""
+                                "description": "While in this model's command range, friendly Faction warrior models can ignore other friendly Faction warrior models when determining LOS. Friendly Faction warrior models can advance through other friendly Faction warrior models in this model's command range if they have enough movement to move completely past them."
                             },
                             {
                                 "name": "Push to the Limit",
@@ -2702,12 +2702,14 @@
                         "base": "30mm",
                         "spd": "5",
                         "str": "6",
-                        "mat": "6",
+                        "mat": "3",
                         "rat": "3",
                         "def": "12",
                         "arm": "13",
                         "cmd": "2",
-                        "hp": "13"
+                        "hp": "13",
+                        "fury": "2",
+                        "thr": "8"
                     },
                     "specialability": {
                         "topability": {
@@ -2813,7 +2815,9 @@
                         "def": "11",
                         "arm": "12",
                         "cmd": "3",
-                        "hp": "13"
+                        "hp": "13",
+                        "fury": "2",
+                        "thr": "7"
                     },
                     "weapons": [
                         {
@@ -2917,7 +2921,9 @@
                         "def": "11",
                         "arm": "19",
                         "cmd": "3",
-                        "hp": "29"
+                        "hp": "29",
+                        "fury": "4",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -3033,7 +3039,9 @@
                         "def": "11",
                         "arm": "19",
                         "cmd": "3",
-                        "hp": "29"
+                        "hp": "29",
+                        "fury": "4",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -3135,7 +3143,9 @@
                         "def": "14",
                         "arm": "16",
                         "cmd": "3",
-                        "hp": "25"
+                        "hp": "25",
+                        "fury": "3",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -3216,7 +3226,9 @@
                         "def": "13",
                         "arm": "14",
                         "cmd": "6",
-                        "hp": "22"
+                        "hp": "22",
+                        "fury": "3",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -3315,7 +3327,9 @@
                         "def": "12",
                         "arm": "14",
                         "cmd": "5",
-                        "hp": "22"
+                        "hp": "22",
+                        "fury": "5",
+                        "thr": "7"
                     },
                     "weapons": [
                         {
@@ -3542,7 +3556,9 @@
                         "def": "12",
                         "arm": "18",
                         "cmd": "8",
-                        "hp": "30"
+                        "hp": "30",
+                        "fury": "4",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -3664,7 +3680,9 @@
                         "def": "13",
                         "arm": "16",
                         "cmd": "4",
-                        "hp": "22"
+                        "hp": "22",
+                        "fury": "3",
+                        "thr": "8"
                     },
                     "weapons": [
                         {
@@ -3754,7 +3772,9 @@
                         "def": "13",
                         "arm": "16",
                         "cmd": "4",
-                        "hp": "22"
+                        "hp": "22",
+                        "fury": "3",
+                        "thr": "8"
                     },
                     "weapons": [
                         {
@@ -3847,7 +3867,9 @@
                         "def": "13",
                         "arm": "16",
                         "cmd": "3",
-                        "hp": "22"
+                        "hp": "22",
+                        "fury": "3",
+                        "thr": "7"
                     },
                     "weapons": [
                         {
@@ -3933,7 +3955,9 @@
                         "def": "13",
                         "arm": "15",
                         "cmd": "7",
-                        "hp": "22"
+                        "hp": "22",
+                        "fury": "3",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -4051,7 +4075,9 @@
                         "def": "10",
                         "arm": "19",
                         "cmd": "6",
-                        "hp": "55"
+                        "hp": "55",
+                        "fury": "4",
+                        "thr": "8"
                     },
                     "weapons": [
                         {
@@ -4169,7 +4195,9 @@
                         "def": "12",
                         "arm": "18",
                         "cmd": "4",
-                        "hp": "28"
+                        "hp": "28",
+                        "fury": "4",
+                        "thr": "10"
                     },
                     "weapons": [
                         {
@@ -4280,7 +4308,9 @@
                         "def": "8",
                         "arm": "20",
                         "cmd": "6",
-                        "hp": "56"
+                        "hp": "56",
+                        "fury": "5",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -4414,7 +4444,9 @@
                         "def": "13",
                         "arm": "18",
                         "cmd": "7",
-                        "hp": "28"
+                        "hp": "28",
+                        "fury": "4",
+                        "thr": "10"
                     },
                     "weapons": [
                         {
@@ -4506,7 +4538,7 @@
                         },
                         {
                             "name": "Surface [5\"]",
-                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 5\" of the burrow marker and remove the marker from the table. Additionally, it must forfeit its Normal Movement during its activation the turn it is placed into play."
+                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 5\" of the burrow marker and remove the marker from the table."
                         }
                     ],
                     "stats": {
@@ -4517,7 +4549,9 @@
                         "def": "13",
                         "arm": "15",
                         "cmd": "2",
-                        "hp": "21"
+                        "hp": "21",
+                        "fury": "3",
+                        "thr": "8"
                     },
                     "weapons": [
                         {
@@ -4590,7 +4624,9 @@
                         "def": "13",
                         "arm": "13",
                         "cmd": "3",
-                        "hp": "13"
+                        "hp": "13",
+                        "fury": "2",
+                        "thr": "7"
                     },
                     "weapons": [
                         {
@@ -4665,7 +4701,9 @@
                         "def": "11",
                         "arm": "18",
                         "cmd": "4",
-                        "hp": "28"
+                        "hp": "28",
+                        "fury": "3",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -4776,7 +4814,9 @@
                         "def": "13",
                         "arm": "14",
                         "cmd": "7",
-                        "hp": "14"
+                        "hp": "14",
+                        "fury": "2",
+                        "thr": "8"
                     },
                     "weapons": [
                         {
@@ -4901,7 +4941,9 @@
                         "def": "10",
                         "arm": "19",
                         "cmd": "6",
-                        "hp": "30"
+                        "hp": "30",
+                        "fury": "4",
+                        "thr": "10"
                     },
                     "weapons": [
                         {
@@ -5013,7 +5055,9 @@
                         "def": "11",
                         "arm": "19",
                         "cmd": "4",
-                        "hp": "30"
+                        "hp": "30",
+                        "fury": "4",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -5148,7 +5192,9 @@
                         "def": "11",
                         "arm": "19",
                         "cmd": "4",
-                        "hp": "30"
+                        "hp": "30",
+                        "fury": "4",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -5260,7 +5306,9 @@
                         "def": "10",
                         "arm": "19",
                         "cmd": "5",
-                        "hp": "30"
+                        "hp": "30",
+                        "fury": "4",
+                        "thr": "9"
                     },
                     "weapons": [
                         {
@@ -6107,7 +6155,7 @@
         },
         {
             "name": "Paingiver Bloodrunner Master Tormentor",
-            "points": "3",
+            "points": "4",
             "category": "Solos",
             "primaryfaction": [
                 "Skorne"
@@ -6151,7 +6199,7 @@
                     ],
                     "stats": {
                         "base": "30mm",
-                        "spd": "7",
+                        "spd": "6",
                         "str": "5",
                         "mat": "8",
                         "rat": "4",
@@ -6694,10 +6742,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "13",
-                "mincost": "8",
                 "minunit": "Leader and 3 Grunts",
-                "maxunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "13",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -6812,10 +6860,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "13",
                 "mincost": "8",
-                "maxunit": "Leader and 5 Grunts",
-                "minunit": "Leader and 3 Grunts"
+                "maxcost": "13",
+                "minunit": "Leader and 3 Grunts",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -6919,10 +6967,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 5 Grunts",
-                "minunit": "Leader and 3 Grunts",
                 "mincost": "8",
-                "maxcost": "13"
+                "maxunit": "Leader and 5 Grunts",
+                "maxcost": "13",
+                "minunit": "Leader and 3 Grunts"
             },
             "models": [
                 {
@@ -7029,9 +7077,9 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "mincost": "6",
                 "maxcost": "11",
                 "minunit": "Leader and 5 Grunts",
+                "mincost": "6",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -7094,10 +7142,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "minunit": "Valgesh, Cidar and J'Deth",
                 "maxcost": "-",
                 "maxunit": "-",
-                "mincost": "8"
+                "mincost": "8",
+                "minunit": "Valgesh, Cidar and J'Deth"
             },
             "models": [
                 {
@@ -7306,9 +7354,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "7",
                 "maxcost": "12",
                 "minunit": "Leader and 5 Grunts",
-                "mincost": "7",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -7368,8 +7416,8 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
                 "maxcost": "5",
+                "minunit": "Leader and 3 Grunts",
                 "maxunit": "Leader and 5 Grunts",
                 "mincost": "3"
             },
@@ -7439,9 +7487,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxcost": "-",
                 "minunit": "Leader and 5 Grunts",
                 "maxunit": "-",
-                "maxcost": "-",
                 "mincost": "5"
             },
             "models": [
@@ -7513,9 +7561,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "10",
                 "maxcost": "16",
                 "minunit": "Leader and 3 Grunts",
+                "mincost": "10",
                 "maxunit": "Leader and 5 Grunts"
             },
             "models": [
@@ -7632,10 +7680,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "10",
-                "mincost": "6"
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "6",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -7704,10 +7752,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
                 "maxcost": "11",
-                "mincost": "6",
-                "maxunit": "Leader and 9 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -7782,10 +7830,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
+                "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "11",
-                "mincost": "6"
+                "maxcost": "11"
             },
             "models": [
                 {
@@ -7846,10 +7894,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "5",
                 "maxcost": "-",
                 "minunit": "Leader and Standard",
-                "maxunit": "-"
+                "maxunit": "-",
+                "mincost": "5"
             },
             "models": [
                 {
@@ -7974,10 +8022,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
                 "mincost": "3",
-                "maxcost": "-",
-                "minunit": "Gunner and 2 Grunts"
+                "minunit": "Gunner and 2 Grunts",
+                "maxunit": "-",
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -8107,9 +8155,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Gunner and 1 Grunt",
+                "maxcost": "-",
                 "mincost": "5",
-                "maxunit": "-",
-                "maxcost": "-"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -8226,10 +8274,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "mincost": "8",
                 "minunit": "Leader and 3 Grunts",
-                "maxunit": "Leader and 5 Grunts",
-                "maxcost": "13"
+                "mincost": "8",
+                "maxcost": "13",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -8298,8 +8346,8 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "mincost": "6",
                 "maxcost": "11",
+                "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts"
             },
