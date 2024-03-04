@@ -16,8 +16,7 @@
                     "name": "Makeda 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "House Balaash"
@@ -29,7 +28,7 @@
                         },
                         {
                             "name": "Field Marshal [Shield Guard]",
-                            "description": "Cohort models in this model's battlegroup gain Shield Guard."
+                            "description": "Cohort models in this model's battlegroup gain Shield Guard. (When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll.)"
                         },
                         {
                             "name": "Side Step",
@@ -133,8 +132,7 @@
                     "name": "Xekaar 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Paingiver",
@@ -262,8 +260,7 @@
                     "name": "Morghoul 3",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Officer",
@@ -279,7 +276,7 @@
                         },
                         {
                             "name": "Blade of the Empire",
-                            "description": "When this model destroys one or more enemy multi-boxed models with a melee attack during its unit's activation, other friendly faction warrior models gain +2 to their melee attack damage rolls while in this model's command range. Blade of the Empire lasts for one turn."
+                            "description": "When this model destroys one or more enemy multi-boxed models with a melee attack during its unit's activation, other friendly faction warrior models gain +2 to their melee attack damage rolls while in this model's CMD range. Blade of the Empire lasts for one turn."
                         },
                         {
                             "name": "Granted [Reposition [3\"]]",
@@ -328,13 +325,18 @@
                                 {
                                     "name": "Critical Decapitation",
                                     "description": "On a critical hit, double the damage exceeding the ARM of the model hit. A model disabled by this attack cannot make a Tough roll."
+                                },
+                                {
+                                    "name": "Grievous Wounds",
+                                    "description": "A model hit by this weapon loses Tough and cannot have damage removed from it for one round."
                                 }
                             ],
                             "damagetype": [
                                 "Arcane"
                             ],
                             "presetabilities": [
-                                "Blessed"
+                                "Blessed",
+                                "Weapon Master"
                             ]
                         }
                     ],
@@ -432,7 +434,7 @@
                             "ability": [
                                 {
                                     "name": "Blind",
-                                    "description": "A model suffering Blind cannot make ranged or arcane attacks, suffers -4 MAT and DEF, and cannot run, charge, or make slam or trample power attacks. It must forfeit either its Normal Movement or Combat Action during it's next activation. Blind can be shaken."
+                                    "description": "When a model is hit by an attack with this weapon, it suffers Blind for one round. (A model suffering Blind cannot make range or magic attacks, suffers -4 MAT and DEF, and cannot run, charge, or make slam or trample power attacks. It must forfeit either its Normal Movement or Combat Action during its next activation. Blind can be shaken.)"
                                 }
                             ],
                             "damagetype": [
@@ -460,8 +462,7 @@
                     "name": "Rasheth 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "House Telarr"
@@ -588,13 +589,12 @@
                     "name": "Hexeris 2",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "characterabilities": [
                         {
                             "name": "Field Marshal [Channeler]",
-                            "description": "Cohort models in this model's battlegroup gain Channeler."
+                            "description": "Cohort models in this model's battlegroup gain Channeler. (The controller of a model with Channeler can channel spells through it.)"
                         },
                         {
                             "name": "Vampiric Harvest",
@@ -714,8 +714,7 @@
                     "name": "Morghoul 2",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Paingiver",
@@ -794,7 +793,7 @@
                             "ability": [
                                 {
                                     "name": "Blind",
-                                    "description": "A model suffering Blind cannot make ranged or arcane attacks, suffers -4 MAT and DEF, and cannot run, charge, or make slam or trample power attacks. It must forfeit either its Normal Movement or Combat Action during it's next activation. Blind can be shaken."
+                                    "description": "When a model is hit by an attack with this weapon, it suffers Blind for one round. (A model suffering Blind cannot make range or magic attacks, suffers -4 MAT and DEF, and cannot run, charge, or make slam or trample power attacks. It must forfeit either its Normal Movement or Combat Action during its next activation. Blind can be shaken.)"
                                 }
                             ],
                             "damagetype": [
@@ -864,8 +863,7 @@
                     "name": "Hexeris 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "characterabilities": [
                         {
@@ -990,8 +988,7 @@
                     "name": "Zaadesh 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "House Balaash",
@@ -1132,8 +1129,7 @@
                     "name": "Naaresh 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Tough"
@@ -1145,7 +1141,7 @@
                         },
                         {
                             "name": "Field Marshal [Pain Response]",
-                            "description": "Cohort models in this model's battlegroup gain Pain Response."
+                            "description": "Cohort models in this model's battlegroup gain Pain Response. (While damaged, a model with Pain Response can charge and make power attacks without being forced.)"
                         },
                         {
                             "name": "Flagellant",
@@ -1153,7 +1149,7 @@
                         },
                         {
                             "name": "Painmonger",
-                            "description": "When this model suffers damage from an attack, it gains one blood token. For each blood token on this model, it gains +1 ARM and +1 to its melee attack damage rolls. This model can have up to five blood tokens at any time. Remove 1 blood token from this model at the start of your Control Phase if it wasn't damaged by and attack during the last round."
+                            "description": "When this model suffers damage from an attack, it gains one blood token. For each blood token on this model, it gains +1 ARM and +1 to its melee attack damage rolls. This model can have up to five blood tokens at any time. Remove 1 blood token from this model at the start of your Control Phase if it wasn't damaged by an attack during the last round."
                         },
                         {
                             "name": "Rapid Healing",
@@ -1271,8 +1267,7 @@
                     "name": "Morghoul 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Paingiver",
@@ -1398,8 +1393,7 @@
                     "name": "Jalaam 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Dual Attack",
@@ -1556,8 +1550,7 @@
                     "name": "Zaal 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Extoller",
@@ -1709,16 +1702,8 @@
                             "description": "This model does not begin the game in play. When a friendly Faction Exalted Solo with Soul Taker is destroyed in Supreme Aptimus Zaal's Control Range, replace the Exalted Solo with a Kovass unless there is already a friendly Kovaas in play. If the Exalted Solo had soul tokens on it when it was destroyed, place up to three of those soul tokens on the Kovaas replacing it. Effect on the destroyed Exalted Solo expire. The Kovaas cannot activate the turn it is put in play."
                         },
                         {
-                            "name": "Soul Taker [2\"] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and this model can carry up to 3 soul tokens at any time. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
-                        },
-                        {
-                            "name": "Soul-Powered",
-                            "description": "During its Combat Action, this model can spend soul tokens to make additional melee attacks. It can make one additional attack for each token spent."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -1732,6 +1717,24 @@
                         "cmd": "0",
                         "hp": "5"
                     },
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Soul Cage",
+                                "description": "This model gains soul tokens from enemy living models that are destroyed within 2\" of this model. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Soul-Powered",
+                                    "description": "During its Combat Action, this model can spend soul tokens to make additional melee attacks. It can make one additional attack for each token spent."
+                                },
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Wasting Touch",
@@ -1771,8 +1774,7 @@
                     "name": "Makeda 2",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "House Balaash"
@@ -1801,7 +1803,7 @@
                     },
                     "execution": {
                         "name": "Elite Cadre [Praetorian Keltarii] [Wall of Steel]",
-                        "description": "Friendly Praetorian Keltarii models gain Wall of Steel."
+                        "description": "Friendly Praetorian Keltarii models gain Wall of Steel. ()"
                     },
                     "stats": {
                         "base": "30mm",
@@ -1898,8 +1900,7 @@
                     "name": "Makeda 3",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "House Balaash"
@@ -1919,8 +1920,8 @@
                         "description": "Makeda immediately casts Incite without spending fury. Additionally, when a model in Makeda's battlegroup destroys one or more enemy models in her control range with an attack, either Makeda can gain 1 fury point or 1 fury point can be removed from a model in her battlegroup that is in her control range. Dance of Death lats for one turn."
                     },
                     "execution": {
-                        "name": "Leadership [Exalted Guardian]",
-                        "description": "Friendly faction Exalted Guardians gain Guard Dog. (While this model is within 3\" of its warlock/warcaster and isn't knocked down or stationary, its warlock/warcaster gains Parry and +2 DEF against melee accuracy rolls, and models attacking the warcaster/warlock do not gain back strike bonuses.)"
+                        "name": "Leadership [Exalted Court]",
+                        "description": ""
                     },
                     "stats": {
                         "base": "30mm",
@@ -2035,7 +2036,7 @@
                         },
                         {
                             "name": "Shield Guard",
-                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
+                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have this model directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
                         },
                         {
                             "name": "Soul Vessel",
@@ -2095,8 +2096,7 @@
                     "name": "Xerxis 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "House Kophar",
@@ -2138,34 +2138,36 @@
                         "ctrl": "10",
                         "hp": "24"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Battle Marshal",
-                            "description": "This model can use two of the following plans at any time during its activation. A friendly Faction model/unit can be affected by only one plan each turn."
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Fight in the Shade",
-                                "description": "RNG 5”. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains +2 ARM against ranged attacks. Fight in the Shade lasts for one round."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Battle Marshal",
+                                "description": "This model can use two of the following plans at any time during its activation. A friendly Faction model/unit can be affected by only one plan each turn."
                             },
-                            {
-                                "name": "March",
-                                "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains Pathfinder for one Turn."
-                            },
-                            {
-                                "name": "Operations Command",
-                                "description": "While in this model's command range, friendly Faction warrior models can ignore other friendly Faction warrior models when determining LOS. Friendly Faction warrior models can advance through other friendly Faction warrior models in this model's command range if they have enough movement to move completely past them."
-                            },
-                            {
-                                "name": "Push to the Limit",
-                                "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains +2 SPD when making a full advance. Push to the Limit lasts for one turn."
-                            },
-                            {
-                                "name": "Stir the Blood",
-                                "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, each affected model gains +2 to its next melee attack damage roll this turn."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Fight in the Shade",
+                                    "description": "RNG 5”. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains +2 ARM against ranged attacks. Fight in the Shade lasts for one round."
+                                },
+                                {
+                                    "name": "March",
+                                    "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains Pathfinder for one Turn."
+                                },
+                                {
+                                    "name": "Operations Command",
+                                    "description": "While in this model's CMD range, friendly Faction warrior models can ignore other friendly Faction warrior models when determining LOS. Friendly Faction warrior models can advance through other friendly Faction warrior models in this model's CMD range if they have enough movement to move completely past them."
+                                },
+                                {
+                                    "name": "Push to the Limit",
+                                    "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains +2 SPD when making a full advance. Push to the Limit lasts for one turn."
+                                },
+                                {
+                                    "name": "Stir the Blood",
+                                    "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, each affected model gains +2 to its next melee attack damage roll this turn."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Pillar Of Halaak",
@@ -2237,8 +2239,7 @@
                     "name": "Mordikaar 1",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Dual Attack",
@@ -2263,7 +2264,7 @@
                         },
                         {
                             "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "description": "This model can gain soul tokens. 2\""
                         },
                         {
                             "name": "Void Walk",
@@ -2300,22 +2301,24 @@
                             "rng": "*",
                             "pow": "*",
                             "count": "1",
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Death Blast",
-                                        "description": "This attack is a RNG 10, AOE 3, POW 13 with Life Drinker."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Spectral Wrath",
-                                        "description": "This attack is a SP 8, POW 13 with Blood Boon."
-                                    }
-                                ]
-                            },
+                                    "subabilities": [
+                                        {
+                                            "name": "Death Blast",
+                                            "description": "This attack is a RNG 10, AOE 3, POW 13 with Life Drinker."
+                                        },
+                                        {
+                                            "name": "Spectral Wrath",
+                                            "description": "This attack is a SP 8, POW 13 with Blood Boon."
+                                        }
+                                    ]
+                                }
+                            ],
                             "damagetype": [
                                 "Arcane"
                             ]
@@ -2410,8 +2413,7 @@
                     "name": "Xerxis 2",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Battle Engine",
@@ -2550,8 +2552,7 @@
                     "name": "Zaal 2",
                     "title": "Skorne Warlock",
                     "modeltype": [
-                        "Warlock",
-                        "Warrior"
+                        "Warlock"
                     ],
                     "keywords": [
                         "Construct",
@@ -2567,8 +2568,12 @@
                             "description": "If one or more friendly Faction warrior models were destroyed or removed from play by enemy attacks while within 5\" of this model during the last round, during your Maintenance Phase this model can advance up to 3\" and make one basic melee attack."
                         },
                         {
-                            "name": "Soul Protector [Ctrl] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from friendly models that are destroyed within it's Control range, and there is no limit to how many tokens it can carry. This model can spend soul tokens for the following:"
+                            "name": "Soul Protector",
+                            "description": "This model can collect soul tokens from friendly models that are destroyed within this model's control range. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         },
                         {
                             "name": "Soul Vessel",
@@ -2581,7 +2586,7 @@
                     ],
                     "feat": {
                         "name": "Strength Eternal",
-                        "description": "Remove 9 damage points from each friendly Faction construct models currently in Zaal, The ancestral Advocate's control range. While in Zaal's control range, friendly Faction construct models gain +5 ARM. Strength Eternal lasts for one round."
+                        "description": "Remove 9 damage points from each friendly Faction construct models currently in Zaal, The Ancestral Advocate's control range. While in Zaal's control range, friendly Faction construct models gain +5 ARM. Strength Eternal lasts for one round."
                     },
                     "execution": {
                         "name": "Leadership [Ancestral Guardian]",
@@ -2711,26 +2716,28 @@
                         "fury": "2",
                         "thr": "8"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Agonies",
-                            "description": "Once at any time during it's activation, this model can be forced to use one of the following effects."
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Gnawing Pain",
-                                "description": "While within 8” of this model, enemy models suffer -2 STR. Gnawing Pain lasts for one round."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Agonies",
+                                "description": "Once at any time during it's activation, this model can be forced to use one of the following effects."
                             },
-                            {
-                                "name": "Maddening",
-                                "description": "Enemy warbeasts currently within 6” of this model gain 1 fury point."
-                            },
-                            {
-                                "name": "Spiritual Affliction",
-                                "description": "While within 8” of this model, living enemy models cannot cast spells. Spiritual Affliction lasts for one round."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Gnawing Pain",
+                                    "description": "While within 8” of this model, enemy models suffer -2 STR. Gnawing Pain lasts for one round."
+                                },
+                                {
+                                    "name": "Maddening",
+                                    "description": "Enemy warbeasts currently within 6” of this model gain 1 fury point."
+                                },
+                                {
+                                    "name": "Spiritual Affliction",
+                                    "description": "While within 8” of this model, living enemy models cannot cast spells. Spiritual Affliction lasts for one round."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Claws",
@@ -3417,6 +3424,10 @@
                             "description": "When this model is B2B with an enemy model during it's Normal Movement, it can push that model up to 2\" directly away from it. A model can be pushed by Bulldoze only once per turn. Bulldoze has no effect when this model makes a trample power attack."
                         },
                         {
+                            "name": "Chain Attack: Smash & Grab",
+                            "description": "If this model hits the same model with two initial attacks with Open Fist, after resolving the attacks it can immediately make a headbutt or throw power attack against that model."
+                        },
+                        {
                             "name": "Hyper-Aggressive",
                             "description": "When this model suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model."
                         },
@@ -3470,10 +3481,6 @@
                                 {
                                     "name": "Beat Back",
                                     "description": "Immediately after a basic attack with a weapon with Beat Back is resolved during this model's Combat Action, the enemy model hit can be pushed 1\" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1\" directly toward it."
-                                },
-                                {
-                                    "name": "Chain Attack: Smash & Grab",
-                                    "description": "If this model hits the same model with both its Wicked Claw initial attacks, after resolving the attacks it can immediately make a headbutt or throw power attack against that model."
                                 }
                             ],
                             "presetabilities": [
@@ -3664,11 +3671,11 @@
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         },
                         {
                             "name": "Shield Guard",
-                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
+                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have this model directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
                         }
                     ],
                     "stats": {
@@ -3942,7 +3949,7 @@
                         },
                         {
                             "name": "Primal Magic",
-                            "description": "This model can be forced to cast the animus of any friendly Faction non-character warbeast in its command range as if the animus were its own."
+                            "description": "This model can be forced to cast the animus of any friendly Faction non-character warbeast in its CMD range as if the animus were its own."
                         }
                     ],
                     "stats": {
@@ -4102,22 +4109,24 @@
                             "rng": "2",
                             "pow": "5",
                             "count": "1",
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Armored Head",
-                                        "description": "This melee attack gains  Open Fist and Chain weapon as well as Critical Pitch. (On a critical hit against a model with an equal or smaller base, the model hit can be thrown d6\" directly away from this model. The model thrown does not deviate. The POW of collateral damage is equal to the STR of this model.)"
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Bite",
-                                        "description": "This melee attack gains  Grevious Wounds and Critical Consume. ( On a critical hit, if the attack hits a small-based non-Leader model the model hit is removed from play.)"
-                                    }
-                                ]
-                            }
+                                    "subabilities": [
+                                        {
+                                            "name": "Armored Head",
+                                            "description": "This melee attack gains  Open Fist and Chain weapon as well as Critical Pitch. (On a critical hit against a model with an equal or smaller base, the model hit can be thrown d6\" directly away from this model. The model thrown does not deviate. The POW of collateral damage is equal to the STR of this model.)"
+                                        },
+                                        {
+                                            "name": "Bite",
+                                            "description": "This melee attack gains  Grevious Wounds and Critical Consume. ( On a critical hit, if the attack hits a small-based non-Leader model the model hit is removed from play.)"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ],
                     "animi": [
@@ -4432,7 +4441,7 @@
                         },
                         {
                             "name": "Oracular Vision",
-                            "description": "Once per turn when this model is directly hit by an attack, it can immediately spend 1 focus point to not suffer a damage roll from that attack."
+                            "description": "Once per turn when this model is directly hit by an attack, you can immediately force this model or spend 1 focus to not suffer a damage roll from the attack."
                         }
                     ],
                     "stats": {
@@ -4538,7 +4547,7 @@
                         },
                         {
                             "name": "Surface [5\"]",
-                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 5\" of the burrow marker and remove the marker from the table."
+                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 5\" of the burrow marker and remove the marker from the table. Additionally, it must forfeit its Normal Movement during its activation the turn it is placed into play."
                         }
                     ],
                     "stats": {
@@ -4829,9 +4838,10 @@
                         },
                         {
                             "name": "Heavy Slug Gun",
-                            "type": "Melee",
+                            "type": "ranged",
                             "fieldoffire": "none",
                             "rng": "4",
+                            "rof": "1",
                             "pow": "15",
                             "count": "1",
                             "presetabilities": [
@@ -4929,7 +4939,7 @@
                         },
                         {
                             "name": "Shield Guard",
-                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
+                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have this model directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
                         }
                     ],
                     "stats": {
@@ -5163,6 +5173,10 @@
                     ],
                     "characterabilities": [
                         {
+                            "name": "Chain Attack: Smash & Grab",
+                            "description": "If this model hits the same model with two initial attacks with Open Fist, after resolving the attacks it can immediately make a headbutt or throw power attack against that model."
+                        },
+                        {
                             "name": "Follow Up",
                             "description": "When this model slams an enemy model, immediately after the slam is resolved this model can advance directly toward the slammed model, up to the distance the slammed model was moved."
                         },
@@ -5180,7 +5194,7 @@
                         },
                         {
                             "name": "Smasher",
-                            "description": "This mode can make trample power attacks without spending focus and gains and additional die on trample accuracy rolls."
+                            "description": "This model can make trample power attacks without spending focus and gains and additional die on trample accuracy rolls."
                         }
                     ],
                     "stats": {
@@ -5218,12 +5232,6 @@
                             "rng": "1",
                             "pow": "5",
                             "count": "2",
-                            "ability": [
-                                {
-                                    "name": "Chain Attack: Smash & Grab",
-                                    "description": "If this model hits the same model with both its Wicked Claw initial attacks, after resolving the attacks it can immediately make a headbutt or throw power attack against that model."
-                                }
-                            ],
                             "presetabilities": [
                                 "Open Fist"
                             ]
@@ -5290,11 +5298,11 @@
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         },
                         {
                             "name": "Shield Guard",
-                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
+                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have this model directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
                         }
                     ],
                     "stats": {
@@ -5403,7 +5411,11 @@
                         },
                         {
                             "name": "Shield Guard",
-                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
+                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have this model directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
+                        },
+                        {
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         },
                         {
                             "name": "Soul Vessel",
@@ -5425,22 +5437,24 @@
                         "cmd": "10",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Soul Protector [CMD][3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from friendly models that are destroyed within it's CMD range, and this model can carry up to 3 tokens at any time. This model can spend soul tokens for the following:"
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Keeper of Stone",
-                                "description": "RNG 5”. Target friendly Faction construct warrior model. If the model/unit is in range, it gains Stone Shield for one round. (A model with Stone Shield gains +4 ARM for one round.) Keeper of Stone can only be used once per activation."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Gatekeeper",
+                                "description": "This model gains soul tokens from living friendly Faction models that are destroyed while in this model's CMD range. This model can spend soul tokens for the following:"
                             },
-                            {
-                                "name": "Wings of Death",
-                                "description": "RNG 5”. Target friendly Faction construct warrior model/unit. If the model/unit is in range, it gains Incorporeal for one round. Wings of death can only be used once per activation."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Keeper of Stone",
+                                    "description": "RNG 5”. Target friendly Faction construct warrior model. If the model/unit is in range, it gains Stone Shield for one round. (A model with Stone Shield gains +4 ARM for one round.) Keeper of Stone can only be used once per activation."
+                                },
+                                {
+                                    "name": "Wings of Death",
+                                    "description": "RNG 5”. Target friendly Faction construct warrior model/unit. If the model/unit is in range, it gains Incorporeal for one round. Wings of death can only be used once per activation."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Obsidian Great Sword",
@@ -5491,7 +5505,11 @@
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
+                        },
+                        {
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         },
                         {
                             "name": "Soul Vessel",
@@ -5513,26 +5531,28 @@
                         "cmd": "10",
                         "hp": "8"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Soul Protector [CMD] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from friendly models that are destroyed within it's CMD range, and this model can carry up to 3 tokens at any time. This model can spend soul tokens for the following:"
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Soul-Powered",
-                                "description": "During its Combat Action, this model can spend soul tokens to make additional melee attacks. It can make one additional attack for each token spent."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Gatekeeper",
+                                "description": "This model gains soul tokens from living friendly Faction models that are destroyed while in this model's CMD range. This model can spend soul tokens for the following:"
                             },
-                            {
-                                "name": "Spirit Driven",
-                                "description": "At the beginning of this model’s activation, it can spend one soul token to gain +2” movement when advancing as part of its Normal Movement this activation."
-                            },
-                            {
-                                "name": "Strength of Death",
-                                "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Soul-Powered",
+                                    "description": "During its Combat Action, this model can spend soul tokens to make additional melee attacks. It can make one additional attack for each token spent."
+                                },
+                                {
+                                    "name": "Spirit-Driven",
+                                    "description": "At the beginning of this model’s activation, it can spend one soul token to gain +2” movement when advancing as part of its Normal Movement this activation."
+                                },
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Obsidian Halberd",
@@ -5667,7 +5687,7 @@
                     "characterabilities": [
                         {
                             "name": "Leadership [Construct]",
-                            "description": "While in this model’s command range, friendly Construct warrior models gain Tough."
+                            "description": "While in this model’s CMD range, friendly Construct warrior models gain Tough."
                         }
                     ],
                     "stats": {
@@ -5682,22 +5702,24 @@
                         "cmd": "6",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Repair [d3+1] (★Action)",
-                                "description": "RNG 1\". Target friendly Faction construct model. If the model is in range, remove d3+1 damage point from it."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Stone's Wrath (★Action)",
-                                "description": "RNG CMD. Target friendly Faction construct model. If the model is in range, it gains +2 STR this turn."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Repair [d3+1] (★Action)",
+                                    "description": "RNG 1\". Target friendly Faction construct model. If the model is in range, remove d3+1 damage point from it."
+                                },
+                                {
+                                    "name": "Stone's Wrath (★Action)",
+                                    "description": "RNG CMD. Target friendly Faction construct model. If the model is in range, it gains +2 STR this turn."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Mallet",
@@ -5743,12 +5765,8 @@
                             "description": "This model gains +1 ARM for each soul token currently on it."
                         },
                         {
-                            "name": "Soul Protector [CMD] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from friendly models that are destroyed within it's CMD range, and this model can carry up to 3 tokens at any time. This model can spend soul tokens for the following:"
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -5763,22 +5781,36 @@
                         "cmd": "8",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Guidance (★Action)",
-                                "description": "RNG CMD. Target friendly model. If the model is in range, it gains Eyeless Sight and it's weapons gain Damage Type: Arcane for one turn."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Spirit Guide (★Action)",
-                                "description": "RNG CMD. Target friendly Faction model with Soul Protector. If the model is in range, move any number of soul tokens to it from this model."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Guidance (★Action)",
+                                    "description": "RNG CMD. Target friendly model. If the model is in range, it gains Eyeless Sight and it's weapons gain Damage Type: Arcane for one turn."
+                                },
+                                {
+                                    "name": "Spirit Guide (★Action)",
+                                    "description": "RNG CMD. Target friendly Faction model with Soul Protector. If the model is in range, move any number of soul tokens to it from this model."
+                                }
+                            ]
+                        },
+                        {
+                            "topability": {
+                                "name": "Gatekeeper",
+                                "description": "This model gains soul tokens from living friendly Faction models that are destroyed while in this model's CMD range. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Spirit Eye",
@@ -5840,28 +5872,16 @@
                             "description": "If one or more friendly Faction warrior models were destroyed or removed from play by enemy attacks while within 5\" of this model during the last round, during your Maintenance Phase this model can advance up to 3\" and make one basic melee attack."
                         },
                         {
-                            "name": "Soul Protector [CMD] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from friendly models that are destroyed within it's CMD range, and this model can carry up to 3 tokens at any time. This model can spend soul tokens for the following:"
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         },
                         {
                             "name": "Soul Vessel",
                             "description": "This model generates soul tokens as if it were a living model."
                         },
                         {
-                            "name": "Soul-Powered",
-                            "description": "During its Combat Action, this model can spend soul tokens to make additional melee attacks. It can make one additional attack for each token spent."
-                        },
-                        {
-                            "name": "Spirit-Driven",
-                            "description": "At the beginning of this model’s activation, it can spend one soul token to gain +2” movement when advancing as part of its Normal Movement this activation."
-                        },
-                        {
                             "name": "Steady",
                             "description": "This model cannot become knocked down."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
                         }
                     ],
                     "stats": {
@@ -5875,6 +5895,28 @@
                         "cmd": "10",
                         "hp": "8"
                     },
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Gatekeeper",
+                                "description": "This model gains soul tokens from living friendly Faction models that are destroyed while in this model's CMD range. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Soul-Powered",
+                                    "description": "During its Combat Action, this model can spend soul tokens to make additional melee attacks. It can make one additional attack for each token spent."
+                                },
+                                {
+                                    "name": "Spirit-Driven",
+                                    "description": "At the beginning of this model’s activation, it can spend one soul token to gain +2” movement when advancing as part of its Normal Movement this activation."
+                                },
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Obsidian Great Sword",
@@ -5934,7 +5976,7 @@
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         },
                         {
                             "name": "Soul Vessel",
@@ -5942,7 +5984,7 @@
                         },
                         {
                             "name": "Telemetry",
-                            "description": "Other friendly models gain +2 to magic accuracy rolls against enemy models in this model’s command range."
+                            "description": "Other friendly models gain +2 to magic accuracy rolls against enemy models in this model’s CMD range."
                         }
                     ],
                     "stats": {
@@ -6010,7 +6052,7 @@
             "models": [
                 {
                     "name": "Makeda 0",
-                    "title": "Skorne Solo",
+                    "title": "Skorne Lesser Warlock Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6021,7 +6063,7 @@
                     "characterabilities": [
                         {
                             "name": "Hero of the People",
-                            "description": "When this model destroys one or more enemy models with a melee attack during its unit's activation, other friendly warrior models gain +2 to their accuracy rolls while in this model's command range. Hero of the People lasts for one turn."
+                            "description": "When this model destroys one or more enemy models with a melee attack during its unit's activation, other friendly warrior models gain +2 to their accuracy rolls while in this model's CMD range. Hero of the People lasts for one turn."
                         },
                         {
                             "name": "Lesser Warlock",
@@ -6033,7 +6075,7 @@
                         },
                         {
                             "name": "Understudy",
-                            "description": "While a friendly Faction leader is in this model’s command range, this model can use the leader’s current MAT in place of its own."
+                            "description": "While a friendly Faction leader is in this model’s CMD range, this model can use the leader’s current MAT in place of its own."
                         }
                     ],
                     "stats": {
@@ -6114,7 +6156,7 @@
                     "characterabilities": [
                         {
                             "name": "Beast Master",
-                            "description": "This model can force friendly Faction warbeasts in its command range as if it were their battlegroup commander."
+                            "description": "This model can force friendly Faction warbeasts in its CMD range as if it were their battlegroup CMDer."
                         }
                     ],
                     "stats": {
@@ -6129,26 +6171,28 @@
                         "cmd": "9",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Ancillary Attack (★Attack)",
-                                "description": "Target friendly Faction warbeast. If the warbeast is in range, it immediately makes one normal melee or ranged attack. A warbeast can make an Ancillary Attack special action only once per tum. "
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Flesh-Hardening",
-                                "description": "RNG CMD. Target friendly Faction living warrior model/unit. If the model/unit is in range, continuous effects on it immediately expire and it gains Tough for one round."
-                            },
-                            {
-                                "name": "Puppet Master (★Action) (★Attack)",
-                                "description": "Puppet Master is a RNG 10 spell. When it targets an enemy model/unit, it is a magic attack. You can have one affected model reroll one accuracy or damage roll, then Puppet Master expires. Puppet Master lasts for one round."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Ancillary Attack (★Attack)",
+                                    "description": "Target friendly Faction warbeast. If the warbeast is in range, it immediately makes one normal melee or ranged attack. A warbeast can make an Ancillary Attack special action only once per tum. "
+                                },
+                                {
+                                    "name": "Flesh-Hardening",
+                                    "description": "RNG CMD. Target friendly Faction living warrior model/unit. If the model/unit is in range, continuous effects on it immediately expire and it gains Tough for one round."
+                                },
+                                {
+                                    "name": "Puppet Master (★Action) (★Attack)",
+                                    "description": "Puppet Master is a RNG 10 spell. When it targets an enemy model/unit, it is a magic attack. You can have one affected model reroll one accuracy or damage roll, then Puppet Master expires. Puppet Master lasts for one round."
+                                }
+                            ]
+                        }
+                    ],
                     "displayorder": 0
                 }
             ]
@@ -6338,7 +6382,7 @@
                         },
                         {
                             "name": "Leadership [Praetorian Ferox]",
-                            "description": "While in this model’s command range, friendly Praetorian Ferox models gain Dodge."
+                            "description": "While in this model’s CMD range, friendly Praetorian Ferox models gain Dodge."
                         },
                         {
                             "name": "Pounce",
@@ -6433,11 +6477,11 @@
                         },
                         {
                             "name": "Leadership [Praetorian Ferox]",
-                            "description": "While in this model’s command range, friendly Praetorian Ferox models gain Dodge."
+                            "description": "While in this model’s CMD range, friendly Praetorian Ferox models gain Dodge."
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         },
                         {
                             "name": "Sprint",
@@ -6503,7 +6547,7 @@
             "models": [
                 {
                     "name": "Zaadesh 1",
-                    "title": "Skorne Solo",
+                    "title": "Skorne Lesser Warlock Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -6612,7 +6656,7 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Artillerist",
+                            "name": "Artillerist (★Action)",
                             "description": "RNG CMD. Target friendly Faction model gains +2 RAT when making its next AOE ranged attack this turn. If the attack does not directly hit, you can reroll the direction and/or distance of its deviation. Each roll can be rerolled only once as a result of Artillerist."
                         },
                         {
@@ -6692,7 +6736,7 @@
                     "characterabilities": [
                         {
                             "name": "Annihilator",
-                            "description": "This model gains an additional die on melee accuracy and melee damage rolls against living models. When a living model is destroyed within 3” of this model, it never generates a soul token."
+                            "description": "This model gains an additional die on melee accuracy and melee damage rolls against living models and models with Soul Vessel. When a living model is destroyed within 3” of this model, it never generates a soul token."
                         },
                         {
                             "name": "Poltergeist",
@@ -6742,10 +6786,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
-                "maxunit": "Leader and 5 Grunts",
                 "maxcost": "13",
-                "mincost": "8"
+                "mincost": "8",
+                "minunit": "Leader and 3 Grunts",
+                "maxunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -6861,8 +6905,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "8",
-                "maxcost": "13",
                 "minunit": "Leader and 3 Grunts",
+                "maxcost": "13",
                 "maxunit": "Leader and 5 Grunts"
             },
             "models": [
@@ -6889,7 +6933,7 @@
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         }
                     ],
                     "stats": {
@@ -6967,10 +7011,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "8",
                 "maxunit": "Leader and 5 Grunts",
-                "maxcost": "13",
-                "minunit": "Leader and 3 Grunts"
+                "minunit": "Leader and 3 Grunts",
+                "mincost": "8",
+                "maxcost": "13"
             },
             "models": [
                 {
@@ -7077,8 +7121,8 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "11",
                 "minunit": "Leader and 5 Grunts",
+                "maxcost": "11",
                 "mincost": "6",
                 "maxunit": "Leader and 9 Grunts"
             },
@@ -7142,10 +7186,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxcost": "-",
                 "maxunit": "-",
-                "mincost": "8",
-                "minunit": "Valgesh, Cidar and J'Deth"
+                "minunit": "Valgesh, Cidar and J'Deth",
+                "maxcost": "-",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -7170,7 +7214,7 @@
                         },
                         {
                             "name": "Oath of the Bloodstone Marches [Overtake]",
-                            "description": "As long as Valgesh is in play, Praetorian models in his command range gain Overtake. Praetorian models lose Overtake if this model leaves play, or while under your opponents control."
+                            "description": "As long as Valgesh is in play, Praetorian models in his CMD range gain Overtake. Praetorian models lose Overtake if this model leaves play, or while under your opponents control."
                         },
                         {
                             "name": "Side Step",
@@ -7234,7 +7278,7 @@
                         },
                         {
                             "name": "Oath of the Bloodstone Marches [Cleave]",
-                            "description": "As long as Cidar is in play, Praetorian models in his command range gain Cleave. Praetorian models lose Cleave if this model leaves play, or while under your opponents control."
+                            "description": "As long as Cidar is in play, Praetorian models in his CMD range gain Cleave. Praetorian models lose Cleave if this model leaves play, or while under your opponents control."
                         },
                         {
                             "name": "Rapid Strike",
@@ -7302,7 +7346,7 @@
                         },
                         {
                             "name": "Oath of the Bloodstone Marches [Dying Breath]",
-                            "description": "As long as J'Deth is in play, Praetorian models in his command range gain Dying Breath. Praetorian models lose Dying Breath if this model leaves play, or while under your opponents control."
+                            "description": "As long as J'Deth is in play, Praetorian models in his CMD range gain Dying Breath. Praetorian models lose Dying Breath if this model leaves play, or while under your opponents control."
                         },
                         {
                             "name": "Synchronicity",
@@ -7354,9 +7398,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "7",
                 "maxcost": "12",
                 "minunit": "Leader and 5 Grunts",
+                "mincost": "7",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -7487,10 +7531,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "mincost": "5",
                 "maxcost": "-",
                 "minunit": "Leader and 5 Grunts",
-                "maxunit": "-",
-                "mincost": "5"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -7585,8 +7629,8 @@
                             "description": "After it makes a full advance during its Normal Movement but before it performs its Combat Action, you can place this model anywhere completely within 5\" of its current location. Any effects that prevent charging also prevent this model from using Jump."
                         },
                         {
-                            "name": "Order: Bushwack",
-                            "description": "During this unit's activation, affected models make their Combat Action before their Normal Movement. Affected models must make a full advance as their Normal Movement this activation."
+                            "name": "Order: Bushwhack",
+                            "description": "During this unit's activation, affected models make their Combat Action before their Normal Movement. Affected models must make a full advance as their Normal Movement this activation. "
                         },
                         {
                             "name": "Pounce",
@@ -7680,10 +7724,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxcost": "10",
-                "minunit": "Leader and 5 Grunts",
                 "mincost": "6",
-                "maxunit": "Leader and 9 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "minunit": "Leader and 5 Grunts",
+                "maxcost": "10"
             },
             "models": [
                 {
@@ -7702,7 +7746,7 @@
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         }
                     ],
                     "stats": {
@@ -7752,10 +7796,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "maxcost": "11",
+                "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts",
-                "mincost": "6"
+                "maxcost": "11",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -7789,22 +7833,24 @@
                         "cmd": "8",
                         "hp": "1"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Fighting Stance",
-                            "description": "This model can use one of the following special rules at any time during each of its unit's activations. Each model in the unit gains the benefits listed:"
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Blade Shield",
-                                "description": "This model gains +2 DEF vs ranged attack accuracy rolls."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Fighting Stance",
+                                "description": "This model can use one of the following special rules at any time during each of its unit's activations. Each model in the unit gains the benefits listed:"
                             },
-                            {
-                                "name": "Duelist",
-                                "description": "This model gains +2 DEF against melee accuracy rolls.\n"
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Blade Shield",
+                                    "description": "This model gains +2 DEF vs ranged attack accuracy rolls."
+                                },
+                                {
+                                    "name": "Duelist",
+                                    "description": "This model gains +2 DEF against melee accuracy rolls.\n"
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Double-Bladed Glaive",
@@ -7830,10 +7876,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "mincost": "6",
-                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "maxcost": "11"
+                "mincost": "6",
+                "maxcost": "11",
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -7884,7 +7930,7 @@
             ]
         },
         {
-            "name": "Tyrant Commander and Standard Bearer",
+            "name": "Tyrant Commander & Standard",
             "category": "Units",
             "primaryfaction": [
                 "Skorne"
@@ -7894,10 +7940,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
-                "minunit": "Leader and Standard",
+                "mincost": "5",
+                "minunit": "Leader & Standard",
                 "maxunit": "-",
-                "mincost": "5"
+                "maxcost": "-"
             },
             "models": [
                 {
@@ -7914,7 +7960,7 @@
                     "characterabilities": [
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         }
                     ],
                     "stats": {
@@ -7928,26 +7974,28 @@
                         "cmd": "10",
                         "hp": "8"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Battle Plan",
-                            "description": "This model can use one of the following plans at any time during its activation. A friendly Faction model/unit can be affected by only one plan each turn."
-                        },
-                        "subabilities": [
-                            {
-                                "name": "March",
-                                "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains Pathfinder for one Turn."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Battle Plan",
+                                "description": "This model can use one of the following plans at any time during its activation. A friendly Faction model/unit can be affected by only one plan each turn."
                             },
-                            {
-                                "name": "Push to the Limit",
-                                "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains +2 SPD when making a full advance. Push to the Limit lasts for one turn."
-                            },
-                            {
-                                "name": "Reveille",
-                                "description": "Knocked down friendly Faction models in this model’s command range immediately stand up. Models that became knocked down this turn are not affected by Reveille."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "March",
+                                    "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains Pathfinder for one Turn."
+                                },
+                                {
+                                    "name": "Push to the Limit",
+                                    "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains +2 SPD when making a full advance. Push to the Limit lasts for one turn."
+                                },
+                                {
+                                    "name": "Reveille",
+                                    "description": "Knocked down friendly Faction models in this model’s CMD range immediately stand up. Models that became knocked down this turn are not affected by Reveille."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Halberd",
@@ -7964,7 +8012,7 @@
                     "displayorder": 0
                 },
                 {
-                    "name": "Standard Bearer",
+                    "name": "Standard",
                     "title": "Skorne Unit",
                     "modeltype": [
                         "Unit"
@@ -7975,7 +8023,7 @@
                     "characterabilities": [
                         {
                             "name": "Aquila",
-                            "description": " While this model is in play, all units within its command range gain +1 CMD."
+                            "description": " While this model is in play, all units within its CMD range gain +1 CMD."
                         },
                         {
                             "name": "Inscrutable",
@@ -7983,7 +8031,7 @@
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         }
                     ],
                     "stats": {
@@ -7995,7 +8043,7 @@
                         "def": "13",
                         "arm": "14",
                         "cmd": "8",
-                        "hp": "8"
+                        "hp": "5"
                     },
                     "weapons": [
                         {
@@ -8022,10 +8070,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "3",
-                "minunit": "Gunner and 2 Grunts",
                 "maxunit": "-",
-                "maxcost": "-"
+                "mincost": "3",
+                "maxcost": "-",
+                "minunit": "Gunner and 2 Grunts"
             },
             "models": [
                 {
@@ -8154,10 +8202,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Gunner and 1 Grunt",
-                "maxcost": "-",
                 "mincost": "5",
-                "maxunit": "-"
+                "maxunit": "-",
+                "maxcost": "-",
+                "minunit": "Gunner and 1 Grunt"
             },
             "models": [
                 {
@@ -8274,61 +8322,100 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 3 Grunts",
+                "maxunit": "Leader and 5 Grunts",
                 "mincost": "8",
-                "maxcost": "13",
-                "maxunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 3 Grunts",
+                "maxcost": "13"
             },
             "models": [
                 {
-                    "name": "Venator Reivers",
-                    "title": "Skorne Venator Unit",
+                    "name": "Leader and Grunts",
+                    "title": "Skorne Unit",
                     "modeltype": [
-                        "Unit"
+                        "Unit",
+                        "Warrior",
+                        "Grunt"
                     ],
                     "keywords": [
-                        "Combined Ranged Attack"
+                        "Cataphract",
+                        "Tough"
                     ],
                     "characterabilities": [
                         {
-                            "name": "Combined Arms",
-                            "description": "When this model misses an accuracy roll for a combined ranged attack, it can reroll that accuracy roll. Each accuracy roll can be rerolled only once as a result of Combined Arms."
+                            "name": "Gang",
+                            "description": "When making a melee attack targeting an enemy model in the melee range of another model in this model's battlegroup, this model gains +2 to melee attack accuracy and melee damage rolls."
+                        },
+                        {
+                            "name": "Order: Reform Ranks",
+                            "description": "Until the start of their next activation, models in this unit gain Reposition [3”]."
                         }
                     ],
                     "stats": {
-                        "base": "30mm",
-                        "spd": "6",
-                        "str": "5",
-                        "mat": "5",
-                        "rat": "5",
-                        "def": "13",
-                        "arm": "13",
-                        "cmd": "8",
-                        "hp": "1"
+                        "base": "40mm",
+                        "spd": "5",
+                        "str": "7",
+                        "mat": "7",
+                        "rat": "6",
+                        "def": "11",
+                        "arm": "16",
+                        "cmd": "7",
+                        "hp": "8"
                     },
+                    "hpbars": [
+                        {
+                            "name": "Leader",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model A",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model B",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model C",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model D",
+                            "hp": "8"
+                        }
+                    ],
                     "weapons": [
                         {
-                            "name": "Reiver",
+                            "name": "Harpoon",
                             "type": "ranged",
                             "fieldoffire": "None",
-                            "rng": "12",
+                            "rng": "8",
                             "rof": "1",
                             "pow": "11",
                             "count": "1",
                             "ability": [
                                 {
-                                    "name": "Volume Fire",
-                                    "description": "Attacks with this weapon gain +1 to attack accuracy and damage rolls against medium-based models and +2 to attack accuracy and damage rolls against large, extra-large, and huge-based models."
+                                    "name": "Aim For The Shoulder",
+                                    "description": "You can choose for this weapon to cause no damage."
+                                },
+                                {
+                                    "name": "Drag",
+                                    "description": "When this attack hits an enemy model with an equal or smaller base, immediately after the attack is resolved the enemy model can be pushed directly toward this model until it contacts a model, an obstacle, or an obstruction. After the enemy model is moved, this model can make one basic melee attack against the enemy model. After resolving this melee attack, this model can make additional melee attacks during it's Combat Action."
                                 }
+                            ],
+                            "presetabilities": [
+                                "Weapon Master"
                             ]
                         },
                         {
-                            "name": "SWW Sword",
+                            "name": "Arcus",
                             "type": "Melee",
                             "fieldoffire": "None",
-                            "rng": "1",
-                            "pow": "2",
-                            "count": "1"
+                            "rng": "2",
+                            "pow": "6",
+                            "count": "1",
+                            "presetabilities": [
+                                "Weapon Master"
+                            ]
                         }
                     ],
                     "displayorder": 0
@@ -8347,9 +8434,9 @@
             "fieldallowance": "U",
             "unitpoints": {
                 "maxcost": "11",
-                "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -8387,26 +8474,28 @@
                             "rof": "1",
                             "pow": "9",
                             "count": "1",
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Erosion",
-                                        "description": "This model gains an additional die on this weapon's damage rolls against construct models."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Flare",
-                                        "description": "On a direct hit, models it by this attack lose Stealth and suffer -2 DEF for one turn."
-                                    },
-                                    {
-                                        "name": "Scather",
-                                        "description": "This attack's AOE is a hazard that remains in play for one round. Models without Resistance: Corrosion entering or ending their activations in the AOE suffer 1 point of corrosion damage."
-                                    }
-                                ]
-                            },
+                                    "subabilities": [
+                                        {
+                                            "name": "Erosion",
+                                            "description": "This model gains an additional die on this weapon's damage rolls against construct models."
+                                        },
+                                        {
+                                            "name": "Flare",
+                                            "description": "Models hit by this attack lose Stealth and cannot gain Steath and suffer -2 DEF for one round."
+                                        },
+                                        {
+                                            "name": "Scather",
+                                            "description": "This attack's AOE is a hazard that remains in play for one round. Models without Resistance: Corrosion entering or ending their activations in the AOE suffer 1 point of corrosion damage."
+                                        }
+                                    ]
+                                }
+                            ],
                             "damagetype": [
                                 "Corrosion",
                                 "Fire"
@@ -8459,16 +8548,12 @@
                             "description": "This model gains +1 ARM for each soul token currently on it."
                         },
                         {
-                            "name": "Soul Protector [CMD][3 tokens]",
-                            "description": "A model with this rule can collect soul tokens from friendly models that are destroyed within it's CMD range, and this model can carry up to 3 tokens at any time. This model can spend soul tokens for the following:"
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         },
                         {
                             "name": "Soul Tap",
                             "description": "If this model is in its warlock’s control range during your Control Phase, the warlock can spend soul tokens on this model to upkeep one spell for each token spent."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
                         }
                     ],
                     "stats": {
@@ -8483,26 +8568,40 @@
                         "cmd": "8",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Guidance (★Action)",
+                                    "description": "RNG CMD. Target friendly model. If the model is in range, it gains Eyeless Sight and it's weapons gain Damage Type: Arcane for one turn."
+                                },
+                                {
+                                    "name": "Harmonious Exaltation (★Action)",
+                                    "description": "RNG CMD. Target this model’s leader. If it is in range, once this turn when the warlock casts a spell, reduce the COST of the spell by 1."
+                                },
+                                {
+                                    "name": "Spell Slave (★Action) (★Attack)",
+                                    "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
+                                }
+                            ]
                         },
-                        "subabilities": [
-                            {
-                                "name": "Guidance (★Action)",
-                                "description": "RNG CMD. Target friendly model. If the model is in range, it gains Eyeless Sight and it's weapons gain Damage Type: Arcane for one turn."
+                        {
+                            "topability": {
+                                "name": "Gatekeeper",
+                                "description": "This model gains soul tokens from living friendly Faction models that are destroyed while in this model's CMD range. This model can spend soul tokens for the following:"
                             },
-                            {
-                                "name": "Harmonious Exaltation (★Action)",
-                                "description": "RNG CMD. Target this model’s leader. If it is in range, once this turn when the warlock casts a spell, reduce the COST of the spell by 1."
-                            },
-                            {
-                                "name": "Spell Slave (★Action) (★Attack)",
-                                "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Spirit Eye",
@@ -8577,6 +8676,14 @@
                             "description": "When this model is directly hit by an enemy ranged attack, you can have one friendly, non-incorporeal Immortals model within 3\" of it directly hit instead. That model is automatically hit and suffers all damage and effects. The Sacrificial Pawn special rule can only trigger once per attack roll."
                         },
                         {
+                            "name": "Soul Reserve",
+                            "description": "This model begins the game with a soul token."
+                        },
+                        {
+                            "name": "Soul Taker [5 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 5 soul tokens at any time."
+                        },
+                        {
                             "name": "Vengeance",
                             "description": "During your Maintenance Phase, if one or more models in this unit were damaged by enemy attacks during the last round, each model in the unit can advance 3” and make one basic melee attack."
                         }
@@ -8592,26 +8699,28 @@
                         "cmd": "9",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Soul Protector [Unit] [5 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from friendly models that are destroyed within Unit, and this model can carry up to 5 tokens at any time. This model can spend soul tokens for the following:"
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Death Boon",
-                                "description": "When a model in this model’s unit makes an accuracy or damage roll during its activation, this model can spend one soul token to cause that model to reroll that roll. A roll can be rerolled only once as a result of Death Boon."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Shepherd",
+                                "description": "When a model in this unit is destroyed while in formation, this model can gain the destroyed model's soul token. This model can spend soul tokens for the following: "
                             },
-                            {
-                                "name": "Grave Mist",
-                                "description": "At any time during its activation, this model can spend one soul token to give models in its unit +2 DEF for one round."
-                            },
-                            {
-                                "name": "Spirit Walker",
-                                "description": "At any time during its Activation, this model can spend one soul token to give models in its unit that are currently in formation Incorporeal for one turn."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Death Boon",
+                                    "description": "When a model in this model’s unit makes an accuracy or damage roll during its activation, this model can spend one soul token to cause that model to reroll that roll. A roll can be rerolled only once as a result of Death Boon."
+                                },
+                                {
+                                    "name": "Grave Mist",
+                                    "description": "At any time during its activation, this model can spend one soul token to give models in its unit +2 DEF for one round."
+                                },
+                                {
+                                    "name": "Spirit Walker",
+                                    "description": "At any time during its Activation, this model can spend one soul token to give models in its unit that are currently in formation Incorporeal for one turn."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Spirit Eye",
@@ -8652,7 +8761,7 @@
             ]
         },
         {
-            "name": "Praetorian Karax Officer and Standard Bearer",
+            "name": "Praetorian Karax Officer & Standard",
             "points": "3",
             "category": "Attachments",
             "primaryfaction": [
@@ -8664,7 +8773,7 @@
             "fieldallowance": "U",
             "models": [
                 {
-                    "name": "Praetorian Karax Officer",
+                    "name": "Officer",
                     "title": "Skorne Command Attachment",
                     "modeltype": [
                         "Attachment"
@@ -8684,7 +8793,7 @@
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         },
                         {
                             "name": "Tactics [Practiced Maneuvers]",
@@ -8726,7 +8835,7 @@
                     "displayorder": 0
                 },
                 {
-                    "name": "Standard Bearer",
+                    "name": "Standard",
                     "title": "Skorne Command Attachment",
                     "modeltype": [
                         "Attachment"
@@ -8738,11 +8847,11 @@
                     "characterabilities": [
                         {
                             "name": "Granted [Inspiration]",
-                            "description": "While this model is in play, models in its unit gain Inspiration."
+                            "description": "While this model is in play, models in its unit gain Inspiration. (A model with Inspiration gains +1 to attack accuracy rolls.)"
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         },
                         {
                             "name": "Take Up",
@@ -8786,7 +8895,7 @@
             ]
         },
         {
-            "name": "Praetorian Swordsmen Officer and Standard Bearer",
+            "name": "Praetorian Swordsmen Officer & Standard",
             "points": "4",
             "category": "Attachments",
             "primaryfaction": [
@@ -8799,7 +8908,7 @@
             "attachlimit": "1",
             "models": [
                 {
-                    "name": "Praetorian Swordsmen Officer",
+                    "name": "Officer",
                     "title": "Skorne Command Attachment",
                     "modeltype": [
                         "Attachment"
@@ -8826,7 +8935,7 @@
                         },
                         {
                             "name": "Tactics [Defensive Line]",
-                            "description": "Models in this unit gain Defensive Line."
+                            "description": "Models in this unit gain Defensive Line. (While a model with Defensive Line is B2B with one or more models in its unit, it gains +2 DEF against melee attacks and cannot become knocked down.)"
                         }
                     ],
                     "stats": {
@@ -8859,7 +8968,7 @@
                     "displayorder": 0
                 },
                 {
-                    "name": "Standard Bearer",
+                    "name": "Standard",
                     "title": "Skorne Command Attachment",
                     "modeltype": [
                         "Attachment"
@@ -8870,7 +8979,7 @@
                     "characterabilities": [
                         {
                             "name": "Granted [Inspiration]",
-                            "description": "While this model is in play, models in its unit gain Inspiration."
+                            "description": "While this model is in play, models in its unit gain Inspiration. (A model with Inspiration gains +1 to attack accuracy rolls.)"
                         },
                         {
                             "name": "Take Up",
@@ -8937,15 +9046,15 @@
                         },
                         {
                             "name": "Order: Kill",
-                            "description": "While within this model’s command range, friendly warrior models gain +2 to accuracy and damage rolls against enemy models within this model’s command range."
+                            "description": "While within this model’s CMD range, friendly warrior models gain +2 to accuracy and damage rolls against enemy models within this model’s CMD range."
                         },
                         {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         },
                         {
                             "name": "Tactics [Steady]",
-                            "description": "Models in this unit gain Steady."
+                            "description": "Models in this unit gain Steady. (A model with Steady cannot become knocked down.)"
                         },
                         {
                             "name": "Team Effort",
@@ -9001,7 +9110,7 @@
             ]
         },
         {
-            "name": "Venator Reiver Officer and Standard Bearer",
+            "name": "Venator Reiver Officer & Standard",
             "points": "3",
             "category": "Attachments",
             "primaryfaction": [
@@ -9014,8 +9123,8 @@
             "attachlimit": "1",
             "models": [
                 {
-                    "name": "Venator Reiver Officer",
-                    "title": "Skorne Venator Command Attachment",
+                    "name": "Officer",
+                    "title": "Skorne Command Attachment",
                     "modeltype": [
                         "Attachment"
                     ],
@@ -9038,7 +9147,7 @@
                         },
                         {
                             "name": "Granted [Trained Fire]",
-                            "description": "While this model is in play, models in its unit gain Trained Fire."
+                            "description": "While this model is in play, models in its unit gain Trained Fire. (A model with Trained Fire gains an additional die on ranged attack rolls against models within 8\" of it.)"
                         },
                         {
                             "name": "Tactics [Reposition [3\"]]",
@@ -9084,7 +9193,7 @@
                     "displayorder": 0
                 },
                 {
-                    "name": "Standard Bearer",
+                    "name": "Standard",
                     "title": "Skorne Command Attachment",
                     "modeltype": [
                         "Attachment"
@@ -9095,7 +9204,7 @@
                     "characterabilities": [
                         {
                             "name": "Granted [Inspiration]",
-                            "description": "While this model is in play, models in its unit gain Inspiration."
+                            "description": "While this model is in play, models in its unit gain Inspiration. (A model with Inspiration gains +1 to attack accuracy rolls.)"
                         },
                         {
                             "name": "Take Up",
@@ -9176,26 +9285,6 @@
                         "cmd": "10",
                         "hp": "35"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Rage Fueled",
-                            "description": "When this model is damaged by an enemy attack, it gains one rage token. This model can have up to three rage tokens at any time. This model gains +1 to its melee accuracy and melee damage rolls for each rage token on it. This model can spend rage tokens for the following:"
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Brutality",
-                                "description": "During its Combat Action, this model can spend rage tokens to make additional melee attacks. It can make one additional attack for each token spent."
-                            },
-                            {
-                                "name": "Cantankerous",
-                                "description": "During its Combat Action, this model can spend a rage token to boost its melee accuracy or melee damage rolls."
-                            },
-                            {
-                                "name": "Pain Inhibitions",
-                                "description": "At any time during its activation, this model can spend rage tokens to remove d3+1 damage for each token spent."
-                            }
-                        ]
-                    },
                     "weapons": [
                         {
                             "name": "Double Flayer Cannon",
@@ -9273,7 +9362,7 @@
         },
         {
             "name": "Supreme Guardian",
-            "points": "14",
+            "points": "15",
             "category": "Battle Engines",
             "primaryfaction": [
                 "Skorne"
@@ -9310,12 +9399,16 @@
                             "description": "This model gains an additional die on melee attack accuracy and damage rolls. Discard the lowest die of each roll."
                         },
                         {
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
+                        },
+                        {
                             "name": "Soul Vessel",
                             "description": "This model generates soul tokens as if it were a living model."
                         },
                         {
                             "name": "Vault of the Faithful",
-                            "description": "During your Maintenance Phase, you can remove up to three soul tokens from this model to return one destroyed small- or medium-based friendly Faction Grunt to play for each token removed. Grunts return with one unmarked damage box. Place the returned Grunts completely within this model’s command range, in formation and completely within 3” of another model in its unit. Grunts must forfeit either their normal movement or Combat Action the turn they are returned to play."
+                            "description": "During your Maintenance Phase, you can remove up to three soul tokens from this model to return one destroyed small- or medium-based friendly Faction Grunt to play for each token removed. Grunts return with one unmarked damage box. Place the returned Grunts completely within this model’s CMD range, in formation and completely within 3” of another model in its unit. Grunts must forfeit either their normal movement or Combat Action the turn they are returned to play."
                         }
                     ],
                     "stats": {
@@ -9329,26 +9422,28 @@
                         "cmd": "10",
                         "hp": "33"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Soul Protector [CMD] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from friendly models that are destroyed within it's CMD range, and this model can carry up to 3 tokens at any time. This model can spend soul tokens for the following:"
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Arcane Vortex",
-                                "description": "This model can immediately negate any spell that targets it or a model within 3\" of it by spending 1 focus point. The negated spell does not take effect, but its COST remains spent."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Gatekeeper",
+                                "description": "This model gains soul tokens from living friendly Faction models that are destroyed while in this model's CMD range. This model can spend soul tokens for the following:"
                             },
-                            {
-                                "name": "Soul-Powered",
-                                "description": "During its Combat Action, this model can spend soul tokens to make additional melee attacks. It can make one additional attack for each token spent."
-                            },
-                            {
-                                "name": "Strength of Death",
-                                "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Arcane Vortex",
+                                    "description": "This model can immediately negate any spell that targets it or a model within 3\" of it by spending 1 [#tag1]. The negated spell does not take effect, but its COST remains spent."
+                                },
+                                {
+                                    "name": "Soul-Powered",
+                                    "description": "During its Combat Action, this model can spend soul tokens to make additional melee attacks. It can make one additional attack for each token spent."
+                                },
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Fires of Rage",

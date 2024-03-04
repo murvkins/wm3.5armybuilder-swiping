@@ -16,8 +16,7 @@
                     "name": "Asphyxious 3",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Pathfinder",
@@ -25,12 +24,16 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Field Marshal [Unyielding]",
-                            "description": "Cohort models in this model's battlegroup gain Unyielding."
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
                         },
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Field Marshal [Unyielding]",
+                            "description": "Cohort models in this model's battlegroup gain Unyielding. (A model with Unyielding gains +2 ARM against melee damage rolls.)"
+                        },
+                        {
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         }
                     ],
                     "feat": {
@@ -165,22 +168,24 @@
                         "cmd": "9",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Spectral Leech (★Attack)",
-                                "description": "Spectral Leech is a RNG 10 arcane attack that causes no damage. Instead, remove d3 focus, fury or essence points from target model hit. Spectral Leech can only be cat once per turn."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Spell Slave (★Action) (★Attack)",
-                                "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Spectral Leech (★Attack)",
+                                    "description": "Spectral Leech is a RNG 10 arcane attack that causes no damage. Instead, remove d3 focus, fury or essence points from target model hit. Spectral Leech can only be cat once per turn."
+                                },
+                                {
+                                    "name": "Spell Slave (★Action) (★Attack)",
+                                    "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Claw",
@@ -211,8 +216,7 @@
                     "name": "Agathia 1",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Bane",
@@ -224,12 +228,16 @@
                             "description": "During your Control Phase, warp this model anywhere completely within 2\" of its current location."
                         },
                         {
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
                             "name": "Death Shroud",
                             "description": "While in this model's CMD range, enemy models suffer -2 STR."
                         },
                         {
                             "name": "Field Marshal [Blood Shadow]",
-                            "description": "Cohort models in this model's battlegroup gain Blood Shadow."
+                            "description": "Cohort models in this model's battlegroup gain Blood Shadow. (If an attack with a model's weapon with Blood Shadow boxes a living or undead model, this model can become Incorporeal for one round.)"
                         },
                         {
                             "name": "Henchmen [Small-based Bane]",
@@ -240,8 +248,8 @@
                             "description": "Bane Knight units can be included in any army that also includes Agathia 1."
                         },
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         }
                     ],
                     "feat": {
@@ -358,8 +366,7 @@
                     "name": "Aiakos 2",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Dual Attack",
@@ -384,7 +391,7 @@
                     },
                     "execution": {
                         "name": "Field Marshal [Manifest Destiny]",
-                        "description": "Cohort models in this model's battlegroup gain Manifest Destiny."
+                        "description": "Cohort models in this model's battlegroup gain Manifest Destiny. (A model with Manifest Destiny gains an additional die on melee accuracy and melee damage rolls. Discard the lowest die of each roll.)"
                     },
                     "stats": {
                         "base": "30mm",
@@ -521,8 +528,7 @@
                     "name": "Deneghra 3",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Battle Engine",
@@ -535,20 +541,20 @@
                     ],
                     "characterabilities": [
                         {
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
                             "name": "Reposition [5\"]",
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 5\", then it's activation ends."
                         },
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         },
                         {
                             "name": "Soul Weaver",
                             "description": "Once per turn at any time during it's activation, this model can remove soul tokens from one friendly faction model in its CMD range and place them on itself."
-                        },
-                        {
-                            "name": "Tall In The Saddle",
-                            "description": "Cavalry models ignore intervening models with bases smaller than their own when making melee attacks."
                         }
                     ],
                     "feat": {
@@ -573,22 +579,24 @@
                         "ctrl": "14",
                         "hp": "23"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Soul Mastery",
-                            "description": "At any time during its activation, this model can spend soul tokens to use one of the following effects for each token spent:"
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Arcane Spirits",
-                                "description": "This model can cast a spell with COST 3 or less without spending focus."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Soul Mastery",
+                                "description": "At any time during its activation, this model can spend soul tokens to use one of the following effects for each token spent:"
                             },
-                            {
-                                "name": "Vengeful Spirits",
-                                "description": "Choose a warjack in this model's battlegroup that is in it's CMD Range. The Warjack gains up to 3 focus."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Arcane Spirits",
+                                    "description": "This model can cast a spell with COST 3 or less without spending focus."
+                                },
+                                {
+                                    "name": "Vengeful Spirits",
+                                    "description": "Choose a warjack in this model's battlegroup that is in it's CMD Range. The Warjack gains up to 3 focus."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Venomous Breath",
@@ -687,8 +695,7 @@
                     "name": "Goreshade 1",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Eldritch",
@@ -850,8 +857,7 @@
                     "name": "Goreshade 2",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Eldritch",
@@ -981,8 +987,7 @@
                     "name": "Goreshade 3",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Calvary",
@@ -998,10 +1003,6 @@
                         {
                             "name": "Spell Vortex",
                             "description": "If an enemy model cast a spell in this model's Control Range last turn, this model can cast one spell without spending focus during it's activation this turn."
-                        },
-                        {
-                            "name": "Tall In The Saddle",
-                            "description": "Cavalry models ignore intervening models with bases smaller than their own when making melee attacks."
                         }
                     ],
                     "feat": {
@@ -1117,8 +1118,7 @@
                     "name": "Asphyxious 1",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Pathfinder",
@@ -1126,8 +1126,12 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         }
                     ],
                     "feat": {
@@ -1136,7 +1140,7 @@
                     },
                     "execution": {
                         "name": "Elite Cadre [Thrall] [Shield Guard]",
-                        "description": "Friendly Thrall models gain Shield Guard."
+                        "description": "Friendly Thrall models gain Shield Guard. (When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll.)"
                     },
                     "stats": {
                         "base": "40mm",
@@ -1464,8 +1468,7 @@
                     "name": "Asphyxious 2",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Pathfinder",
@@ -1473,12 +1476,16 @@
                     ],
                     "characterabilities": [
                         {
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
                             "name": "Soul Reaper (★Action)",
                             "description": "Place a 5\" AOE anywhere completely within this model's Control Range. The AOE remains in play for one round. When a living enemy model is destroyed in the AOE, this model gains the destroyed model's soul token regardless of the proximity of other models or any other special rules. While the AOE is in play, this model cannot attack with Daemortus and has no melee range."
                         },
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         }
                     ],
                     "feat": {
@@ -1598,8 +1605,7 @@
                     "name": "Terminus 1",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Dual Attack",
@@ -1609,6 +1615,14 @@
                     ],
                     "characterabilities": [
                         {
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
+                            "name": "Ghost Shield",
+                            "description": "This model gains +1 ARM for each soul token currently on it."
+                        },
+                        {
                             "name": "Sacrificial Pawn [Undead Model]",
                             "description": "When this model is directly hit by an enemy ranged attack, you can have one friendly, non-incorporeal Undead Model model within 3\" of it directly hit instead. That model is automatically hit and suffers all damage and effects. The Sacrificial Pawn special rule can only trigger once per attack roll."
                         },
@@ -1617,13 +1631,13 @@
                             "description": "While in this model's CMD range, friendly undead Faction models gain Tough."
                         },
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         }
                     ],
                     "feat": {
                         "name": "Dragon's Call",
-                        "description": "When a living enemy model is destroyed in Terminus' control range, Terminus gains the destroyed model's soul token regardless of the proximity of other models. Terminus gains +1ARM for each soul token on him. Dragon's Call lasts for one round."
+                        "description": "When a living enemy model is destroyed in Terminus’ control range, Terminus gains the destroyed model’s soul token regardless of the proximity of other models. While in Terminus’ control area this round, enemy models cannot give or receive orders. Enemy warjacks currently in Terminus’ control area cannot be allocated focus points for one round. Dragon’s Call lasts for one round."
                     },
                     "execution": {
                         "name": "Commandment Of The Dragonfather",
@@ -1747,24 +1761,27 @@
                     "name": "Venethrax 1",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Undead"
                     ],
                     "characterabilities": [
                         {
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
                             "name": "Dismember",
-                            "description": "When this model hits a warbeast with a melee attack, roll an additional damage die."
+                            "description": "When this model hits a warbeast with a melee attack, it gains an additional die to the attack damage roll."
                         },
                         {
                             "name": "Field Marshal [Hyper-Aggressive]",
-                            "description": "Cohort models in this model's battlegroup gain Hyper-Aggressive."
+                            "description": "Cohort models in this model's battlegroup gain Hyper-Aggressive. (When a model with Hyper-Aggressive suffers damage from an enemy attack at any time except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.)"
                         },
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         }
                     ],
                     "feat": {
@@ -1880,8 +1897,7 @@
                     "name": "Scaverous 1",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Undead"
@@ -1896,8 +1912,12 @@
                             "description": "When a model in this model's Control Range makes an attack or damage roll, this model can spend a soul token to cause this model to reroll the roll. Each roll can be rerolled only once due to Knowledge of the Damned."
                         },
                         {
-                            "name": "Soul Scavenger [Ctrl] [5 Tokens]",
-                            "description": "This model can collect tokens from any model that is destroyed within it's Control range, and this model can carry up to 5 tokens at any time. After this model replenishes its focus during your next Control Phase, replace each soul token with 1 focus point."
+                            "name": "Soul Scavenger [Ctrl]",
+                            "description": "This model gains soul tokens from any living model that is destroyed within it's Control range. After this model replenishes its focus/fury/essence during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
+                            "name": "Soul Taker [5 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 5 soul tokens at any time."
                         }
                     ],
                     "feat": {
@@ -1905,8 +1925,8 @@
                         "description": "While in Scaverous' control range, friendly Faction models gain boosted magic attack accuracy rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell while in Scaverous' control range, increase the COST by 1. Black Gate lasts for one round."
                     },
                     "execution": {
-                        "name": "Elite Cadre",
-                        "description": "Friendly [#tag1] models gain [#tag2]."
+                        "name": "Elite Cadre [Jack Marshal] [Empower]",
+                        "description": "Friendly Jack Marshal models gain Empower. (RNG CMD. Target friendly Faction warjack. If the target warjack is in the range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point.)"
                     },
                     "stats": {
                         "base": "40mm",
@@ -2024,14 +2044,17 @@
                     "name": "Mortenebra 1",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Pathfinder",
                         "Undead"
                     ],
                     "characterabilities": [
+                        {
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
                         {
                             "name": "Heart of Darkness [Cryx]",
                             "description": "This model can be included in an Infernals army. If it is, it becomes an Infernal model and not a Cryx model. If included in an Infernals army, any non-partisan, non-character Cryx warjack can also be included in this model's battlegroup and they gain Accumulator [Soulless].  Additionally, you may include 2 non-partisan, non-character Cryx units and 3 non-partisan, non-Archon, non-character Cryx Solos as well."
@@ -2045,8 +2068,8 @@
                             "description": "RNG 1\". Target friendly Faction construct model. If the model is in range, remove d3+3 damage point from it."
                         },
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         },
                         {
                             "name": "Steady",
@@ -2189,26 +2212,28 @@
                         "cmd": "6",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Doom Spiral (★Attack)",
-                                "description": "Doom Spiral is a RNG 8 POW 12 magic attack. When Doom Spiral damages a warjack that is part of a battlegroup, it's controller suffers d3 damage points."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Empower (★Action)",
-                                "description": "RNG CMD. Target friendly Faction warjack. If the target warjack is in the range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point."
-                            },
-                            {
-                                "name": "Tune Up (★Action)",
-                                "description": "RNG B2B. Target friendly Faction warjack. If the warjack is in range, all attack accuracy and damage rolls resulting from its next basic attack this turn are boosted."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Doom Spiral (★Attack)",
+                                    "description": "Doom Spiral is a RNG 8 POW 12 magic attack. When Doom Spiral damages a warjack that is part of a battlegroup, it's controller suffers d3 damage points."
+                                },
+                                {
+                                    "name": "Empower (★Action)",
+                                    "description": "RNG CMD. Target friendly Faction warjack. If the target warjack is in the range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point."
+                                },
+                                {
+                                    "name": "Tune Up (★Action)",
+                                    "description": "RNG B2B. Target friendly Faction warjack. If the warjack is in range, all attack accuracy and damage rolls resulting from its next basic attack this turn are boosted."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Mechano-claw",
@@ -2240,8 +2265,7 @@
                     "name": "Skarre 1",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Satyxis"
@@ -2401,8 +2425,7 @@
                     "name": "Skarre 3",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Battle Engine",
@@ -2422,7 +2445,7 @@
                         },
                         {
                             "name": "Reinforcements [Living Faction]",
-                            "description": "During your Maintenance Phase, return d3 small or medium based friendly destroyed Living Faction Grunts to play. Models return with 1 unmarked damage box. Place the returned Grunts completely within this model’s command range, in formation and completely within 3” of another model in their unit. Returned Grunts must forfeit their combat actions the turn they are returned to play."
+                            "description": "During your Maintenance Phase, return d3 small or medium based friendly destroyed Living Faction Grunts to play. Models return with 1 unmarked damage box. Place the returned Grunts completely within this model’s CMD range, in formation and completely within 3” of another model in their unit. Returned Grunts must forfeit their combat actions the turn they are returned to play."
                         },
                         {
                             "name": "Repairable",
@@ -2567,7 +2590,7 @@
                             "pow": "-",
                             "dur": "TURN",
                             "off": "NO",
-                            "description": "While in the spellcaster's Control Range, friendly faction models gain +2 ARM against ranged and magic attack damage rolls. Deceleration lasts for one round.  ."
+                            "description": "While in the spellcaster's Control Range, friendly faction models gain +2 ARM against ranged and magic attack damage rolls. Deceleration lasts for one round."
                         },
                         {
                             "name": "Guided Fire",
@@ -2611,8 +2634,7 @@
                     "name": "Skarre 2",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Dual Attack",
@@ -2790,8 +2812,7 @@
                     "name": "Sturgis 2",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Dual Attack",
@@ -2817,6 +2838,10 @@
                         {
                             "name": "Snap Strike",
                             "description": "This model can make one additional attack with each melee weapon for each focus point spent to make additional attacks."
+                        },
+                        {
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         }
                     ],
                     "feat": {
@@ -2860,8 +2885,8 @@
                             "count": "1",
                             "ability": [
                                 {
-                                    "name": "Soul Taker [Melee] [Unlimited Tokens]",
-                                    "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within Melee of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                                    "name": "Soul Thief",
+                                    "description": "This model gains soul tokens from living enemy models that are destroyed with an attack with this weapon.  When this model replenishes its focus durning your next Control Phase, replace each soul token on it with 1 focus point. "
                                 }
                             ]
                         },
@@ -2949,11 +2974,10 @@
             "fieldallowance": "C",
             "models": [
                 {
-                    "name": "Hellena 1,Morgaen 1,Selene 1",
+                    "name": "Hellena 1, Morgaen 1, Selene 1",
                     "title": "Cryx Warcasters",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "characterabilities": [
                         {
@@ -3150,8 +3174,7 @@
                     "name": "Deneghra 1",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Stealth",
@@ -3159,8 +3182,12 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         }
                     ],
                     "feat": {
@@ -3213,7 +3240,7 @@
                             "pow": "12/8",
                             "dur": "*",
                             "off": "YES",
-                            "description": "Models damaged by this spell suffer Shadow Bind. (A model suffering shadow Bind suffers -3 DEF, and for one round when it advances it cannot move except to change facing. Shadow Bind can be shaken.)"
+                            "description": "Models damaged by this spell suffer Shadow Bind. (A model suffering Shadow Bind suffers -3 DEF, and for one round when it advances it cannot move except to change facing. Shadow Bind can be shaken.)"
                         },
                         {
                             "name": "Crippling Grasp",
@@ -3258,7 +3285,7 @@
                         {
                             "name": "Venom",
                             "cost": "2",
-                            "rng": "SP 10",
+                            "rng": "SP10",
                             "aoe": "-",
                             "pow": "10",
                             "dur": "-",
@@ -3286,8 +3313,7 @@
                     "name": "Jezraell",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Unstoppable"
@@ -3298,8 +3324,12 @@
                             "description": "This model is not allowed in competitive play events."
                         },
                         {
-                            "name": "Arcane Vortex",
-                            "description": "This model can immediately negate any spell that targets it or a model within 3\" of it by spending 1 focus point. The negated spell does not take effect, but its COST remains spent."
+                            "name": "Arcane Vortex [Focus Point]",
+                            "description": "This model can immediately negate any spell that targets it or a model within 3\" of it by spending 1 Focus Point. The negated spell does not take effect, but its COST remains spent."
+                        },
+                        {
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
                         },
                         {
                             "name": "Duo [Deneghra]",
@@ -3310,8 +3340,8 @@
                             "description": "If a Nightmare Warjack is included in this model's battlegroup, it gains Bond [Jezraell]. While this model is bonded to Jazraell and in her Control Range, Jazraell can channel a spell through it as if it had an Arc Node."
                         },
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         },
                         {
                             "name": "Twin Sister",
@@ -3413,7 +3443,7 @@
                         {
                             "name": "Venom",
                             "cost": "2",
-                            "rng": "SP 10",
+                            "rng": "SP10",
                             "aoe": "-",
                             "pow": "10",
                             "dur": "-",
@@ -3441,8 +3471,7 @@
                     "name": "Deneghra 2",
                     "title": "Cryx Warcaster",
                     "modeltype": [
-                        "Warcaster",
-                        "Warrior"
+                        "Warcaster"
                     ],
                     "keywords": [
                         "Undead",
@@ -3450,8 +3479,12 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         },
                         {
                             "name": "Wraith Walker",
@@ -3552,12 +3585,12 @@
                             "pow": "-",
                             "dur": "-",
                             "off": "NO",
-                            "description": "Enemy models currently within 2” of the spellcaster suffer Shadow Bind for one round. Additionally, you can place the spellcaster anywhere completely within 3” of its current location. Shadow Stemp can be cast only once per activation. (A model suffering shadow Bind suffers -3 DEF, and for one round when it advances it cannot move except to change facing. Shadow Bind can be shaken.)"
+                            "description": "Enemy models currently within 2” of the spellcaster suffer Shadow Bind for one round. Additionally, you can place the spellcaster anywhere completely within 3” of its current location. Shadow Step can be cast only once per activation. (A model suffering Shadow Bind suffers -3 DEF, and for one round when it advances it cannot move except to change facing. Shadow Bind can be shaken.)"
                         },
                         {
                             "name": "Venom",
                             "cost": "2",
-                            "rng": "SP 10",
+                            "rng": "SP10",
                             "aoe": "-",
                             "pow": "10",
                             "dur": "-",
@@ -3622,8 +3655,8 @@
                             "description": "If a model with Retaliatory Strike is hit by a melee attack made by an enemy model during your opponent's turn, after that attack is resolved the model with Retaliatory Strike can immediately make one basic melee attack against that model. The model with Retaliatory Strike can make only one Retaliatory Strike per turn."
                         },
                         {
-                            "name": "Surface [3\"]",
-                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 3\" of the burrow marker and remove the marker from the table."
+                            "name": "Surface [5\"]",
+                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 5\" of the burrow marker and remove the marker from the table. Additionally, it must forfeit its Normal Movement during its activation the turn it is placed into play."
                         }
                     ],
                     "stats": {
@@ -3903,7 +3936,7 @@
                         "Resistance: Corrosion"
                     ],
                     "stats": {
-                        "base": "50",
+                        "base": "50mm",
                         "spd": "6",
                         "str": "10",
                         "mat": "7",
@@ -3922,26 +3955,28 @@
                             "pow": "14",
                             "system": "L",
                             "count": "1",
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Burster",
-                                        "description": "When this attack boxes a living or undead model, center a 5” AOE on the boxed model, then remove the model from play. Models in the AOE are hit and suffer an unboostable POW 10 corrosion damage roll. This damage is not considered to have been caused by an attack."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Distillation",
-                                        "description": "When a living enemy model is destroyed by this attack while this model is in its battlegroup controller’s control range, immediately after the attack is resolved remove d3 + 3 damage points from this model's battlegroup controller."
-                                    },
-                                    {
-                                        "name": "Psycho Venom",
-                                        "description": "When a living or undead enemy model is boxed by this attack, you can choose to take control of it. If you do, remove 1 damage point from it, causing it to no longer be boxed. You can then immediately change its facing. For the rest of the turn, this model’s battlegroup controller can channel spells through the affected model as if it were a model in its battlegroup with the Arc Node Advantage. The affected model cannot activate. At the end of the turn, the affected model is destroyed."
-                                    }
-                                ]
-                            }
+                                    "subabilities": [
+                                        {
+                                            "name": "Burster",
+                                            "description": "When this attack boxes a living or undead model, center a 5” AOE on the boxed model, then remove the model from play. Models in the AOE are hit and suffer an unboostable POW 10 corrosion damage roll. This damage is not considered to have been caused by an attack."
+                                        },
+                                        {
+                                            "name": "Distillation",
+                                            "description": "When a living enemy model is destroyed by this attack while this model is in its battlegroup controller’s control range, immediately after the attack is resolved remove d3 + 3 damage points from this model's battlegroup controller."
+                                        },
+                                        {
+                                            "name": "Psycho Venom",
+                                            "description": "When a living or undead enemy model is boxed by this attack, you can choose to take control of it. If you do, remove 1 damage point from it, causing it to no longer be boxed. You can then immediately change its facing. For the rest of the turn, this model’s battlegroup controller can channel spells through the affected model as if it were a model in its battlegroup with the Arc Node Advantage. The affected model cannot activate. At the end of the turn, the affected model is destroyed."
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "name": "Necrojector",
@@ -3951,26 +3986,28 @@
                             "pow": "6",
                             "system": "R",
                             "count": "1",
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Burster",
-                                        "description": "When this attack boxes a living or undead model, center a 5” AOE on the boxed model, then remove the model from play. Models in the AOE are hit and suffer an unboostable POW 10 corrosion damage roll. This damage is not considered to have been caused by an attack."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Distillation",
-                                        "description": "When a living enemy model is destroyed by this attack while this model is in its battlegroup controller’s control range, immediately after the attack is resolved remove d3 + 3 damage points from this model's battlegroup controller."
-                                    },
-                                    {
-                                        "name": "Psycho Venom",
-                                        "description": "When a living or undead enemy model is boxed by this attack, you can choose to take control of it. If you do, remove 1 damage point from it, causing it to no longer be boxed. You can then immediately change its facing. For the rest of the turn, this model’s battlegroup controller can channel spells through the affected model as if it were a model in its battlegroup with the Arc Node Advantage. The affected model cannot activate. At the end of the turn, the affected model is destroyed."
-                                    }
-                                ]
-                            },
+                                    "subabilities": [
+                                        {
+                                            "name": "Burster",
+                                            "description": "When this attack boxes a living or undead model, center a 5” AOE on the boxed model, then remove the model from play. Models in the AOE are hit and suffer an unboostable POW 10 corrosion damage roll. This damage is not considered to have been caused by an attack."
+                                        },
+                                        {
+                                            "name": "Distillation",
+                                            "description": "When a living enemy model is destroyed by this attack while this model is in its battlegroup controller’s control range, immediately after the attack is resolved remove d3 + 3 damage points from this model's battlegroup controller."
+                                        },
+                                        {
+                                            "name": "Psycho Venom",
+                                            "description": "When a living or undead enemy model is boxed by this attack, you can choose to take control of it. If you do, remove 1 damage point from it, causing it to no longer be boxed. You can then immediately change its facing. For the rest of the turn, this model’s battlegroup controller can channel spells through the affected model as if it were a model in its battlegroup with the Arc Node Advantage. The affected model cannot activate. At the end of the turn, the affected model is destroyed."
+                                        }
+                                    ]
+                                }
+                            ],
                             "presetabilities": [
                                 "Open Fist"
                             ]
@@ -4062,6 +4099,10 @@
                     ],
                     "characterabilities": [
                         {
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
                             "name": "Insulated Cortex",
                             "description": "This warjack cannot be disrupted."
                         },
@@ -4078,12 +4119,12 @@
                             "description": "This model may spend up to one soul token once per turn to remove d6 damage points."
                         },
                         {
-                            "name": "Soul Taker [2”] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2” of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         }
                     ],
                     "stats": {
-                        "base": "50",
+                        "base": "50mm",
                         "spd": "6",
                         "str": "12",
                         "aat": "7",
@@ -4093,18 +4134,20 @@
                         "arm": "19",
                         "hp": "32"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Necromancy",
-                                "description": "While this model is in its controller’s control range, it can spend focus points to cast its controller’s spells. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL."
-                            }
-                        ]
-                    },
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Necromancy",
+                                    "description": "While this model is in its controller’s control range, it can spend focus points to cast its controller’s spells. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Horns",
@@ -4233,7 +4276,7 @@
                         "Power Attack: Slam"
                     ],
                     "stats": {
-                        "base": "40",
+                        "base": "40mm",
                         "spd": "7",
                         "str": "7",
                         "mat": "5",
@@ -4341,7 +4384,7 @@
                         "Power Attack: Slame"
                     ],
                     "stats": {
-                        "base": "30",
+                        "base": "40mm",
                         "spd": "7",
                         "str": "7",
                         "mat": "5",
@@ -4469,7 +4512,7 @@
                         }
                     ],
                     "stats": {
-                        "base": "50",
+                        "base": "50mm",
                         "spd": "5",
                         "str": "12",
                         "mat": "6",
@@ -4618,7 +4661,7 @@
                         }
                     ],
                     "stats": {
-                        "base": "50",
+                        "base": "50mm",
                         "spd": "6",
                         "str": "10",
                         "mat": "7",
@@ -4754,8 +4797,12 @@
                             "description": "When this model destroys one or more enemy models with a melee attack during it's Combat Action, immediately after the attack is resolved, it can make one basic ranged attack."
                         },
                         {
-                            "name": "Soul Taker [5\"] [5 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 5\" of itself and this model can carry up to 5 soul tokens at any time. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [5 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 5 soul tokens at any time."
+                        },
+                        {
+                            "name": "Spirit Harvester",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 5\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
                         },
                         {
                             "name": "Steady",
@@ -4902,7 +4949,7 @@
                         },
                         {
                             "name": "Surface [5\"]",
-                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 5\" of the burrow marker and remove the marker from the table."
+                            "description": "At the beginning of any of your Maintenance Phases after your first turn, you can place this model completely within 5\" of the burrow marker and remove the marker from the table. Additionally, it must forfeit its Normal Movement during its activation the turn it is placed into play."
                         }
                     ],
                     "stats": {
@@ -5012,7 +5059,7 @@
                     "characterabilities": [
                         {
                             "name": "Shield Guard",
-                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
+                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have this model directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
                         }
                     ],
                     "stats": {
@@ -5314,7 +5361,7 @@
                     "characterabilities": [
                         {
                             "name": "Body Snatcher [Melee] [3]",
-                            "description": "A model with this rule can collect corpse tokens from any models that it destroyed within its Melee range, then removes the model destroyed from play. It can carry up to3 tokens at a time."
+                            "description": "A model with this rule can collect corpse tokens from any models that it destroyed within its Melee range, then removes the model destroyed from play. It can carry up to 3 tokens at a time."
                         },
                         {
                             "name": "Bulldoze",
@@ -5682,8 +5729,12 @@
                             "description": "When this model hits an enemy non-Leader model with a basic melee attack during this model’s activation, this model can spend a soul token to take control of the enemy model. Immediately after the attack has been resolved, you can make a full advance with the enemy model and can then make one basic attack, then Possession expires. The enemy model cannot be targeted by free strikes during this movement. A model can be affected by Possession only once per turn."
                         },
                         {
-                            "name": "Soul Taker [5\"] [5 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 5\" of itself and this model can carry up to 5 soul tokens at any time. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [5 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 5 soul tokens at any time."
+                        },
+                        {
+                            "name": "Spirit Harvester",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 5\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
                         }
                     ],
                     "stats": {
@@ -5824,7 +5875,7 @@
                         },
                         {
                             "name": "Chain Attack: Smash & Grab",
-                            "description": "If this model hits the same model with both its Wicked Claw initial attacks, after resolving the attacks it can immediately make a headbutt or throw power attack against that model."
+                            "description": "If this model hits the same model with two initial attacks with Open Fist, after resolving the attacks it can immediately make a headbutt or throw power attack against that model."
                         },
                         {
                             "name": "Ghostly",
@@ -5936,7 +5987,7 @@
             ]
         },
         {
-            "name": "Nightwrench",
+            "name": "Nightwretch",
             "points": "6",
             "category": "Warjacks/Warbeasts/Horrors",
             "primaryfaction": [
@@ -5948,7 +5999,7 @@
             "fieldallowance": "U",
             "models": [
                 {
-                    "name": "Nightwrench",
+                    "name": "Nightwretch",
                     "title": "Cryx Bonejack (Light Warjack)",
                     "modeltype": [
                         "Warjack"
@@ -5967,7 +6018,7 @@
                         }
                     ],
                     "stats": {
-                        "base": "50mm",
+                        "base": "40mm",
                         "spd": "7",
                         "str": "7",
                         "mat": "5",
@@ -6871,7 +6922,7 @@
                         },
                         {
                             "name": "Smasher",
-                            "description": "This mode can make trample power attacks without spending focus and gains and additional die on trample accuracy rolls."
+                            "description": "This model can make trample power attacks without spending focus and gains and additional die on trample accuracy rolls."
                         },
                         {
                             "name": "Threshing Blades",
@@ -7299,26 +7350,28 @@
                         "cmd": "8",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Black Waters (★Action)",
-                                "description": "While within 5” of this model, living models lose Tough and treat open terrain as shallow water. Black Waters lasts for one round."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Bone Shaker (★Attack)",
-                                "description": "Bone Shaker is a RNG 8, POW 12 magic attack. When this spell boxes a living or undead non-leader enemy warrior model, you can immediately take control of the model and make a full advance with it followed by a basic melee attack, then the boxed model is removed from play. The boxed model cannot be targeted by free strikes during this movement."
-                            },
-                            {
-                                "name": "Sigil of Power (★Action)",
-                                "description": "RNG CMD. Target friendly model/unit. If the model/unit is in range, its weapons gain Damage Type: Arcane. Sigil of Power lasts for one turn."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Black Waters (★Action)",
+                                    "description": "While within 5” of this model, living models lose Tough and treat open terrain as shallow water. Black Waters lasts for one round."
+                                },
+                                {
+                                    "name": "Bone Shaker (★Attack)",
+                                    "description": "Bone Shaker is a RNG 8, POW 12 magic attack. When this spell boxes a living or undead non-leader enemy warrior model, you can immediately take control of the model and make a full advance with it followed by a basic melee attack, then the boxed model is removed from play. The boxed model cannot be targeted by free strikes during this movement."
+                                },
+                                {
+                                    "name": "Sigil of Power (★Action)",
+                                    "description": "RNG CMD. Target friendly model/unit. If the model/unit is in range, its weapons gain Damage Type: Arcane. Sigil of Power lasts for one turn."
+                                }
+                            ]
+                        }
+                    ],
                     "displayorder": 0
                 }
             ]
@@ -7566,7 +7619,7 @@
                     "characterabilities": [
                         {
                             "name": "Beckon",
-                            "description": "Remove one friendly Bane Thrall or Bane Knight unit in Tartarus’ command range and warp the models in the unit completely within 4” of Tartarus. There must be room for the models’ bases in the new location. Affected models cannot be targeted by free strikes during this movement. After being beckoned, affected models cannot move this turn."
+                            "description": "Remove one friendly Bane Thrall or Bane Knight unit in Tartarus’ CMD range and warp the models in the unit completely within 4” of Tartarus. There must be room for the models’ bases in the new location. Affected models cannot be targeted by free strikes during this movement. After being beckoned, affected models cannot move this turn."
                         },
                         {
                             "name": "Curse [Bane]",
@@ -7577,7 +7630,7 @@
                             "description": "While in this model's melee range, enemy models suffer -2 ARM."
                         },
                         {
-                            "name": "Devourer-taint",
+                            "name": "Devourer-tainted",
                             "description": "While within 5” of this model, enemy models lose and cannot gain Sacred Ward. The first time in this game that Bane Lord Tartarus becomes boxed, remove Bane Lord Tartarus from play, then return him to play and place him B2B with your Leader model. Bane Lord Tartarus returns to play with 4 hit boxes and loses Devourer-taint. All upkeeps, animi, tokens or effects on him prior to being returned to play expire."
                         },
                         {
@@ -7757,7 +7810,7 @@
                         },
                         {
                             "name": "Leadership [Bloat Thrall] [Reposition [3\"]]",
-                            "description": "Friendly Bloat Thrall models in this model’s command range gain Reposition [3”]."
+                            "description": "Friendly Bloat Thrall models in this model’s CMD range gain Reposition [3”]."
                         },
                         {
                             "name": "Reposition [3\"]",
@@ -7856,7 +7909,7 @@
                         },
                         {
                             "name": "Leadership [Revenant]",
-                            "description": "Friendly Revenant models in this model’s command range gain Flank [Revenant]. (When a model makes a melee attack against an enemy model in the melee range of a friendly Revenant model, this model gains +2 to accuracy rolls and gains an additional damage die.)"
+                            "description": "Friendly Revenant models in this model’s CMD range gain Flank [Revenant]. (When a model makes a melee attack against an enemy model in the melee range of a friendly Revenant model, this model gains +2 to accuracy rolls and gains an additional damage die.)"
                         },
                         {
                             "name": "Rapid Strike",
@@ -7971,12 +8024,12 @@
                             "description": "This model begins the game with a soul token."
                         },
                         {
-                            "name": "Soul Taker [2\"] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and this model can carry up to 3 soul tokens at any time. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         },
                         {
-                            "name": "Tall In The Saddle",
-                            "description": "Cavalry models ignore intervening models with bases smaller than their own when making melee attacks."
+                            "name": "Soulbend",
+                            "description": "When a living enemy model is destroyed within 2\" of this model, this model gains the destroyed model's soul token. This model can spend soul tokens to use any of its Magic Abilities."
                         }
                     ],
                     "stats": {
@@ -7991,26 +8044,28 @@
                         "cmd": "10",
                         "hp": "10"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Dark Fire (★Attack)",
-                                "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Death Ride (★Action)",
-                                "description": "Friendly Faction undead models activating in this model’s command range gain +1 SPD when advancing as part of their Normal Movement. Death Ride Lasts for one turn."
-                            },
-                            {
-                                "name": "Mortal Fear",
-                                "description": "While in this model’s command range, living enemy models suffer -2 to damage rolls. Mortal Fear lasts for one round."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Dark Fire (★Attack)",
+                                    "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                                },
+                                {
+                                    "name": "Death Ride (★Action)",
+                                    "description": "Friendly Faction undead models activating in this model’s CMD range gain +1 SPD when advancing as part of their Normal Movement. Death Ride Lasts for one turn."
+                                },
+                                {
+                                    "name": "Mortal Fear",
+                                    "description": "While in this model’s CMD range, living enemy models suffer -2 to damage rolls. Mortal Fear lasts for one round."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Necro-Scythe",
@@ -8059,8 +8114,12 @@
                             "description": "This model begins the game with a soul token."
                         },
                         {
-                            "name": "Soul Taker [2\"] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and this model can carry up to 3 soul tokens at any time. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
+                        },
+                        {
+                            "name": "Soulbend",
+                            "description": "When a living enemy model is destroyed within 2\" of this model, this model gains the destroyed model's soul token. This model can spend soul tokens to use any of its Magic Abilities."
                         },
                         {
                             "name": "Sprint",
@@ -8079,26 +8138,28 @@
                         "cmd": "10",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Dark Fire (★Attack)",
-                                "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Death Ride (★Action)",
-                                "description": "Friendly Faction undead models activating in this model’s command range gain +1 SPD when advancing as part of their Normal Movement. Death Ride Lasts for one turn."
-                            },
-                            {
-                                "name": "Mortal Fear",
-                                "description": "While in this model’s command range, living enemy models suffer -2 to damage rolls. Mortal Fear lasts for one round."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Dark Fire (★Attack)",
+                                    "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                                },
+                                {
+                                    "name": "Death Ride (★Action)",
+                                    "description": "Friendly Faction undead models activating in this model’s CMD range gain +1 SPD when advancing as part of their Normal Movement. Death Ride Lasts for one turn."
+                                },
+                                {
+                                    "name": "Mortal Fear",
+                                    "description": "While in this model’s CMD range, living enemy models suffer -2 to damage rolls. Mortal Fear lasts for one round."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Necro-Scythe",
@@ -8201,7 +8262,7 @@
             ]
         },
         {
-            "name": "Hellsinger Phantom",
+            "name": "Hellslinger Phantom",
             "points": "6",
             "category": "Solos",
             "primaryfaction": [
@@ -8228,20 +8289,12 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Soul Taker [Destroyed] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within Destroyed of itself and this model can carry up to 3 soul tokens at any time. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         },
                         {
                             "name": "Swift Hunter",
                             "description": "When this model destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\"."
-                        },
-                        {
-                            "name": "Volume of Death",
-                            "description": "During it's Combat Action, this model can spend soul tokens to make one additional ranged attack for each token spent."
                         }
                     ],
                     "stats": {
@@ -8255,6 +8308,24 @@
                         "cmd": "5",
                         "hp": "5"
                     },
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Body Count",
+                                "description": "When this model destroys a living enemy model with an attack, this model gains the destroyed model's soul token. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                },
+                                {
+                                    "name": "Volume of Death",
+                                    "description": "During it's Combat Action, this model can spend soul tokens to make one additional ranged attack for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Wraithstorm Pistol",
@@ -8264,26 +8335,28 @@
                             "rof": "1",
                             "pow": "12",
                             "count": "2",
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Ghost Shot",
-                                        "description": "This model ignores LOS, Concealment, and cover when making attacks with this weapon."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Grievous Wounds",
-                                        "description": "A model hit by this weapon loses Tough and cannot have damage removed from it for one round."
-                                    },
-                                    {
-                                        "name": "Wraith Siphon",
-                                        "description": "When this attack hits an enemy model with 1 or more focus, fury, or essence points on it, that model loses 1 focus, fury, or essence point."
-                                    }
-                                ]
-                            },
+                                    "subabilities": [
+                                        {
+                                            "name": "Ghost Shot",
+                                            "description": "This model ignores LOS, Concealment, and cover when making attacks with this weapon."
+                                        },
+                                        {
+                                            "name": "Grievous Wounds",
+                                            "description": "A model hit by this weapon loses Tough and cannot have damage removed from it for one round."
+                                        },
+                                        {
+                                            "name": "Wraith Siphon",
+                                            "description": "When this attack hits an enemy model with 1 or more focus, fury, or essence points on it, that model loses 1 focus, fury, or essence point."
+                                        }
+                                    ]
+                                }
+                            ],
                             "damagetype": [
                                 "Arcane"
                             ]
@@ -8324,19 +8397,11 @@
                         },
                         {
                             "name": "Drive [Dark Shroud]",
-                            "description": "While in this model’s command range, a warjack under its control gains Dark Shroud."
+                            "description": "While in this model’s CMD range, a warjack under its control gains Dark Shroud."
                         },
                         {
-                            "name": "Soul Scavenger [2\"] [3 Tokens]",
-                            "description": "This model can collect tokens from any model that is destroyed within 2\", and this model can carry up to 3 tokens at any time. After this model replenishes its focus during your next Control Phase, replace each soul token with 1 focus point."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
-                        },
-                        {
-                            "name": "Unlife Empowerment",
-                            "description": "RNG CMD. Cost 1 Soul Token. Target friendly Faction warjack. If the target warjack is in range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -8351,22 +8416,40 @@
                         "cmd": "9",
                         "hp": "8"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Cloak of Darkness",
-                                "description": "This model gains Stealth. While a warjack this model control is B2B with it, the warjack also gains Stealth. Cloak of Darkness lasts for one round."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Dark Fire (★Attack)",
-                                "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Cloak of Darkness (★Action)",
+                                    "description": "This model gains Stealth. While a warjack this model control is B2B with it, the warjack also gains Stealth. Cloak of Darkness lasts for one round."
+                                },
+                                {
+                                    "name": "Dark Fire (★Attack)",
+                                    "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                                }
+                            ]
+                        },
+                        {
+                            "topability": {
+                                "name": "Soul Cage",
+                                "description": "This model gains soul tokens from enemy living models that are destroyed within 2\" of this model. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                },
+                                {
+                                    "name": "Unlife Empowerment",
+                                    "description": "RNG CMD. Cost 1 Soul Token. Target friendly Faction warjack. If the target warjack is in range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Fell Staff",
@@ -8569,7 +8652,7 @@
                         },
                         {
                             "name": "Spare Parts",
-                            "description": "When a warjack is destroyed in this model’s command range, it gains one scrap token. This model can have up to three scrap tokens at any time. Before making a repair roll, this model can spend one scrap token to add +2 to its roll."
+                            "description": "When a warjack is destroyed in this model’s CMD range, it gains one scrap token. This model can have up to three scrap tokens at any time. Before making a repair roll, this model can spend one scrap token to add +2 to its roll."
                         },
                         {
                             "name": "Steady",
@@ -8636,10 +8719,6 @@
                             "description": "During your Control Phase, warp this model anywhere completely within 2\" of its current location."
                         },
                         {
-                            "name": "Dark Blessing",
-                            "description": "Once per turn at any time during its activation, you may spend one token from this model’s weapon, if you do, this model gains +3 DEF for one round."
-                        },
-                        {
                             "name": "Elite Cadre [Wraiths, Widow Makers] [Hunter]",
                             "description": "Friendly Wraiths, Widow Makers models gain Hunter."
                         },
@@ -8652,8 +8731,8 @@
                             "description": "Instead of making a damage roll to resolve a ranged attack, this model can inflict 1 damage point . A model disabled by a ranged attack made by this model cannot make a Tough roll."
                         },
                         {
-                            "name": "Soul Taker [Models Destroyed] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that it destroys and this model can carry up to 3 soul tokens at any time."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -8667,6 +8746,20 @@
                         "cmd": "5",
                         "hp": "5"
                     },
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Body Count",
+                                "description": "When this model destroys a living enemy model with an attack, this model gains the destroyed model's soul token. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Dark Blessing",
+                                    "description": "Once per turn at any time during its activation, you may spend one token from this model’s weapon, if you do, this model gains +3 DEF for one round."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Vanar Oppressor",
@@ -8719,12 +8812,8 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Soul Taker [Models Destroyed] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that it destroys and this model can carry up to 3 soul tokens at any time."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -8738,6 +8827,20 @@
                         "cmd": "5",
                         "hp": "5"
                     },
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Body Count",
+                                "description": "When this model destroys a living enemy model with an attack, this model gains the destroyed model's soul token. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Wraithlock",
@@ -8753,26 +8856,28 @@
                                     "description": "If this model hits the same model with both it's initial attacks with this weapon, the model hit becomes stationary for one round."
                                 }
                             ],
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Black Penny",
-                                        "description": "This attack ignores the target in melee DEF bonus."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Ghost Shot",
-                                        "description": "This model ignores LOS, Concealment, and cover when making attacks with this weapon."
-                                    },
-                                    {
-                                        "name": "Ward Breaker",
-                                        "description": "When resolving this attack, this weapon gains Blessed."
-                                    }
-                                ]
-                            },
+                                    "subabilities": [
+                                        {
+                                            "name": "Black Penny",
+                                            "description": "This attack ignores the target in melee DEF bonus."
+                                        },
+                                        {
+                                            "name": "Ghost Shot",
+                                            "description": "This model ignores LOS, Concealment, and cover when making attacks with this weapon."
+                                        },
+                                        {
+                                            "name": "Ward Breaker",
+                                            "description": "When resolving this attack, this weapon gains Blessed."
+                                        }
+                                    ]
+                                }
+                            ],
                             "damagetype": [
                                 "Arcane"
                             ]
@@ -9016,26 +9121,28 @@
                                     "description": "If this model hits the same enemy model with both it's initial ranged attack with this weapon, after resolving the attacks it can immediately make an additional ranged attack against that model. If the attack misses, nothing happens. If it hits, push models within 2” of the model hit 2” directly toward it in the order you choose. Then center a 3” AOE on the model hit. Models in the AOE are hit and suffer a POW 12 damage roll. Models boxed by Vortex Blast are removed from play."
                                 }
                             ],
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Black Penny",
-                                        "description": "This attack ignores the target in melee DEF bonus."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Ghost Shot",
-                                        "description": "This model ignores LOS, Concealment, and cover when making attacks with this weapon."
-                                    },
-                                    {
-                                        "name": "Heart Seeker",
-                                        "description": "Gain an additional die on damage rolls resulting from this attack. Discard the lowest die in each roll."
-                                    }
-                                ]
-                            },
+                                    "subabilities": [
+                                        {
+                                            "name": "Black Penny",
+                                            "description": "This attack ignores the target in melee DEF bonus."
+                                        },
+                                        {
+                                            "name": "Ghost Shot",
+                                            "description": "This model ignores LOS, Concealment, and cover when making attacks with this weapon."
+                                        },
+                                        {
+                                            "name": "Heart Seeker",
+                                            "description": "Gain an additional die on damage rolls resulting from this attack. Discard the lowest die in each roll."
+                                        }
+                                    ]
+                                }
+                            ],
                             "damagetype": [
                                 "Arcane"
                             ]
@@ -9088,12 +9195,8 @@
                             "description": "While this model has one or more soul tokens it has Spectre."
                         },
                         {
-                            "name": "Soul Taker [CMD] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within it's CMD range and this model can carry up to 3 soul tokens at any time."
-                        },
-                        {
-                            "name": "Soul Transfer (★Action)",
-                            "description": "RNG 5. Target friendly Faction model with a Soul Taker special rule. If the model is in range, remove any number of soul tokens from this model and place them on the friendly model."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -9107,6 +9210,20 @@
                         "cmd": "10",
                         "hp": "1"
                     },
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Collector",
+                                "description": "This model gains soul tokens from enemy living models that are destroyed while in this model's CMD range. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Soul Transfer (★Action)",
+                                    "description": "RNG 5. Target friendly Faction model with a Soul Taker special rule. If the model is in range, remove any number of soul tokens from this model and place them on the friendly model."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Mechano-claw",
@@ -9147,12 +9264,16 @@
                     ],
                     "characterabilities": [
                         {
+                            "name": "Cull Soul",
+                            "description": "This model gains soul tokens from living enemy models that are destroyed within 2\" of this model. After this model replenishes focus during your next Control Phase, replace each soul token with 1 focus/fury/essence point."
+                        },
+                        {
                             "name": "Journeyman Warcaster",
                             "description": "This model is not a warcaster or Leader, but has the following warcaster special rules: Battlegroup Controller, Focus Manipulation, Power Field, and Spellcaster. This model must have at least one warjack in its battlegroup at the start of the game."
                         },
                         {
-                            "name": "Soul Taker [2\"] [Unlimited Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and there is no limit to how many tokens it can carry. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [Unlimited Tokens]",
+                            "description": "This model can gain soul tokens. There is no limit to how many tokens it can carry."
                         }
                     ],
                     "stats": {
@@ -9202,7 +9323,7 @@
                         {
                             "name": "Venom",
                             "cost": "2",
-                            "rng": "SP 10",
+                            "rng": "SP10",
                             "aoe": "-",
                             "pow": "10",
                             "dur": "-",
@@ -9259,26 +9380,28 @@
                         "cmd": "2",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Empower (★Action)",
-                                "description": "RNG CMD. Target friendly Faction warjack. If the target warjack is in the range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Seduction (★Action)",
-                                "description": "Take control of a living enemy non-leader model. If the model is in range you can immediately make a full advance with the enemy model followed by a basic melee attack, then Seduction expires. The enemy model cannot be targeted by free strikes during this movement. A model can be affected by Seduction only once per turn. "
-                            },
-                            {
-                                "name": "Venom (★Attack)",
-                                "description": "Venom is a RNG SP8 magic attack. Models hit suffer a POW 10 corrosion damage roll and the continuous corrosion effect."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Empower (★Action)",
+                                    "description": "RNG CMD. Target friendly Faction warjack. If the target warjack is in the range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point."
+                                },
+                                {
+                                    "name": "Seduction (★Action)",
+                                    "description": "Take control of a living enemy non-leader model. If the model is in range you can immediately make a full advance with the enemy model followed by a basic melee attack, then Seduction expires. The enemy model cannot be targeted by free strikes during this movement. A model can be affected by Seduction only once per turn. "
+                                },
+                                {
+                                    "name": "Venom (★Attack)",
+                                    "description": "Venom is a RNG SP8 magic attack. Models hit suffer a POW 10 corrosion damage roll and the continuous corrosion effect."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Shadow Blade",
@@ -9390,10 +9513,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "10",
                 "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 4 Grunts",
                 "maxcost": "16",
-                "maxunit": "Leader and 4 Grunts"
+                "mincost": "10"
             },
             "models": [
                 {
@@ -9419,10 +9542,6 @@
                         {
                             "name": "Reposition [3\"]",
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 3\", then it's activation ends."
-                        },
-                        {
-                            "name": "Tall In The Saddle",
-                            "description": "Cavalry models ignore intervening models with bases smaller than their own when making melee attacks."
                         },
                         {
                             "name": "Vengeance",
@@ -9501,9 +9620,9 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "13",
-                "maxunit": "Leader and 9 Grunts",
                 "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "13",
                 "mincost": "8"
             },
             "models": [
@@ -9569,10 +9688,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "mincost": "6",
-                "maxcost": "9",
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts"
+                "maxcost": "9",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -9644,10 +9763,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "mincost": "10",
                 "minunit": "Blackbane and 5 Grunts",
+                "maxcost": "16",
                 "maxunit": "Blackbane and 9 Grunts",
-                "maxcost": "16"
+                "mincost": "10"
             },
             "models": [
                 {
@@ -9677,11 +9796,11 @@
                         },
                         {
                             "name": "Granted [Murderous]",
-                            "description": "While this model is in play, models in its unit gain Murderous."
+                            "description": "While this model is in play, models in its unit gain Murderous. (A model with Murderous gains an additional die on melee accuracy rolls against warrior models.)"
                         },
                         {
                             "name": "Granted [Reanimation]",
-                            "description": "While this model is in play, models in its unit gain Reanimation."
+                            "description": "While this model is in play, models in its unit gain Reanimation. (When a model with Reanimation boxes a living enemy warrior model with an attack, add one Grunt to the attacking model’s unit and then remove the boxed model from play. The Grunt must be placed in formation and completely within 3” of the attacking model. The Grunt must forfeit its combat action this turn.)"
                         },
                         {
                             "name": "Hoist the Colours",
@@ -9788,10 +9907,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "14",
-                "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 5 Grunts",
                 "mincost": "8",
-                "maxunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "maxcost": "14"
             },
             "models": [
                 {
@@ -9878,10 +9997,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "maxunit": "Leader and 5 Grunts",
                 "maxcost": "14",
-                "mincost": "8",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 5 Grunts"
+                "mincost": "8"
             },
             "models": [
                 {
@@ -9950,10 +10069,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "minunit": "Leader and 5 Grunts",
+                "mincost": "6",
                 "maxcost": "9",
-                "mincost": "6"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -10019,10 +10138,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "mincost": "6",
-                "maxcost": "9",
                 "minunit": "Leader and 5 Grunts",
-                "maxunit": "Leader and 9 Grunts"
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "6",
+                "maxcost": "9"
             },
             "models": [
                 {
@@ -10080,10 +10199,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
-                "maxcost": "-",
+                "mincost": "3",
                 "minunit": "Necrosurgeon & 3 Stitch Thralls",
-                "mincost": "3"
+                "maxcost": "-",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -10107,7 +10226,7 @@
                         },
                         {
                             "name": "Resurrectionist (★Action)",
-                            "description": "Remove up to three corpse tokens from this model to add one small-based Grunt to a friendly Thrall unit in this model’s command range for each token removed. Place these Grunts in formation completely within 3” of this model. They must forfeit either their Combat Action or their movement the turn they are put into play."
+                            "description": "Remove up to three corpse tokens from this model to add one small-based Grunt to a friendly Thrall unit in this model’s CMD range for each token removed. Place these Grunts in formation completely within 3” of this model. They must forfeit either their Combat Action or their movement the turn they are put into play."
                         },
                         {
                             "name": "Sacrificial Pawn [Thrall]",
@@ -10182,9 +10301,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Gunner and 2 Grunts",
-                "mincost": "4",
                 "maxcost": "-",
+                "mincost": "4",
+                "minunit": "Gunner and 2 Grunts",
                 "maxunit": "-"
             },
             "models": [
@@ -10349,10 +10468,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "12",
                 "minunit": "Leader and 5 Grunts",
-                "mincost": "7",
-                "maxcost": "12"
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -10440,8 +10559,8 @@
             "unitpoints": {
                 "minunit": "Leader and 5 Grunts",
                 "maxcost": "10",
-                "maxunit": "Leader and 9 Grunts",
-                "mincost": "6"
+                "mincost": "6",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -10487,26 +10606,28 @@
                             "rng": "1",
                             "pow": "5",
                             "count": "1",
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Blood Shadow",
-                                        "description": "If this attack boxes a living or undead model, this model can become Incorporeal for one round."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Death Strike",
-                                        "description": "If this attack destroys a living or undead model, after resolving the attack choose a model within 4\" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack."
-                                    },
-                                    {
-                                        "name": "Grievous Wounds",
-                                        "description": "A model hit by this weapon loses Tough and cannot have damage removed from it for one round."
-                                    }
-                                ]
-                            },
+                                    "subabilities": [
+                                        {
+                                            "name": "Blood Shadow",
+                                            "description": "If this attack boxes a living or undead model, this model can become Incorporeal for one round."
+                                        },
+                                        {
+                                            "name": "Death Strike",
+                                            "description": "If this attack destroys a living or undead model, after resolving the attack choose a model within 4\" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack."
+                                        },
+                                        {
+                                            "name": "Grievous Wounds",
+                                            "description": "A model hit by this weapon loses Tough and cannot have damage removed from it for one round."
+                                        }
+                                    ]
+                                }
+                            ],
                             "damagetype": [
                                 "Arcane"
                             ]
@@ -10545,8 +10666,8 @@
             "unitpoints": {
                 "maxcost": "-",
                 "maxunit": "-",
-                "mincost": "6",
-                "minunit": "Leader and 2 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -10591,26 +10712,28 @@
                             "rof": "1",
                             "pow": "10",
                             "count": "2",
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Black Penny",
-                                        "description": "This attack ignores the target in melee DEF bonus."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Feedback",
-                                        "description": "If this weapon damages a warjack that is part of a battlegroup, the warjack's controller suffers 1 damage point."
-                                    },
-                                    {
-                                        "name": "Heart Seeker",
-                                        "description": "Gain an additional die on damage rolls resulting from this attack. Discard the lowest die in each roll."
-                                    }
-                                ]
-                            },
+                                    "subabilities": [
+                                        {
+                                            "name": "Black Penny",
+                                            "description": "This attack ignores the target in melee DEF bonus."
+                                        },
+                                        {
+                                            "name": "Feedback",
+                                            "description": "If this weapon damages a warjack that is part of a battlegroup, the warjack's controller suffers 1 damage point."
+                                        },
+                                        {
+                                            "name": "Heart Seeker",
+                                            "description": "Gain an additional die on damage rolls resulting from this attack. Discard the lowest die in each roll."
+                                        }
+                                    ]
+                                }
+                            ],
                             "damagetype": [
                                 "Arcane"
                             ]
@@ -10647,9 +10770,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "12",
-                "mincost": "7",
                 "minunit": "Leader and 5 Grunts",
+                "mincost": "7",
+                "maxcost": "12",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -10739,10 +10862,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 5 Grunts",
                 "maxcost": "12",
-                "mincost": "7",
-                "minunit": "Leader and 2 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 5 Grunts",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -10851,10 +10974,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "-",
-                "maxunit": "-",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "5"
+                "mincost": "5",
+                "maxcost": "-",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -10985,9 +11108,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "mincost": "8",
-                "minunit": "Leader and 2 Grunts",
                 "maxcost": "14",
-                "maxunit": "Leader and 5 Grunts"
+                "maxunit": "Leader and 5 Grunts",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -11100,9 +11223,9 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
-                "maxcost": "-",
                 "mincost": "4",
+                "maxcost": "-",
+                "maxunit": "-",
                 "minunit": "Leader and 2 Grunts"
             },
             "models": [
@@ -11147,26 +11270,28 @@
                         "cmd": "6",
                         "hp": "1"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Guidance (★Action)",
-                                "description": "RNG CMD. Target friendly model. If the model is in range, it gains Eyeless Sight and it's weapons gain Damage Type: Arcane for one turn."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Hex Bolt (★Attack)",
-                                "description": "Hex Bolt is a RNG 6, POW 13 magic attack. Models hit cannot make special actions, special attacks, or power attacks for one round."
-                            },
-                            {
-                                "name": "Summon Vortex (★Action)",
-                                "description": "Center a 3” AOE cloud effect on this model. The AOE remains centered on the model for one round. The AOE remains centered on the model for one round. If the model is destroyed or removed from play, remove the AOE from play. While in the AOE, enemy models suffer a -2 to accuracy rolls."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Guidance (★Action)",
+                                    "description": "RNG CMD. Target friendly model. If the model is in range, it gains Eyeless Sight and it's weapons gain Damage Type: Arcane for one turn."
+                                },
+                                {
+                                    "name": "Hex Bolt (★Attack)",
+                                    "description": "Hex Bolt is a RNG 6, POW 13 magic attack. Models hit cannot make special actions, special attacks, or power attacks for one round."
+                                },
+                                {
+                                    "name": "Summon Vortex (★Action)",
+                                    "description": "Center a 3” AOE cloud effect on this model. The AOE remains centered on the model for one round. The AOE remains centered on the model for one round. If the model is destroyed or removed from play, remove the AOE from play. While in the AOE, enemy models suffer a -2 to accuracy rolls."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Claws",
@@ -11203,10 +11328,10 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
+                "maxcost": "11",
                 "maxunit": "Leader and 9 Grunts",
                 "mincost": "6",
-                "maxcost": "11"
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -11278,10 +11403,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "9",
-                "maxunit": "Leader and 4 Grunts",
                 "maxcost": "15",
-                "minunit": "Leader and 2 Grunts"
+                "maxunit": "Leader and 4 Grunts",
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "9"
             },
             "models": [
                 {
@@ -11300,32 +11425,20 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Hybrid Species",
-                            "description": "This model uses its Claws as it's Mount for the purposes of mount attacks and impact attacks."
+                            "name": "Hybrid Species [Mechano-Horse Legs]",
+                            "description": "This model uses its Mechano-Horse Legs as it's Mount for the purposes of mount attacks and impact attacks."
                         },
                         {
                             "name": "Reposition [5\"]",
                             "description": "At the end of an activation in which it did not run or fail a charge, this model can advance up to 5\", then it's activation ends."
                         },
                         {
-                            "name": "Soul Phase",
-                            "description": "This model can spend a soul token at any time during its activation to become Incorporeal until the start of your next turn."
-                        },
-                        {
                             "name": "Soul Reserve",
                             "description": "This model begins the game with a soul token."
                         },
                         {
-                            "name": "Soul Taker [2\"] [3]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and  3. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
-                        },
-                        {
-                            "name": "Tall In The Saddle",
-                            "description": "Cavalry models ignore intervening models with bases smaller than their own when making melee attacks."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -11339,6 +11452,46 @@
                         "cmd": "8",
                         "hp": "8"
                     },
+                    "hpbars": [
+                        {
+                            "name": "Leader",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model A",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model B",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model C",
+                            "hp": "8"
+                        },
+                        {
+                            "name": "Model D",
+                            "hp": "8"
+                        }
+                    ],
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Soul Cage",
+                                "description": "This model gains soul tokens from enemy living models that are destroyed within 2\" of this model. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Soul Phase",
+                                    "description": "This model can spend a soul token at any time during its activation to become Incorporeal until the start of your next turn."
+                                },
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Scythe",
@@ -11369,7 +11522,7 @@
                             ]
                         },
                         {
-                            "name": "Mechano-horse Legs",
+                            "name": "Mechano-Horse Legs",
                             "type": "Melee",
                             "fieldoffire": "None",
                             "rng": "1",
@@ -11393,9 +11546,9 @@
             "fieldallowance": "C",
             "unitpoints": {
                 "maxunit": "-",
-                "minunit": "Maelovus, Admonia and Tremulus",
+                "mincost": "8",
                 "maxcost": "-",
-                "mincost": "8"
+                "minunit": "Maelovus, Admonia and Tremulus"
             },
             "models": [
                 {
@@ -11431,12 +11584,8 @@
                             "description": "This model begins the game with a soul token."
                         },
                         {
-                            "name": "Soul Taker [2\"] [3]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and  3. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -11451,26 +11600,40 @@
                         "cmd": "7",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Dark Fire (★Attack)",
+                                    "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                                },
+                                {
+                                    "name": "Null Magic (★Action)",
+                                    "description": "For one round, models cannot cast spells while in this model's CMD range."
+                                },
+                                {
+                                    "name": "Spell Slave (★Action) (★Attack)",
+                                    "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
+                                }
+                            ]
                         },
-                        "subabilities": [
-                            {
-                                "name": "Dark Fire (★Attack)",
-                                "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                        {
+                            "topability": {
+                                "name": "Soul Cage",
+                                "description": "This model gains soul tokens from enemy living models that are destroyed within 2\" of this model. This model can spend soul tokens for the following:"
                             },
-                            {
-                                "name": "Null Magic",
-                                "description": "For one round, models cannot cast spells while in this model's command range."
-                            },
-                            {
-                                "name": "Spell Slave (★Action) (★Attack)",
-                                "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Lich Claws",
@@ -11501,10 +11664,6 @@
                     ],
                     "characterabilities": [
                         {
-                            "name": "Arcane Vortex",
-                            "description": "This model can immediately negate any spell that targets it or a model within 3\" of it by spending 1 focus point. The negated spell does not take effect, but its COST remains spent."
-                        },
-                        {
                             "name": "Black Arts",
                             "description": "A friendly Cryx warcaster with one or more models in this unit in his control area can upkeep one spell without spending a focus point."
                         },
@@ -11521,8 +11680,8 @@
                             "description": "This model begins the game with a soul token."
                         },
                         {
-                            "name": "Soul Taker [2\"] [3]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and  3. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -11537,26 +11696,40 @@
                         "cmd": "7",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Dark Fire (★Attack)",
+                                    "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                                },
+                                {
+                                    "name": "Sigil of Power (★Action)",
+                                    "description": "RNG CMD. Target friendly model/unit. If the model/unit is in range, its weapons gain Damage Type: Arcane. Sigil of Power lasts for one turn."
+                                },
+                                {
+                                    "name": "Unbinding (★Action)",
+                                    "description": "Enemy upkeep spells within 5” of Admonia expire. A spellcaster suffers d3 damage points for each spell he controlled that expired as a result of Unbinding."
+                                }
+                            ]
                         },
-                        "subabilities": [
-                            {
-                                "name": "Dark Fire (★Attack)",
-                                "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                        {
+                            "topability": {
+                                "name": "Soul Cage",
+                                "description": "This model gains soul tokens from enemy living models that are destroyed within 2\" of this model. This model can spend soul tokens for the following:"
                             },
-                            {
-                                "name": "Sigil of Power (★Action)",
-                                "description": "RNG CMD. Target friendly model/unit. If the model/unit is in range, its weapons gain Damage Type: Arcane. Sigil of Power lasts for one turn."
-                            },
-                            {
-                                "name": "Unbinding (★Action)",
-                                "description": "Enemy upkeep spells within 5” of Admonia expire. A spellcaster suffers d3 damage points for each spell he controlled that expired as a result of Unbinding."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Arcane Vortex",
+                                    "description": "This model can immediately negate any spell that targets it or a model within 3\" of it by spending 1 [#tag1]. The negated spell does not take effect, but its COST remains spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Lich Claws",
@@ -11599,16 +11772,12 @@
                             "description": "This model gains an additional die on damage rolls against construct models."
                         },
                         {
-                            "name": "Grave Resonance",
-                            "description": "This model can spend a soul token at any time during his activation to give a friendly Faction warjack within 5\" of itself 1 focus point."
-                        },
-                        {
                             "name": "Soul Reserve",
                             "description": "This model begins the game with a soul token."
                         },
                         {
-                            "name": "Soul Taker [2\"] [3]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and  3. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -11623,26 +11792,40 @@
                         "cmd": "7",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Dark Fire (★Attack)",
+                                    "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                                },
+                                {
+                                    "name": "Dominate Undead (★Attack)",
+                                    "description": "RNG CMD. Take control of target enemy non-leader undead warrior model hit. You can immediately make a full advance with that model followed by a basic melee attack, then Dominate Undead expires. The undead model cannot be targeted by free strikes during this movement. A model can be affected by Dominate Undead only once per turn."
+                                },
+                                {
+                                    "name": "Puppet Master (★Action) (★Attack)",
+                                    "description": "Puppet Master is a RNG 10 spell. When it targets an enemy model/unit, it is a magic attack. You can have one affected model reroll one accuracy or damage roll, then Puppet Master expires. Puppet Master lasts for one round."
+                                }
+                            ]
                         },
-                        "subabilities": [
-                            {
-                                "name": "Dark Fire (★Attack)",
-                                "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                        {
+                            "topability": {
+                                "name": "Soul Cage",
+                                "description": "This model gains soul tokens from enemy living models that are destroyed within 2\" of this model. This model can spend soul tokens for the following:"
                             },
-                            {
-                                "name": "Dominate Undead (★Attack)",
-                                "description": "RNG CMD. Take control of target enemy non-leader undead warrior model hit. You can immediately make a full advance with that model followed by a basic melee attack, then Dominate Undead expires. The undead model cannot be targeted by free strikes during this movement. A model can be affected by Dominate Undead only once per turn."
-                            },
-                            {
-                                "name": "Puppet Master (★Action) (★Attack)",
-                                "description": "Puppet Master is a RNG 10 spell. When it targets an enemy model/unit, it is a magic attack. You can have one affected model reroll one accuracy or damage roll, then Puppet Master expires. Puppet Master lasts for one round."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Grave Resonance",
+                                    "description": "This model can spend a soul token at any time during his activation to give a friendly Faction warjack within 5\" of itself 1 focus point."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Lich Claws",
@@ -11696,7 +11879,7 @@
                         },
                         {
                             "name": "Granted [Set Defense]",
-                            "description": "While this model is in play, models in its unit gain Set Defense."
+                            "description": "While this model is in play, models in its unit gain Set Defense. (When a model performs a charge, slam power attack, or an impact attack roll in the front arc of a model with Set Defense, the attacking model suffers -2 to the attack accuracy roll.)"
                         },
                         {
                             "name": "Serpent's Coil",
@@ -11746,7 +11929,7 @@
             ]
         },
         {
-            "name": "Bane Warrior Officer And Standard Bearer",
+            "name": "Bane Warrior Officer & Standard",
             "points": "4",
             "category": "Attachments",
             "primaryfaction": [
@@ -11759,7 +11942,7 @@
             "attachlimit": "1",
             "models": [
                 {
-                    "name": "Bane Warrior Officer",
+                    "name": "Officer",
                     "title": "Cryx Command Attachment",
                     "modeltype": [
                         "Attachment",
@@ -11786,7 +11969,7 @@
                         },
                         {
                             "name": "Granted [Rise]",
-                            "description": "While this model is in play, models in its unit gain Rise."
+                            "description": "While this model is in play, models in its unit gain Rise. (If a model with Rise is knocked down at the beginning of your Maintenance Phase, it stands up.)"
                         },
                         {
                             "name": "Tactics [Tough]",
@@ -11824,7 +12007,7 @@
                     "displayorder": 0
                 },
                 {
-                    "name": "Standard Bearer",
+                    "name": "Standard",
                     "title": "Cryx Command Attachment",
                     "modeltype": [
                         "Attachment",
@@ -11847,7 +12030,7 @@
                         },
                         {
                             "name": "Granted [Inspiration]",
-                            "description": "While this model is in play, models in its unit gain Inspiration."
+                            "description": "While this model is in play, models in its unit gain Inspiration. (A model with Inspiration gains +1 to attack accuracy rolls.)"
                         },
                         {
                             "name": "Take Up",
@@ -11905,7 +12088,7 @@
                     "characterabilities": [
                         {
                             "name": "Shield Guard",
-                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
+                            "description": "When a friendly model is directly hit by a non-spray ranged attack during your opponent's turn while within 3\" of a model with Shield Guard, you can choose to have this model directly hit instead. It is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. The Shield Guard special rule can only trigger once per attack roll."
                         },
                         {
                             "name": "Weapon Attachment [Mechanithralls]",
@@ -11978,7 +12161,7 @@
                         },
                         {
                             "name": "Granted [Dismember]",
-                            "description": "While this model is in play, models in its unit gain Dismember."
+                            "description": "While this model is in play, models in its unit gain Dismember. (When a model with Dismember hits a warbeast with a melee attack, it gains an additional die to the attack damage roll.)"
                         },
                         {
                             "name": "Hoist the Colours",
@@ -11994,7 +12177,7 @@
                         },
                         {
                             "name": "Tactics [Relentless Charge]",
-                            "description": "Models in this unit gain Relentless Charge."
+                            "description": "Models in this unit gain Relentless Charge. (A model with Relentless Charge gains Pathfinder while advancing as part of a charge.)"
                         },
                         {
                             "name": "Unyielding",
@@ -12170,7 +12353,7 @@
                         },
                         {
                             "name": "Granted [Side Step]",
-                            "description": "While this model is in play, models in its unit gain Side Step."
+                            "description": "While this model is in play, models in its unit gain Side Step. (When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved.)"
                         },
                         {
                             "name": "Hoist the Colours",
@@ -12182,7 +12365,7 @@
                         },
                         {
                             "name": "Tactics [Blessed]",
-                            "description": "Models in this unit gain Blessed."
+                            "description": "The weapons of models in this unit gain Blessed."
                         }
                     ],
                     "stats": {
@@ -12205,26 +12388,28 @@
                             "rng": "1",
                             "pow": "5",
                             "count": "1",
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Blood Shadow",
-                                        "description": "If this attack boxes a living or undead model, this model can become Incorporeal for one round."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Death Strike",
-                                        "description": "If this attack destroys a living or undead model, after resolving the attack choose a model within 4\" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack."
-                                    },
-                                    {
-                                        "name": "Grievous Wounds",
-                                        "description": "A model hit by this weapon loses Tough and cannot have damage removed from it for one round."
-                                    }
-                                ]
-                            },
+                                    "subabilities": [
+                                        {
+                                            "name": "Blood Shadow",
+                                            "description": "If this attack boxes a living or undead model, this model can become Incorporeal for one round."
+                                        },
+                                        {
+                                            "name": "Death Strike",
+                                            "description": "If this attack destroys a living or undead model, after resolving the attack choose a model within 4\" of this model. The chosen model suffers a damage roll with a POW equal to the STR of the model destroyed by the attack."
+                                        },
+                                        {
+                                            "name": "Grievous Wounds",
+                                            "description": "A model hit by this weapon loses Tough and cannot have damage removed from it for one round."
+                                        }
+                                    ]
+                                }
+                            ],
                             "damagetype": [
                                 "Arcane"
                             ]
@@ -12310,26 +12495,28 @@
                             "rng": "1",
                             "pow": "7",
                             "count": "1",
-                            "specialability": {
-                                "topability": {
-                                    "name": "Attack Type",
-                                    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
-                                },
-                                "subabilities": [
-                                    {
-                                        "name": "Dispel",
-                                        "description": "When this weapon hits a model/unit, upkeep spells and animi on that model/unit immediately expire."
+                            "nestedabilities": [
+                                {
+                                    "topability": {
+                                        "name": "Attack Type",
+                                        "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
                                     },
-                                    {
-                                        "name": "Distillation",
-                                        "description": "When a living enemy model is destroyed by this attack while this model is in its battlegroup controller’s control range, immediately after the attack is resolved remove d3 + 3 damage points from this model's battlegroup controller."
-                                    },
-                                    {
-                                        "name": "Rites of Blood",
-                                        "description": "Once per activation, immediately after resolving an attack in which it destroyed a living model with this weapon, this model can cast one of the spells on its leader’s card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. Use the leader’s ARC stat when making magic attack rolls."
-                                    }
-                                ]
-                            },
+                                    "subabilities": [
+                                        {
+                                            "name": "Dispel",
+                                            "description": "When this weapon hits a model/unit, upkeep spells and animi on that model/unit immediately expire."
+                                        },
+                                        {
+                                            "name": "Distillation",
+                                            "description": "When a living enemy model is destroyed by this attack while this model is in its battlegroup controller’s control range, immediately after the attack is resolved remove d3 + 3 damage points from this model's battlegroup controller."
+                                        },
+                                        {
+                                            "name": "Rites of Blood",
+                                            "description": "Once per activation, immediately after resolving an attack in which it destroyed a living model with this weapon, this model can cast one of the spells on its leader’s card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. Use the leader’s ARC stat when making magic attack rolls."
+                                        }
+                                    ]
+                                }
+                            ],
                             "damagetype": [
                                 "Arcane"
                             ]
@@ -12406,26 +12593,28 @@
                         "cmd": "8",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Witchcraft",
-                            "description": "This model can use one of the following special rules at any time during each of its unit’s activations. Each model in this unit gains the benefits listed. This ability counts as casting a spell."
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Red Tide",
-                                "description": "Affected models gain Overtake this activation. (When a model with Overtake destroys one or more enemy models with a basic melee attack during it's Combat Action, after the attack is resolved it can immediately advance up to 1”.)"
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Witchcraft",
+                                "description": "This model can use one of the following special rules at any time during each of its unit’s activations. Each model in this unit gains the benefits listed. This ability counts as casting a spell."
                             },
-                            {
-                                "name": "True Wind",
-                                "description": "Affected models gain Pathfinder this activation."
-                            },
-                            {
-                                "name": "Whipping Winds",
-                                "description": "Affected models gain Force Barrier for one round. Models are not affected while out of formation. (A model with Force Barrier gains +2 DEF against ranged attack rolls and Blast Resistance.)"
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Red Tide",
+                                    "description": "Affected models gain Overtake this activation. (When a model with Overtake destroys one or more enemy models with a basic melee attack during it's Combat Action, after the attack is resolved it can immediately advance up to 1”.)"
+                                },
+                                {
+                                    "name": "True Wind",
+                                    "description": "Affected models gain Pathfinder this activation."
+                                },
+                                {
+                                    "name": "Whipping Winds",
+                                    "description": "Affected models gain Force Barrier for one round. Models are not affected while out of formation. (A model with Force Barrier gains +2 DEF against ranged attack rolls and Blast Resistance.)"
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Hand Cannon",
@@ -12528,7 +12717,7 @@
                         },
                         {
                             "name": "Tactics [Feign Death]",
-                            "description": "Models in this unit gain Feign Death."
+                            "description": "Models in this unit gain Feign Death. (A model with Feign Death cannot be targeted by ranged or magic attacks while knocked down.)"
                         }
                     ],
                     "stats": {
@@ -12603,20 +12792,12 @@
                             "description": "This attachment can be added to a Mechanithralls, Carrion Thralls, Bile Thralls unit."
                         },
                         {
-                            "name": "Invigorate",
-                            "description": "Once per turn, this model can spend a soul token anytime during it's activation, if it does each model in its unit gain +1 to accuracy rolls until the end of the turn."
-                        },
-                        {
                             "name": "Set Defense",
-                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model."
+                            "description": "A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack accuracy rolls against this model."
                         },
                         {
-                            "name": "Soul Taker [2\"] [3]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and  3. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                            "name": "Soul Taker [3]",
+                            "description": "This model can gain soul tokens. 3"
                         },
                         {
                             "name": "Tactics [Advance Deploy]",
@@ -12635,22 +12816,40 @@
                         "cmd": "8",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Dark Fire (★Attack)",
-                                "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Disbanding",
-                                "description": "Enemy upkeep spells and animi on this model and its unit immediately expire."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Dark Fire (★Attack)",
+                                    "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                                },
+                                {
+                                    "name": "Disbanding",
+                                    "description": "Enemy upkeep spells and animi on this model and its unit immediately expire."
+                                }
+                            ]
+                        },
+                        {
+                            "topability": {
+                                "name": "Soul Cage",
+                                "description": "This model gains soul tokens from enemy living models that are destroyed within 2\" of this model. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Invigorate",
+                                    "description": "Once per turn, this model can spend a soul token anytime during it's activation, if it does each model in its unit gain +1 to accuracy rolls until the end of the turn."
+                                },
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Fell Spear",
@@ -12697,12 +12896,8 @@
                             "description": "Before the start of the game, attach this model to a friendly Faction leader for the rest of the game. Each Leader can have only one model/unit attached to it."
                         },
                         {
-                            "name": "Soul Taker [2\"] [3 Tokens]",
-                            "description": "A model with this rule can collect soul tokens from enemy models that are destroyed within 2\" of itself and this model can carry up to 3 soul tokens at any time. After this model replenishes/leeches during your next Control Phase, replace each soul token with 1 focus/fury point."
-                        },
-                        {
-                            "name": "Strength of Death",
-                            "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                            "name": "Soul Taker [3 Tokens]",
+                            "description": "This model can gain soul tokens. This model can carry up to 3 soul tokens at any time."
                         }
                     ],
                     "stats": {
@@ -12717,22 +12912,36 @@
                         "cmd": "5",
                         "hp": "5"
                     },
-                    "specialability": {
-                        "topability": {
-                            "name": "Magic Ability",
-                            "description": ""
-                        },
-                        "subabilities": [
-                            {
-                                "name": "Dark Fire (★Attack)",
-                                "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                    "nestedabilities": [
+                        {
+                            "topability": {
+                                "name": "Magic Ability",
+                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
                             },
-                            {
-                                "name": "Spell Slave (★Action) (★Attack)",
-                                "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
-                            }
-                        ]
-                    },
+                            "subabilities": [
+                                {
+                                    "name": "Dark Fire (★Attack)",
+                                    "description": "Dark Fire is a RNG 10, POW 12 Arcane Attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model’s soul token regardless of the proximity of other models."
+                                },
+                                {
+                                    "name": "Spell Slave (★Action) (★Attack)",
+                                    "description": "This model must be in it's warcaster's Control Range to make the Spell Slave special action. When it does, it casts one of the spells on it's warcaster's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave in a magic attack. Use this model's Magic Ability score when making magic accuracy rolls."
+                                }
+                            ]
+                        },
+                        {
+                            "topability": {
+                                "name": "Soul Cage",
+                                "description": "This model gains soul tokens from enemy living models that are destroyed within 2\" of this model. This model can spend soul tokens for the following:"
+                            },
+                            "subabilities": [
+                                {
+                                    "name": "Strength of Death",
+                                    "description": "During its Combat Action, this model can spend soul tokens to boost one accuracy or damage roll for each token spent."
+                                }
+                            ]
+                        }
+                    ],
                     "weapons": [
                         {
                             "name": "Claws",
@@ -12789,7 +12998,7 @@
                         },
                         {
                             "name": "Unhallowed",
-                            "description": "While in this model’s command range, friendly Faction undead models gain +2 ARM against ranged and magical attacks."
+                            "description": "While in this model’s CMD range, friendly Faction undead models gain +2 ARM against ranged and magical attacks."
                         }
                     ],
                     "stats": {
