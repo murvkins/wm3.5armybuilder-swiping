@@ -1,7 +1,7 @@
 {
     "products": [
         {
-            "name": "Asphyxious The Hellbringer & Vociferon",
+            "name": "Asphyxious The Hellbringer and Vociferon",
             "points": "24",
             "category": "Warcasters/Warlocks/Masters",
             "primaryfaction": [
@@ -37,8 +37,8 @@
                         }
                     ],
                     "feat": {
-                        "name": "Rites of Shadow",
-                        "description": "When an enemy model is forced, casts a spell, or spends 1 or more focus, fury or essence points except to pay tithe while in Asphyxious’ control range, Asphyxious can remove d3 damage points and gains one soul token. If a model casts a spell by spending focus, fury or essence Rites of Shadow triggers only once. Rites of Shadow lasts for once round."
+                        "name": "Rites Of Shadow",
+                        "description": "When an enemy model is forced, casts a spell, or spends 1 or more focus, fury or essence points except to pay tithe while in Asphyxious' control range, Asphyxious can remove d3 damage points and gains one soul token. If a model casts a spell by spending focus, fury or essence Rites of Shadow triggers only once. Rites of Shadow lasts for once round."
                     },
                     "execution": {
                         "name": "Ghost Shield",
@@ -61,8 +61,8 @@
                     "weapons": [
                         {
                             "name": "Daimonion",
-                            "type": "Melee",
-                            "fieldoffire": "None",
+                            "type": "melee",
+                            "fieldoffire": "none",
                             "rng": "2",
                             "pow": "8",
                             "count": "1",
@@ -133,7 +133,7 @@
                 },
                 {
                     "name": "Vociferon",
-                    "title": "Cryx Solo",
+                    "title": "Cryx Skarlock Thrall Solo",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -190,7 +190,7 @@
                         {
                             "name": "Claw",
                             "type": "Melee",
-                            "fieldoffire": "None",
+                            "fieldoffire": "none",
                             "rng": "1",
                             "pow": "3",
                             "count": "1"
@@ -199,19 +199,6 @@
                     "displayorder": 1
                 }
             ]
-        },
-        {
-            "name": "Asphyxious The Hellbringer and Vociferon",
-            "points": "24",
-            "category": "Warcasters/Warlocks/Masters",
-            "primaryfaction": [
-                "Cryx"
-            ],
-            "factions": [
-                "Cryx"
-            ],
-            "fieldallowance": "C",
-            "models": []
         },
         {
             "name": "Bane Witch Agathia",
@@ -693,7 +680,7 @@
             ]
         },
         {
-            "name": "Goreshade The Bastard & Deathwalker",
+            "name": "Goreshade The Bastard and Deathwalker",
             "points": "29",
             "category": "Warcasters/Warlocks/Masters",
             "primaryfaction": [
@@ -1276,7 +1263,6 @@
                     ],
                     "keywords": [
                         "Construct",
-                        "Dual Attack",
                         "Greylord"
                     ],
                     "characterabilities": [
@@ -2042,7 +2028,7 @@
             ]
         },
         {
-            "name": "Master Necrotech Mortenebra & Deryliss",
+            "name": "Master Necrotech Mortenebra and Deryliss",
             "points": "28",
             "category": "Warcasters/Warlocks/Masters",
             "primaryfaction": [
@@ -2661,7 +2647,7 @@
                         },
                         {
                             "name": "Field Marshal [Future Sight]",
-                            "description": "Cohort models in this model's battlegroup gain Future Sight. (Models in this model’s battlegroup gain Future Sight. (This model can boost accuracy and damage rolls after rolling.))"
+                            "description": "Cohort models in this model's battlegroup gain Future Sight."
                         },
                         {
                             "name": "Future Sight",
@@ -4295,7 +4281,7 @@
                         "str": "7",
                         "mat": "5",
                         "rat": "5",
-                        "def": "15",
+                        "def": "14",
                         "arm": "14",
                         "hp": "20"
                     },
@@ -4403,7 +4389,7 @@
                         "str": "7",
                         "mat": "5",
                         "rat": "5",
-                        "def": "15",
+                        "def": "14",
                         "arm": "14",
                         "hp": "20"
                     },
@@ -4861,13 +4847,7 @@
                             "rng": "2",
                             "pow": "4",
                             "system": "R",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Thresher (★Attack)",
-                                    "description": "This model makes one melee attack with this weapon against each model in it's LOS that is in this weapon's melee range. Thresher attacks are simultaneous."
-                                }
-                            ]
+                            "count": "1"
                         }
                     ],
                     "grid": {
@@ -6043,7 +6023,7 @@
                         "str": "7",
                         "mat": "5",
                         "rat": "5",
-                        "def": "15",
+                        "def": "14",
                         "arm": "14",
                         "hp": "20"
                     },
@@ -6289,7 +6269,7 @@
                         "str": "7",
                         "mat": "5",
                         "rat": "5",
-                        "def": "15",
+                        "def": "14",
                         "arm": "14",
                         "hp": "20"
                     },
@@ -6690,12 +6670,12 @@
                             "description": "When this model is B2B with an enemy model during it's Normal Movement, it can push that model up to 2\" directly away from it. A model can be pushed by Bulldoze only once per turn. Bulldoze has no effect when this model makes a trample power attack."
                         },
                         {
-                            "name": "Death Industry",
-                            "description": "Once per turn at any time during its activation, this model can spend up to three corpse tokens to return one destroyed small or medium-based friendly Faction undead grunt to play for each token removed or to add one Brute Thrall to a friendly Mechanithrall unit. Grunts return with one unmarked damage box. Place the returned Grunts completely within 12” of this model and within 2” of another model in their unit. Returned Grunts must choose to forfeit their Normal Movement or Combat Action the turn they are returned to play. Brute Thralls must be placed within 12” of this model and within 2” of a Grunt in the chosen Mechanithrall unit. Brute Thralls must forfeit either their Normal Movement or Combat Action the turn they enter play."
+                            "name": "Corpse Scavenger [5\"] [5 Tokens]",
+                            "description": "This model can collect corpse tokens from any living or undead model destroyed within 5\" of this model. This model can carry up to 5 corpse tokens at any time."
                         },
                         {
-                            "name": "Necroharvester [5 Tokens]",
-                            "description": "This model can collect corpse tokens from any living or undead model destroyed within 5\" of this model. This model can carry up to 5 corpse tokens at any time."
+                            "name": "Death Industry",
+                            "description": "Once per turn at any time during its activation, this model can spend up to three corpse tokens to return one destroyed small or medium-based friendly Faction undead grunt to play for each token removed or to add one Brute Thrall to a friendly Mechanithrall unit. Grunts return with one unmarked damage box. Place the returned Grunts completely within 12” of this model and within 2” of another model in their unit. Returned Grunts must choose to forfeit their Normal Movement or Combat Action the turn they are returned to play. Brute Thralls must be placed within 12” of this model and within 2” of a Grunt in the chosen Mechanithrall unit. Brute Thralls must forfeit either their Normal Movement or Combat Action the turn they enter play."
                         }
                     ],
                     "stats": {
@@ -9457,9 +9437,9 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "maxcost": "13",
-                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
                 "mincost": "8",
-                "maxunit": "Leader and 9 Grunts"
+                "minunit": "Leader and 5 Grunts"
             },
             "models": [
                 {
@@ -9533,10 +9513,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
+                "minunit": "Leader and 2 Grunts",
                 "maxunit": "Leader and 4 Grunts",
                 "maxcost": "16",
-                "mincost": "10",
-                "minunit": "Leader and 2 Grunts"
+                "mincost": "10"
             },
             "models": [
                 {
@@ -9640,10 +9620,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "minunit": "Leader and 5 Grunts",
                 "maxunit": "Leader and 9 Grunts",
                 "maxcost": "13",
-                "mincost": "8",
-                "minunit": "Leader and 5 Grunts"
+                "mincost": "8"
             },
             "models": [
                 {
@@ -9708,10 +9688,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
-                "mincost": "6",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "9"
+                "maxunit": "Leader and 9 Grunts",
+                "maxcost": "9",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -9784,9 +9764,9 @@
             "fieldallowance": "C",
             "unitpoints": {
                 "minunit": "Blackbane and 5 Grunts",
+                "maxcost": "16",
                 "maxunit": "Blackbane and 9 Grunts",
-                "mincost": "10",
-                "maxcost": "16"
+                "mincost": "10"
             },
             "models": [
                 {
@@ -9927,10 +9907,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxcost": "14",
                 "maxunit": "Leader and 5 Grunts",
+                "mincost": "8",
                 "minunit": "Leader and 2 Grunts",
-                "mincost": "8"
+                "maxcost": "14"
             },
             "models": [
                 {
@@ -10017,10 +9997,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
-                "mincost": "8",
+                "maxunit": "Leader and 5 Grunts",
                 "maxcost": "14",
-                "maxunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "8"
             },
             "models": [
                 {
@@ -10089,10 +10069,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
                 "mincost": "6",
+                "maxcost": "9",
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "9"
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -10159,8 +10139,8 @@
             "fieldallowance": "U",
             "unitpoints": {
                 "minunit": "Leader and 5 Grunts",
-                "mincost": "6",
                 "maxunit": "Leader and 9 Grunts",
+                "mincost": "6",
                 "maxcost": "9"
             },
             "models": [
@@ -10219,10 +10199,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
-                "maxcost": "-",
                 "mincost": "3",
-                "minunit": "Necrosurgeon & 3 Stitch Thralls"
+                "minunit": "Necrosurgeon & 3 Stitch Thralls",
+                "maxcost": "-",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -10323,8 +10303,8 @@
             "unitpoints": {
                 "maxcost": "-",
                 "mincost": "4",
-                "maxunit": "-",
-                "minunit": "Gunner and 2 Grunts"
+                "minunit": "Gunner and 2 Grunts",
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -10488,10 +10468,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "Leader and 9 Grunts",
                 "maxcost": "12",
-                "mincost": "7",
-                "minunit": "Leader and 5 Grunts"
+                "minunit": "Leader and 5 Grunts",
+                "maxunit": "Leader and 9 Grunts",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -10579,8 +10559,8 @@
             "unitpoints": {
                 "minunit": "Leader and 5 Grunts",
                 "maxcost": "10",
-                "maxunit": "Leader and 9 Grunts",
-                "mincost": "6"
+                "mincost": "6",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -10684,10 +10664,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "6",
                 "maxcost": "-",
+                "maxunit": "-",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "-"
+                "mincost": "6"
             },
             "models": [
                 {
@@ -10791,8 +10771,8 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader and 5 Grunts",
-                "maxcost": "12",
                 "mincost": "7",
+                "maxcost": "12",
                 "maxunit": "Leader and 9 Grunts"
             },
             "models": [
@@ -10883,9 +10863,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "maxcost": "12",
-                "mincost": "7",
+                "minunit": "Leader and 2 Grunts",
                 "maxunit": "Leader and 5 Grunts",
-                "minunit": "Leader and 2 Grunts"
+                "mincost": "7"
             },
             "models": [
                 {
@@ -10995,9 +10975,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader and 2 Grunts",
+                "mincost": "5",
                 "maxcost": "-",
-                "maxunit": "-",
-                "mincost": "5"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -11127,10 +11107,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
+                "mincost": "8",
                 "maxcost": "14",
                 "maxunit": "Leader and 5 Grunts",
-                "mincost": "8"
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -11243,10 +11223,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "-",
-                "minunit": "Leader and 2 Grunts",
                 "mincost": "4",
-                "maxcost": "-"
+                "maxcost": "-",
+                "maxunit": "-",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -11348,9 +11328,9 @@
             ],
             "fieldallowance": "U",
             "unitpoints": {
+                "maxcost": "11",
                 "maxunit": "Leader and 9 Grunts",
                 "mincost": "6",
-                "maxcost": "11",
                 "minunit": "Leader and 5 Grunts"
             },
             "models": [
@@ -11423,10 +11403,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "9",
                 "maxcost": "15",
+                "maxunit": "Leader and 4 Grunts",
                 "minunit": "Leader and 2 Grunts",
-                "maxunit": "Leader and 4 Grunts"
+                "mincost": "9"
             },
             "models": [
                 {
@@ -11565,10 +11545,10 @@
             ],
             "fieldallowance": "C",
             "unitpoints": {
-                "maxcost": "-",
-                "minunit": "Maelovus, Admonia and Tremulus",
                 "maxunit": "-",
-                "mincost": "8"
+                "mincost": "8",
+                "maxcost": "-",
+                "minunit": "Maelovus, Admonia and Tremulus"
             },
             "models": [
                 {
@@ -11733,7 +11713,7 @@
                                 },
                                 {
                                     "name": "Unbinding (★Action)",
-                                    "description": " Enemy upkeep spells on models/units within 5” of this model expire. For each upkeep spell that expires as a result of Unbinding, the model maintaining the spell suffers d3 damage points."
+                                    "description": "Enemy upkeep spells within 5” of Admonia expire. A spellcaster suffers d3 damage points for each spell he controlled that expired as a result of Unbinding."
                                 }
                             ]
                         },

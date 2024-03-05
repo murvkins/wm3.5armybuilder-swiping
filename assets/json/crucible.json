@@ -181,166 +181,6 @@
             ]
         },
         {
-            "name": "Aurum Legate Lukas di Morray",
-            "points": "26",
-            "category": "Warcasters/Warlocks/Masters",
-            "primaryfaction": [
-                "Crucible Guard"
-            ],
-            "factions": [
-                "Crucible Guard",
-                "Infernals",
-                "Llael"
-            ],
-            "fieldallowance": "C",
-            "models": [
-                {
-                    "name": "Lukas 1",
-                    "title": "Mercenary Warcaster",
-                    "modeltype": [
-                        "Warcaster"
-                    ],
-                    "keywords": [
-                        "Alchemist",
-                        "Dual Attack",
-                        "Llaelese"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Detox (★Action)",
-                            "description": "Remove any number of juice tokens from this model."
-                        },
-                        {
-                            "name": "Health Care",
-                            "description": "This model does not suffer damage from Juicer while it has two or fewer juice tokens on it and is in Little Alyce's CMD range."
-                        },
-                        {
-                            "name": "Heart of Darkness [Crucible Guard]",
-                            "description": "This model can be included in an Infernals army. If it is, it becomes an Infernal model and not a Crucible Guard model. If included in an Infernals army, any non-partisan, non-character Crucible Guard warjack can also be included in this model's battlegroup and they gain Accumulator [Soulless].  Additionally, you may include 2 non-partisan, non-character Crucible Guard units and 3 non-partisan, non-Archon, non-character Crucible Guard Solos as well."
-                        },
-                        {
-                            "name": "Irregulars [Alyce Marc]",
-                            "description": "Alyce Marc units can be included in any army that also includes Lukas 1."
-                        },
-                        {
-                            "name": "Juicer",
-                            "description": "During your Maintenance Phase, you can place one juice token on di Morray. For each juice token on di Morray, he gains +1 ARC and AAT. At the end of each of his activations , roll a d6. If the result is equal to or less than the number of juice tokens on Di Morray, he suffers 1 damage point for each juice token on him. Di Morray cannot spend focus to reduce this damage."
-                        },
-                        {
-                            "name": "Rapid Healing",
-                            "description": "When this model is damaged by an enemy attack, immediately after the attack is resolved remove d3 damage points from it."
-                        },
-                        {
-                            "name": "Split Loyalties [Llael] [Crucible Guard]",
-                            "description": "When included in a Llael army, Lukas 1 is a Llael model and not a Crucible Guard model. When included in a Crucible Guard army, Lukas 1 is a Crucible Guard model and not a Llael model."
-                        }
-                    ],
-                    "feat": {
-                        "name": "Juiced Up",
-                        "description": "Di Morray immediately gains one juice token and 1 focus point, then warjacks in his battlegroup currently in his control range gain 1 focus point. Additionally, di Morra gains Range Amplifier this activation. (When a model with Range Amplifier casts a spell and is the point of origin for the spell, the spell gains +5 RNG)"
-                    },
-                    "execution": {
-                        "name": "Quick Work",
-                        "description": "When this model destroys one or more enemy models with a melee attack during it's Combat Action, immediately after the attack is resolved, it can make one basic ranged attack."
-                    },
-                    "stats": {
-                        "base": "30mm",
-                        "spd": "6",
-                        "str": "6",
-                        "aat": "5",
-                        "mat": "7",
-                        "rat": "6",
-                        "def": "15",
-                        "arm": "16",
-                        "arc": "5",
-                        "cmd": "8",
-                        "ctrl": "8",
-                        "hp": "18"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Hand Cannon",
-                            "type": "ranged",
-                            "fieldoffire": "none",
-                            "rng": "12",
-                            "pow": "12",
-                            "count": "1"
-                        },
-                        {
-                            "name": "Regulus",
-                            "type": "melee",
-                            "fieldoffire": "none",
-                            "rng": "2",
-                            "pow": "7",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Exothermic Reaction",
-                                    "description": "When this attack boxes a living or undead model, center a 4\" AOE on the boxed model, then remove the model from play. Models in the AOE are hit and suffer an unboostable POW 12 fire damage roll and suffer the Continuous Fire effect. This damage is not considered to have been caused by an attack. This model is not affected by Exothermic Reaction."
-                                }
-                            ],
-                            "damagetype": [
-                                "Arcane"
-                            ]
-                        }
-                    ],
-                    "spells": [
-                        {
-                            "name": "Burning Ash",
-                            "cost": "2",
-                            "rng": "CTRL",
-                            "aoe": "3",
-                            "pow": "-",
-                            "dur": "RND",
-                            "off": "NO",
-                            "description": "Place a 3\" AOE cloud effect anywhere completely within the spellcaster's Control Range. While in the AOE, living enemy models without Resistance: Fire suffers -2 to attack rolls. The AOE remains in play for one round."
-                        },
-                        {
-                            "name": "Disintegration",
-                            "cost": "3",
-                            "rng": "10",
-                            "aoe": "-",
-                            "pow": "13",
-                            "dur": "RND",
-                            "off": "YES",
-                            "description": "The model hit suffers -2 ARM for one round. A model boxed by Disintegration is removed from play."
-                        },
-                        {
-                            "name": "Force Hammer",
-                            "cost": "4",
-                            "rng": "10",
-                            "aoe": "-",
-                            "pow": "12",
-                            "dur": "-",
-                            "off": "YES",
-                            "description": "Instead of suffering a normal damage roll, a non-Incorporeal model Force Hammer hits is slammed d6\" directly away from the spell's point of origin and suffers a POW 12 damage roll. Collateral damage from this slam is POW 12."
-                        },
-                        {
-                            "name": "Iron Flesh",
-                            "cost": "2",
-                            "rng": "6",
-                            "aoe": "-",
-                            "pow": "-",
-                            "dur": "UP",
-                            "off": "NO",
-                            "description": "Target friendly Faction warrior model/unit gains +2 ARM and Blast Resistance. Models are not affected while out of formation. (A model with Blast Resistance suffers one fewer die from blast damage rolls.)."
-                        },
-                        {
-                            "name": "Telekinesis",
-                            "cost": "2",
-                            "rng": "8",
-                            "aoe": "-",
-                            "pow": "-",
-                            "dur": "-",
-                            "off": "YES",
-                            "description": "Warp target model completely within 2\" of its current location. When Telekinesis targets an enemy model, it is an offensive spell and requires a magic attack roll. A model can be warped by telekinesis only once per turn."
-                        }
-                    ],
-                    "displayorder": 0
-                }
-            ]
-        },
-        {
             "name": "Aurum Lucanum Athanor Locke",
             "points": "29",
             "category": "Warcasters/Warlocks/Masters",
@@ -2629,8 +2469,8 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "maxcost": "-",
-                "minunit": "Leader & 2 Grunts",
                 "mincost": "4",
+                "minunit": "Leader & 2 Grunts",
                 "maxunit": "-"
             },
             "models": [
@@ -2747,10 +2587,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "6",
                 "maxunit": "-",
                 "minunit": "Leader & 2 Grunts",
-                "maxcost": "-"
+                "maxcost": "-",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -2856,9 +2696,9 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "minunit": "Leader and 2 Grunts",
-                "maxcost": "12",
                 "mincost": "7",
-                "maxunit": "Leader and 4 Grunts"
+                "maxunit": "Leader and 4 Grunts",
+                "maxcost": "12"
             },
             "models": [
                 {
@@ -2969,9 +2809,9 @@
             "fieldallowance": "2",
             "unitpoints": {
                 "minunit": "Leader & 5 Grunts",
+                "maxcost": "12",
                 "mincost": "7",
-                "maxunit": "Leader & 9 Grunts",
-                "maxcost": "12"
+                "maxunit": "Leader & 9 Grunts"
             },
             "models": [
                 {
@@ -3067,9 +2907,9 @@
             "fieldallowance": "3",
             "unitpoints": {
                 "maxunit": "Leader and 9 Grunts",
-                "mincost": "6",
+                "minunit": "Leader and 5 Grunts",
                 "maxcost": "11",
-                "minunit": "Leader and 5 Grunts"
+                "mincost": "6"
             },
             "models": [
                 {
@@ -3158,10 +2998,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "15",
-                "minunit": "Leader and 2 Grunts",
                 "maxunit": "Leader and 4 Grunts",
-                "mincost": "9"
+                "minunit": "Leader and 2 Grunts",
+                "mincost": "9",
+                "maxcost": "15"
             },
             "models": [
                 {
@@ -3270,10 +3110,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
+                "minunit": "Gunner & 2 Grunts",
                 "maxunit": "-",
-                "mincost": "4",
                 "maxcost": "-",
-                "minunit": "Gunner & 2 Grunts"
+                "mincost": "4"
             },
             "models": [
                 {
@@ -3448,10 +3288,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 4 Grunts",
+                "maxcost": "14",
                 "mincost": "8",
-                "minunit": "Leader and 2 Grunts",
-                "maxcost": "14"
+                "maxunit": "Leader and 4 Grunts",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -3530,156 +3370,6 @@
                         }
                     ],
                     "displayorder": 0
-                }
-            ]
-        },
-        {
-            "name": "Aurum Ominus Alyce Marc",
-            "points": "4",
-            "category": "Attachments",
-            "primaryfaction": [
-                "Crucible Guard"
-            ],
-            "factions": [
-                "Crucible Guard"
-            ],
-            "fieldallowance": "C",
-            "models": [
-                {
-                    "name": "Marc 1 (Little Alyce)",
-                    "title": "Crucible Guard Llaelese Solo",
-                    "modeltype": [
-                        "Solo",
-                        "Attachment",
-                        "Warrior"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Alchemical Mask",
-                            "description": "This model does not suffer gas effects. When determining LOS or resolving attacks, this model ignores cloud effects and concealment granted from cloud effects."
-                        },
-                        {
-                            "name": "Attached",
-                            "description": "Before the start of the game, attach this model to a friendly Faction leader for the rest of the game. Each Leader can have only one model/unit attached to it."
-                        },
-                        {
-                            "name": "Transmogrification Elixir",
-                            "description": "This model can use Transmogrification Elixir once per game during your Control Phase. Immediately mark all of this model's damage boxes and replace it with Big Alyce."
-                        },
-                        {
-                            "name": "Traumatic Transformation",
-                            "description": "This model begins the game as Little Alyce. When all of this model's damage boxes are marked, instead of becoming disabled this model is replaced with Big Alyce. Damage points in excess of this model's remaining unmarked damage boxes are not applied to Big Alyce's damage boxes. If this model is replaced with Big Alyce while advancing, it cannot continue to advance; if this model is replaced with Big Alyce during its activation, its activation ends. After this model is replaced with Big Alyce, apply effects that were on it to Big Alyce. When this model is replaced with Big Alyce, Big Alyce is not considered to have entered an area and does not trigger effects triggered from entering that area. Once this replacement is complet, any further damage is applied to Big Alyce's damage boxes."
-                        }
-                    ],
-                    "stats": {
-                        "base": "30MM",
-                        "spd": "6",
-                        "str": "5",
-                        "mat": "5",
-                        "rat": "4",
-                        "def": "13",
-                        "arm": "11",
-                        "cmd": "7",
-                        "hp": "5"
-                    },
-                    "nestedabilities": [
-                        {
-                            "topability": {
-                                "name": "Magic Ability",
-                                "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
-                            },
-                            "subabilities": [
-                                {
-                                    "name": "Empower (★Action)",
-                                    "description": "RNG CMD. Target friendly Faction warjack. If the target warjack is in the range and it was suffering Disruption, it is no longer disrupted. The warjack also gains 1 focus point."
-                                },
-                                {
-                                    "name": "Guidance (★Action)",
-                                    "description": "RNG CMD. Target friendly model. If the model is in range, it gains Eyeless Sight and it's weapons gain Damage Type: Arcane for one turn."
-                                },
-                                {
-                                    "name": "Harmonious Exaltation (★Action)",
-                                    "description": "RNG CMD. Target this model’s leader. If it is in range, once this turn when the warlock casts a spell, reduce the COST of the spell by 1."
-                                }
-                            ]
-                        }
-                    ],
-                    "weapons": [
-                        {
-                            "name": "Acid Bomb",
-                            "type": "ranged",
-                            "fieldoffire": "None",
-                            "rng": "6",
-                            "rof": "1",
-                            "pow": "12",
-                            "count": "1",
-                            "ability": [
-                                {
-                                    "name": "Continous Corrosion",
-                                    "description": ""
-                                }
-                            ],
-                            "damagetype": [
-                                "Corrosion"
-                            ]
-                        },
-                        {
-                            "name": "Knife",
-                            "type": "Melee",
-                            "fieldoffire": "None",
-                            "rng": "1",
-                            "pow": "2",
-                            "count": "1"
-                        }
-                    ],
-                    "displayorder": 0
-                },
-                {
-                    "name": "Marc 1 (Big Alyce)",
-                    "title": "Crucible Guard Llaelese Solo",
-                    "modeltype": [
-                        "Solo",
-                        "Warrior"
-                    ],
-                    "keywords": [
-                        "Tough"
-                    ],
-                    "characterabilities": [
-                        {
-                            "name": "Alchemical Mask",
-                            "description": "This model does not suffer gas effects. When determining LOS or resolving attacks, this model ignores cloud effects and concealment granted from cloud effects."
-                        },
-                        {
-                            "name": "Hyper-Regeneration",
-                            "description": "Remove d3 damage points from this model at the start of each of it's activations."
-                        },
-                        {
-                            "name": "Jump",
-                            "description": "After it makes a full advance during its Normal Movement but before it performs its Combat Action, you can place this model anywhere completely within 5\" of its current location. Any effects that prevent charging also prevent this model from using Jump."
-                        }
-                    ],
-                    "stats": {
-                        "base": "40MM",
-                        "spd": "7",
-                        "str": "8",
-                        "mat": "8",
-                        "rat": "2",
-                        "def": "13",
-                        "arm": "17",
-                        "cmd": "1",
-                        "hp": "8"
-                    },
-                    "weapons": [
-                        {
-                            "name": "Claw",
-                            "type": "Melee",
-                            "fieldoffire": "None",
-                            "rng": "1",
-                            "pow": "6",
-                            "count": "2"
-                        }
-                    ],
-                    "displayorder": 1
                 }
             ]
         },
@@ -3968,8 +3658,8 @@
                             "description": "This model does not suffer gas effects. When determining LOS or resolving attacks, this model ignores cloud effects and concealment granted from cloud effects."
                         },
                         {
-                            "name": "Command Attachment [Small or Medium-based Mercenary unit]",
-                            "description": "This attachment can be added to a Small or Medium-based Mercenary unit unit."
+                            "name": "Command Attachment [Small or Medium-based Mercenary]",
+                            "description": ""
                         },
                         {
                             "name": "Heal [d3+2] (★Action)",
