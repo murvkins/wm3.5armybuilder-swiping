@@ -4659,6 +4659,14 @@
                             "description": "The spellcaster gains an additional die on melee damage rolls against living models and Snacking. Ravening Hunger lasts for one turn."
                         }
                     ],
+                    "spiral": [
+                        "4",
+                        "1",
+                        "3",
+                        "1",
+                        "3",
+                        "1"
+                    ],
                     "displayorder": 0
                 }
             ]

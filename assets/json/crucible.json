@@ -1219,7 +1219,7 @@
                         "rat": "6",
                         "def": "13",
                         "arm": "17",
-                        "hp": "24"
+                        "hp": "26"
                     },
                     "weapons": [
                         {
@@ -1347,7 +1347,7 @@
                         "rat": "6",
                         "def": "13",
                         "arm": "17",
-                        "hp": "24"
+                        "hp": "26"
                     },
                     "weapons": [
                         {
@@ -2115,11 +2115,11 @@
                                     "description": "While within 3”of the spellcaster, friendly Faction models gain +2 DEF and ARM against ranged attacks. Force Aura lasts for one round.\n"
                                 },
                                 {
-                                    "name": "Psychic Assault",
+                                    "name": "Psychic Assault (★Attack)",
                                     "description": "Psychic Assault is a RNG SP 8, POW 12 magic attack. This attack ignores LOS."
                                 },
                                 {
-                                    "name": "Psychokinetic Shield",
+                                    "name": "Psychokinetic Shield (★Action)",
                                     "description": "While within 5” of the spellcaster, enemy models suffer -2 MAT and RAT and cannot run, charge, or make slam or trample power attacks."
                                 }
                             ]
@@ -2628,10 +2628,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "mincost": "4",
-                "maxcost": "-",
                 "minunit": "Leader & 2 Grunts",
-                "maxunit": "-"
+                "maxunit": "-",
+                "maxcost": "-",
+                "mincost": "4"
             },
             "models": [
                 {
@@ -2747,10 +2747,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "6",
-                "maxunit": "-",
                 "minunit": "Leader & 2 Grunts",
-                "maxcost": "-"
+                "maxcost": "-",
+                "maxunit": "-",
+                "mincost": "6"
             },
             "models": [
                 {
@@ -2855,10 +2855,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxcost": "12",
-                "maxunit": "Leader and 4 Grunts",
                 "mincost": "7",
-                "minunit": "Leader and 2 Grunts"
+                "minunit": "Leader and 2 Grunts",
+                "maxunit": "Leader and 4 Grunts",
+                "maxcost": "12"
             },
             "models": [
                 {
@@ -2968,10 +2968,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "mincost": "7",
-                "maxunit": "Leader & 9 Grunts",
                 "maxcost": "12",
-                "minunit": "Leader & 5 Grunts"
+                "minunit": "Leader & 5 Grunts",
+                "maxunit": "Leader & 9 Grunts",
+                "mincost": "7"
             },
             "models": [
                 {
@@ -3066,10 +3066,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Leader and 5 Grunts",
                 "maxcost": "11",
-                "maxunit": "Leader and 9 Grunts",
-                "mincost": "6"
+                "minunit": "Leader and 5 Grunts",
+                "mincost": "6",
+                "maxunit": "Leader and 9 Grunts"
             },
             "models": [
                 {
@@ -3158,10 +3158,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "minunit": "Leader and 2 Grunts",
-                "maxcost": "15",
                 "mincost": "9",
-                "maxunit": "Leader and 4 Grunts"
+                "maxunit": "Leader and 4 Grunts",
+                "maxcost": "15",
+                "minunit": "Leader and 2 Grunts"
             },
             "models": [
                 {
@@ -3270,10 +3270,10 @@
             ],
             "fieldallowance": "3",
             "unitpoints": {
-                "maxunit": "-",
+                "minunit": "Gunner & 2 Grunts",
+                "mincost": "5",
                 "maxcost": "-",
-                "mincost": "4",
-                "minunit": "Gunner & 2 Grunts"
+                "maxunit": "-"
             },
             "models": [
                 {
@@ -3305,10 +3305,6 @@
                         {
                             "name": "Mobile Artillery",
                             "description": "When this model advances as part of its Normal Movement, it gains +1” movement for each Grunt in this unit within 2” of it at the start of its advance."
-                        },
-                        {
-                            "name": "Range Finder",
-                            "description": "While B2B with one or more Grunts in this unit, this model gains +2 to accuracy rolls with this weapon."
                         },
                         {
                             "name": "Take Up",
@@ -3354,12 +3350,12 @@
                                     },
                                     "subabilities": [
                                         {
-                                            "name": "Momentum",
-                                            "description": "A small or medium-based model directly hit by this attack is slammed d3\" directly away from this model. The POW of collateral damage is equal to the POW of this weapon. In addition to suffering a normal damage roll, large-based models hit by this attack become knocked down."
-                                        },
-                                        {
                                             "name": "Rust",
                                             "description": "Construct models hit suffer -2 ARM for one turn.  "
+                                        },
+                                        {
+                                            "name": "Thunderbolt",
+                                            "description": "Enemy models hit are pushed d3\" directly away from the attacking model. On a critical hit, the enemy model becomes knocked down after being pushed."
                                         },
                                         {
                                             "name": "Withering Humor",
@@ -3370,7 +3366,7 @@
                             ]
                         },
                         {
-                            "name": "Sword",
+                            "name": "SWW Sword",
                             "type": "Melee",
                             "fieldoffire": "None",
                             "rng": "1",
@@ -3399,7 +3395,7 @@
                             "description": "This model does not suffer gas effects. When determining LOS or resolving attacks, this model ignores cloud effects and concealment granted from cloud effects."
                         },
                         {
-                            "name": "Fast Reload",
+                            "name": "Fast Reload (★Action)",
                             "description": "While within 1” of this unit’s gunner, the gunner gains +1 ROF."
                         }
                     ],
@@ -3448,10 +3444,10 @@
             ],
             "fieldallowance": "2",
             "unitpoints": {
-                "maxunit": "Leader and 4 Grunts",
+                "maxcost": "14",
                 "mincost": "8",
                 "minunit": "Leader and 2 Grunts",
-                "maxcost": "14"
+                "maxunit": "Leader and 4 Grunts"
             },
             "models": [
                 {
